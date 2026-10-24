@@ -44,7 +44,7 @@ uv installs Python 3.12 for you if it's missing.
 **2. Clone and install.**
 
 ```bash
-git clone https://github.com/savya14/praman-proof.git
+git clone https://github.com/ProofNotFound/praman-proof.git
 cd praman-proof
 uv sync
 ```
@@ -80,7 +80,7 @@ Then open http://127.0.0.1:8000. The API serves the built web app from `frontend
 ### C. Terminal only (no Node.js)
 
 ```bash
-git clone https://github.com/savya14/praman-proof.git
+git clone https://github.com/ProofNotFound/praman-proof.git
 cd praman-proof
 uv sync
 uv run scripts/run_one.py L14 --mode agent      # the agent: page text, photos, CPCB registry
@@ -92,7 +92,7 @@ Each claim prints with its verdict, rule IDs, evidence IDs, reason and suggested
 ### D. Docker
 
 ```bash
-git clone https://github.com/savya14/praman-proof.git
+git clone https://github.com/ProofNotFound/praman-proof.git
 cd praman-proof
 docker build -t praman .
 docker run --rm -p 8000:8000 -e PRAMAN_PUBLIC_MODE=0 praman
