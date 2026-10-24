@@ -173,25 +173,26 @@ Responsible AI is structural: evidence-or-nothing verdicts, code deciding the cl
 ## How it works
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif", "fontSize": "14px", "primaryColor": "#fbf9f4", "primaryTextColor": "#1c1b17", "primaryBorderColor": "#b9b09c", "lineColor": "#8a8478", "clusterBkg": "#f3efe6", "clusterBorder": "#d6cfbf", "edgeLabelBackground": "#f3efe6", "titleColor": "#4a473f"}}}%%
 graph TD
-    U["Reviewer"] -->|"product URL, demo case or store address"| FE["React web app<br/>Vite + TypeScript"]
-    FE -->|"POST /api/scans"| SCAN["Store scan<br/>plain code, zero model calls<br/>ranks pages to check first"]
-    FE -->|"POST /api/runs"| API["FastAPI · praman/api.py"]
+    U(["Reviewer"]) -->|"product URL, demo case or store address"| FE("React web app<br/>Vite + TypeScript")
+    FE -->|"POST /api/scans"| SCAN("Store scan<br/>plain code, zero model calls<br/>ranks pages to check first")
+    FE -->|"POST /api/runs"| API("FastAPI · praman/api.py")
     API -.-> DB[("SQLite<br/>runs · steps · events · verdicts")]
 
     subgraph S1["Stage 1 · prepare"]
-        FETCH["fetch_listing<br/>Shopify JSON → JSON-LD → OpenGraph + text<br/>robots.txt · ≤ 1 request/s · read-only"]
-        INJ["Injection guard<br/>removes text aimed at AI checkers"]
-        EXT["extract_claims"]
-        RULES["Match rules<br/>data/rules.json"]
+        FETCH("fetch_listing<br/>Shopify JSON → JSON-LD → OpenGraph + text<br/>robots.txt · ≤ 1 request/s · read-only")
+        INJ("Injection guard<br/>removes text aimed at AI checkers")
+        EXT("extract_claims")
+        RULES("Match rules<br/>data/rules.json")
         FETCH --> INJ --> EXT --> RULES
     end
     API --> FETCH
 
     subgraph S2["Stage 2 · agent loop, per claim"]
-        PLAN{"plan_next<br/>choice validated against the fixed tool list"}
-        TOOLS["search_text · read_photos · decode_qr<br/>cpcb_lookup · fetch_linked_page<br/>rule_lookup · check_material"]
-        VER{"decide_verdict<br/>praman/verdict.py"}
+        PLAN("plan_next<br/>choice validated against the fixed tool list")
+        TOOLS("search_text · read_photos · decode_qr<br/>cpcb_lookup · fetch_linked_page<br/>rule_lookup · check_material")
+        VER("decide_verdict<br/>praman/verdict.py")
         PLAN -->|"one tool call"| TOOLS
         TOOLS -->|"evidence with IDs"| VER
         VER -->|"no proof yet · ≤ 2 follow-ups"| PLAN
@@ -200,29 +201,33 @@ graph TD
     TOOLS -.-> CPCB[("CPCB certified list<br/>26 Oct 2023")]
 
     subgraph S3["Stage 3 · finish"]
-        CONS["Consistency check"]
-        RW["write_rewrite<br/>suggested wording"]
+        CONS("Consistency check")
+        RW("write_rewrite<br/>suggested wording")
         CONS --> RW
     end
     VER -->|"settled or budget used"| CONS
 
     subgraph OUT["Review"]
-        LEDGER["Evidence ledger · trace<br/>compare vs text-only"]
-        SIGN["Named reviewer signs off"]
-        REPORT["Markdown / HTML report<br/>SHA-256 fingerprint"]
+        LEDGER("Evidence ledger · trace<br/>compare vs text-only")
+        SIGN("Named reviewer signs off")
+        REPORT("Markdown / HTML report<br/>SHA-256 fingerprint")
         LEDGER --> SIGN --> REPORT
     end
     RW -->|"SSE event stream"| LEDGER
 
-    classDef code fill:#D9822B,stroke:#333,stroke-width:2px,color:#fff
-    classDef model fill:#2F5DA8,stroke:#333,stroke-width:2px,color:#fff
-    classDef human fill:#2E8B57,stroke:#333,stroke-width:2px,color:#fff
+    classDef code fill:#e4efe8,stroke:#1f5c3f,stroke-width:1.5px,color:#163f2c
+    classDef model fill:#e6edf8,stroke:#2457a6,stroke-width:1.5px,color:#1a3f78
+    classDef human fill:#f6ead6,stroke:#a86a12,stroke-width:1.5px,color:#6e450b
+    classDef store fill:#eae4d7,stroke:#b9b09c,stroke-width:1px,color:#4a473f
+    classDef plain fill:#fbf9f4,stroke:#b9b09c,stroke-width:1px,color:#1c1b17
     class SCAN,INJ,RULES,VER code
     class EXT,PLAN,CONS,RW model
-    class SIGN human
+    class U,SIGN human
+    class DB,CPCB store
+    class FE,API,FETCH,TOOLS,LEDGER,REPORT plain
 ```
 
-<sub>🟧 decided by code &nbsp;·&nbsp; 🟦 model call through `praman/llm.py` (temperature 0, JSON-schema output, record/replay cache; Gemini or Groq) &nbsp;·&nbsp; 🟩 a person. `read_photos` and `check_material` also call the model. Every step is written to SQLite and streamed to the web app as an event.</sub>
+<sub>🟩 decided by code &nbsp;·&nbsp; 🟦 model call through `praman/llm.py` (temperature 0, JSON-schema output, record/replay cache; Gemini or Groq) &nbsp;·&nbsp; 🟧 a person &nbsp;·&nbsp; ⬜ plumbing and data. `read_photos` and `check_material` also call the model. Every step is written to SQLite and streamed to the web app as an event.</sub>
 
 - **The model reads and reasons; code decides clear-cut rules.** Rule matching, CPCB lookups, certificate scope, required labels, contradiction signals and the verdict table are plain Python (`praman/verdict.py`).
 - **A small loop of our own, no agent framework.** A fixed tool list; every planner choice is validated, and anything invalid falls back to the default order text → photos → QR → registry → link.
