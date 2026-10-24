@@ -1,0 +1,185 @@
+{
+  "listing": {
+    "id": "L24",
+    "source": "shopify_json",
+    "url": "https://peesafe.com/products/biodegradable-tampons-super-plus-16-tampons-byoc",
+    "store": "peesafe.com",
+    "title": "Biodegradable Tampons- Super Plus (16 Tampons) *",
+    "body_text": "• Pee Safe Tampons are crafted with 100% organic cotton. Not with viscose, unlike most of the brands, Pee Safe tampons are extra-soft, natural, more comfortable and biodegradable when disposed of.\n\n• Tampons are designed to be easily inserted into the vagina during menstruation & absorb the menstrual flow.\n\n• Perfect size, great absorbency, and 100% protection from staining. Change the tampons, 3-6 times a day depending upon your flow. Never keep a tampon in for more than 8 hours.\n\n• Tampons provide the comfort and convenience for the women on the go, do anything you wish: swimming, bathing, sports, and more. Thereâ€™s no slipping or shifting like with a pad. So theyâ€™re perfect for active women like you!\n\n• It is biodegradable and free from chlorine bleach, dyes, and other synthetics.",
+    "tags": [
+      "all_products_new",
+      "amzn",
+      "B1G1_ALL_NEW",
+      "B1G1_NEW",
+      "biodegradable tampons",
+      "BYOC 3",
+      "COD",
+      "corner-hide-qty",
+      "corner-non-clickable-product-title",
+      "demo_tag",
+      "EPD_Bundle",
+      "Female Hygiene",
+      "Intimate Hygiene",
+      "Pee Safe tampons",
+      "peesafe",
+      "pro_temp_2",
+      "prod_temp_2",
+      "Tampon",
+      "tampons"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs.jpg?v=1756094487",
+        "local_path": "data/cache/images/L24/1.jpg",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons) *",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.03064,
+        "qr": []
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs_Side.jpg?v=1756094487",
+        "local_path": "data/cache/images/L24/2.jpg",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons)",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.03363,
+        "qr": []
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs_Back.jpg?v=1756094488",
+        "local_path": "data/cache/images/L24/3.jpg",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons)",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.0457,
+        "qr": [
+          {
+            "data": "https://me-qr.com/I8rgLVJD",
+            "box_2d": [
+              578,
+              740,
+              634,
+              797
+            ]
+          }
+        ]
+      }
+    ],
+    "fetched_at": "2026-10-20T14:27:18.963626Z",
+    "product_type": "Tampons",
+    "vendor": "Pee Safe",
+    "links": []
+  },
+  "raw": {
+    "id": 7573219770479,
+    "title": "Biodegradable Tampons- Super Plus (16 Tampons) *",
+    "body_html": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Pee Safe Tampons are crafted with 100% organic cotton. Not with viscose, unlike most of the brands, Pee Safe tampons are extra-soft, natural, more comfortable and biodegradable when disposed of.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Tampons are designed to be easily inserted into the vagina during menstruation &amp; absorb the menstrual flow.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Perfect size, great absorbency, and 100% protection from staining. Change the tampons, 3-6 times a day depending upon your flow. Never keep a tampon in for more than 8 hours.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">Tampons provide the comfort and convenience for the women on the go, do anything you wish: swimming, bathing, sports, and more. Thereâ€™s no slipping or shifting like with a pad. So theyâ€™re perfect for active women like you!</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">It is biodegradable and free from chlorine bleach, dyes, and other synthetics.</span></li>\n</ul>\n<!---->",
+    "vendor": "Pee Safe",
+    "product_type": "Tampons",
+    "created_at": "2024-07-08T16:20:36+05:30",
+    "handle": "biodegradable-tampons-super-plus-16-tampons-byoc",
+    "updated_at": "2026-10-20T19:57:18+05:30",
+    "published_at": "2025-04-04T17:08:38+05:30",
+    "template_suffix": "",
+    "published_scope": "global",
+    "tags": "all_products_new, amzn, B1G1_ALL_NEW, B1G1_NEW, biodegradable tampons, BYOC 3, COD, corner-hide-qty, corner-non-clickable-product-title, demo_tag, EPD_Bundle, Female Hygiene, Intimate Hygiene, Pee Safe tampons, peesafe, pro_temp_2, prod_temp_2, Tampon, tampons",
+    "variants": [
+      {
+        "id": 42279723532399,
+        "product_id": 7573219770479,
+        "title": "Default Title",
+        "price": "349.00",
+        "sku": "RC104",
+        "position": 1,
+        "compare_at_price": "349.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2024-07-08T16:20:36+05:30",
+        "updated_at": "2026-10-20T19:57:18+05:30",
+        "taxable": false,
+        "barcode": "8908010245577",
+        "grams": 0,
+        "image_id": null,
+        "weight": 0.0,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 9631623020655,
+        "product_id": 7573219770479,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 34059710660719,
+        "product_id": 7573219770479,
+        "position": 1,
+        "created_at": "2024-06-17T12:31:42+05:30",
+        "updated_at": "2025-08-25T09:31:27+05:30",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons) *",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs.jpg?v=1756094487",
+        "variant_ids": []
+      },
+      {
+        "id": 34059710627951,
+        "product_id": 7573219770479,
+        "position": 2,
+        "created_at": "2024-06-17T12:31:42+05:30",
+        "updated_at": "2025-08-25T09:31:27+05:30",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons)",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs_Side.jpg?v=1756094487",
+        "variant_ids": []
+      },
+      {
+        "id": 34059710595183,
+        "product_id": 7573219770479,
+        "position": 3,
+        "created_at": "2024-06-17T12:31:42+05:30",
+        "updated_at": "2025-08-25T09:31:28+05:30",
+        "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons)",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs_Back.jpg?v=1756094488",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 34059710660719,
+      "product_id": 7573219770479,
+      "position": 1,
+      "created_at": "2024-06-17T12:31:42+05:30",
+      "updated_at": "2025-08-25T09:31:27+05:30",
+      "alt": "Pee Safe Biodegradable Tampons- Super Plus (16 Tampons) *",
+      "width": 2100,
+      "height": 2100,
+      "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Biodegadable_Tampons_Super_Plus_16_pcs.jpg?v=1756094487",
+      "variant_ids": []
+    }
+  }
+}

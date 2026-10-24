@@ -1,0 +1,43 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": [
+        "run",
+        "uvicorn",
+        "praman.api:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--reload"
+      ],
+      "port": 8000,
+      "autoPort": false
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "cwd": "frontend",
+      "port": 5173,
+      "autoPort": true
+    },
+    {
+      "name": "demo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "demo"
+      ],
+      "cwd": "frontend",
+      "port": 4173,
+      "autoPort": false
+    }
+  ]
+}

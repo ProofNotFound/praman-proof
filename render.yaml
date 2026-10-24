@@ -1,0 +1,40 @@
+# Render blueprint: one Docker web service serving the API and the built web app.
+# Dashboard: New > Blueprint > pick this repo. Then set the two secrets below (docs/DEPLOY.md).
+services:
+  - type: web
+    name: praman
+    runtime: docker
+    plan: free # sleeps when idle; switch to starter for the event weekend
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: PRAMAN_LLM_MODE
+        value: replay # demo cases replay recorded answers; new pages call the model (needs the key)
+      - key: PRAMAN_PUBLIC_MODE
+        value: "1"
+      - key: PRAMAN_FALLBACK_MODEL
+        value: gemini-3.5-flash-lite
+      - key: PRAMAN_LIVE_MODEL
+        value: groq:openai/gpt-oss-120b # live text calls go to Groq first, then Gemini
+      - key: PRAMAN_LIVE_SHORT_MODEL
+        value: groq:llama-3.3-70b-versatile # planning and rewording; separate token limit from the main model
+      - key: PRAMAN_LIVE_VISION_MODEL
+        value: groq:qwen/qwen3.8-27b # photos, 3 per request, in parallel
+      - key: PRAMAN_GROQ_REASONING
+        value: medium # "low" is faster, but the evidence judge then calls unrelated facts partial proof
+      - key: GROQ_API_KEY
+        sync: false # set in the dashboard
+      - key: GEMINI_API_KEY
+        sync: false # set in the dashboard; still reads pack photos and is the fallback
+      - key: PRAMAN_OPEN_ACCESS
+        value: "1" # anyone may run a live check: no access code, but the limits below still apply
+      - key: PRAMAN_LIVE_PER_IP_HOUR
+        value: "15" # live checks per visitor per hour (a venue's Wi-Fi shares one address)
+      - key: PRAMAN_LIVE_DAILY_CAP
+        value: "60" # live checks per day in total: protects the model quota
+      - key: PRAMAN_ANONYMISE
+        value: "0" # real store and product names on screen
+      - key: PRAMAN_ACCESS_CODE
+        sync: false # only used when PRAMAN_OPEN_ACCESS is off
+      - key: PRAMAN_REVIEWERS
+        sync: false # "Name:key, Name2:key2": who may decide claims and sign; unset = sign-off off for visitors

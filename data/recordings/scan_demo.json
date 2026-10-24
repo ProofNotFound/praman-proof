@@ -1,0 +1,1645 @@
+{
+ "format": "praman-scan/1",
+ "synthetic": false,
+ "recorded_at": "2026-10-18T19:22:18.570257+00:00",
+ "id": "S2685d3fe",
+ "status": "finished",
+ "store": "brand-e.example",
+ "store_url": "https://brand-e.example",
+ "source": "sitemap",
+ "total": 50,
+ "done": 50,
+ "started_at": "2026-10-18T19:21:23.007189+00:00",
+ "finished_at": "2026-10-18T19:22:18.567986+00:00",
+ "message": "50 products triaged; 10 to check first or soon. Triage, not a verdict.",
+ "label": "Triage, not a verdict",
+ "model_calls": 0,
+ "rows": [
+  {
+   "product": 38,
+   "rank": 1,
+   "title": "Biofriendly Garbage Bags - Medium - 30 bags/roll pack of 6",
+   "url": "https://brand-e.example/products/biodegradable-garbage-bags-medium-30-bags-roll-pack-of-7",
+   "score": 19,
+   "band": "high",
+   "terms": [
+    {
+     "term": "biodegradable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02",
+      "R09"
+     ],
+     "weight": 4,
+     "snippet": "100% Biodegradable"
+    },
+    {
+     "term": "renewable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02"
+     ],
+     "weight": 3,
+     "snippet": "…de from 100% bamboo pulp, a rapidly renewable resource, and are biodegradable, unbleached, soft, and gentle on…"
+    },
+    {
+     "term": "eco-conscious",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…eaks and spills while offering a more eco-conscious alternative to regular plastic garbage bags or bin liners."
+    },
+    {
+     "term": "eco-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "• Eco-friendly"
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "sustainable",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…nbleached, soft, and gentle on the skin, making them a sustainable alternative to conventional pocket tissues."
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "• Detachable tie-string for clean, easy disposal"
+    },
+    {
+     "term": "conscious",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…eaks and spills while offering a more eco-conscious alternative to regular plastic garbage bags or bin liners."
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“biodegradable” (specific) · R09: Biodegradable plastic: no microplastics, a label with days and environment, and a CPCB certificate",
+    "“renewable” (specific) · R02: Specific environmental claims need credible certification or scientific evidence",
+    "“eco-conscious” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“eco-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "+5 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 36,
+   "rank": 2,
+   "title": "Bamboo Facial Tissues - 200 pulls | Pack of 3",
+   "url": "https://brand-e.example/products/bamboo-facial-tissues-200-pulls-pack-of-4",
+   "score": 16,
+   "band": "high",
+   "terms": [
+    {
+     "term": "biodegradable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02"
+     ],
+     "weight": 3,
+     "snippet": "• Biodegradable"
+    },
+    {
+     "term": "renewable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02"
+     ],
+     "weight": 3,
+     "snippet": "Bamboo tissues are made from rapidly renewable bamboo, which regenerates much faster than other trees."
+    },
+    {
+     "term": "eco-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "It is biodegradable, eco-friendly."
+    },
+    {
+     "term": "environmentally friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Which is more environmentally friendly?"
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Brand E's gentle formula is designed to clean effectively without leaving your hands feeling tight or dry."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "• No natural protection"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“biodegradable” (specific) · R02: Specific environmental claims need credible certification or scientific evidence",
+    "“renewable” (specific) · R02: Specific environmental claims need credible certification or scientific evidence",
+    "“eco-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“environmentally friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "+4 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 35,
+   "rank": 3,
+   "title": "Pocket Tissue | Pack of 10",
+   "url": "https://brand-e.example/products/pocket-tissue-pack-of-10",
+   "score": 13,
+   "band": "high",
+   "terms": [
+    {
+     "term": "biodegradable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02"
+     ],
+     "weight": 3,
+     "snippet": "• Biodegradable"
+    },
+    {
+     "term": "eco-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Tissues are good and eco-friendly."
+    },
+    {
+     "term": "environmentally friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Which is more environmentally friendly?"
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Brand E's gentle formula is designed to clean effectively without leaving your hands feeling tight or dry."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Soft, quick absorb, natural, safe, skin friendly."
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“biodegradable” (specific) · R02: Specific environmental claims need credible certification or scientific evidence",
+    "“eco-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“environmentally friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“less water” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "+3 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 13,
+   "rank": 4,
+   "title": "Reusable Bamboo Kitchen Towel - 20 Sheets",
+   "url": "https://brand-e.example/products/Brand E-bambooee-reusable-kitchen-towel-roll-20-sheets",
+   "score": 11,
+   "band": "high",
+   "terms": [
+    {
+     "term": "eco friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…tainable bamboo, it functions as an eco friendly kitchen towel and a reliable bamboo kitchen roll for consciou…"
+    },
+    {
+     "term": "eco-conscious",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…bamboo fibers, this bamboo kitchen towel is designed to be ultra-durable, highly absorbent, and eco-conscious."
+    },
+    {
+     "term": "organic",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Replace single-use paper towels with organic kitchen towels that are built to last."
+    },
+    {
+     "term": "planet-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…ant to buy kitchen towel products that are reusable, durable, and planet-friendly, this is the perfect choice."
+    },
+    {
+     "term": "sustainable",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…with the Brand E Bamboo Reusable Kitchen Towel— the smarter, sustainable alternative to disposable paper towels."
+    },
+    {
+     "term": "conscious",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…bamboo fibers, this bamboo kitchen towel is designed to be ultra-durable, highly absorbent, and eco-conscious."
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“eco friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“eco-conscious” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“organic” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“planet-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "+2 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 34,
+   "rank": 5,
+   "title": "Natural Moisturising Handwash Moringa - 675 ml",
+   "url": "https://brand-e.example/products/natural-moisturising-handwash-moringa-675-ml",
+   "score": 10,
+   "band": "high",
+   "terms": [
+    {
+     "term": "eco-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Eco-friendly and sustainable"
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "sustainable",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Eco-friendly and sustainable"
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Clean hands shouldn’t mean dry hands."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Moisturising Handwash Moringa - 675 ml"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“eco-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“less water” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“lower emissions” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“sustainable” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "+2 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 42,
+   "rank": 6,
+   "title": "Bamboo Facial Tissue 100 Pulls 3ply (Pack of 2)",
+   "url": "https://brand-e.example/products/bamboo-facial-tissue-100-pulls-3ply-pack-of-2",
+   "score": 9,
+   "band": "high",
+   "terms": [
+    {
+     "term": "eco-friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Tissues are good and eco-friendly."
+    },
+    {
+     "term": "environmentally friendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "Which is more environmentally friendly?"
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "• Made from natural bamboo fibres"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“eco-friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“environmentally friendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“less water” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“lower emissions” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "+1 more claim terms"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 37,
+   "rank": 7,
+   "title": "Instant Stain Remover Wipe | Pack of 4",
+   "url": "https://brand-e.example/products/instant-stain-remover-wipe-pack-of-4",
+   "score": 7,
+   "band": "medium",
+   "terms": [
+    {
+     "term": "ecofriendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…iquid, and we bring the evergrowing Bamboo plant to you in the form of ecofriendly tissues and reusable wipes."
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Didn't expect it would clean the mark."
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“ecofriendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“less water” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“lower emissions” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 40,
+   "rank": 8,
+   "title": "Swipe & Shine Limescale Combo | Best Tap and Shower Cleaner Kit",
+   "url": "https://brand-e.example/products/swipe-and-shine-limescale-combo",
+   "score": 7,
+   "band": "medium",
+   "terms": [
+    {
+     "term": "ecofriendly",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 2,
+     "snippet": "…iquid, and we bring the evergrowing Bamboo plant to you in the form of ecofriendly tissues and reusable wipes."
+    },
+    {
+     "term": "less water",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Less Water"
+    },
+    {
+     "term": "lower emissions",
+     "kind": "comparative",
+     "rule_ids": [
+      "R05"
+     ],
+     "weight": 2,
+     "snippet": "Lower Emissions"
+    },
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…cale buildup makes your bathroom look dull, dirty, and impossible to maintain — no matter how often you clean."
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“ecofriendly” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“less water” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“lower emissions” (comparison) · R05: Comparisons need data on what exactly is compared",
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 8,
+   "rank": 9,
+   "title": "Compostable Garbage Bags - Large - 10 bags/roll",
+   "url": "https://brand-e.example/products/compostable-garbage-bags-large-24-x-32-10pc-roll",
+   "score": 4,
+   "band": "medium",
+   "terms": [
+    {
+     "term": "compostable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02",
+      "R07",
+      "R08"
+     ],
+     "weight": 4,
+     "snippet": "Compostable Garbage Bags - Large - 10 bags/roll"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“compostable” (specific) · R07: Compostable plastic needs a CPCB certificate and IS/ISO 17088 conformity"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 9,
+   "rank": 10,
+   "title": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2",
+   "url": "https://brand-e.example/products/compostable-garbage-bags-pack-of-2-medium-19-x-21-15-pieces-each-roll",
+   "score": 4,
+   "band": "medium",
+   "terms": [
+    {
+     "term": "compostable",
+     "kind": "specific",
+     "rule_ids": [
+      "R02",
+      "R07",
+      "R08"
+     ],
+     "weight": 4,
+     "snippet": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“compostable” (specific) · R07: Compostable plastic needs a CPCB certificate and IS/ISO 17088 conformity"
+   ],
+   "listing_id": "L14",
+   "error": null
+  },
+  {
+   "product": 44,
+   "rank": 11,
+   "title": "Brand E Laundry Cleaner Liquid Shampoo Front Load 4 Ltr Refill",
+   "url": "https://brand-e.example/products/Brand E-laundry-cleaner-liquid-shampoo-front-load-4-ltr-refill",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…Laundry Liquid - Front Load is powered by coconut-based bio-enzymes that clean without damaging fabric fibres."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…gentle on everything else — our 4L Natural Laundry Liquid - Front Load is powered by coconut-based bio-enzyme…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 43,
+   "rank": 12,
+   "title": "Brand E Laundry Cleaner Liquid Shampoo Top Load 4 Ltr Refill",
+   "url": "https://brand-e.example/products/Brand E-laundry-cleaner-liquid-shampoo-top-load-4-ltr-refill",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…l Laundry Liquid - Top Load is powered by coconut-based bio-enzymes that clean without damaging fabric fibres."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…gentle on everything else — our 4L Natural Laundry Liquid - Top Load is powered by coconut-based bio-enzymes…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 48,
+   "rank": 13,
+   "title": "Dishwash Liquid Duo (Bottle + Refill)",
+   "url": "https://brand-e.example/products/Brand E-natural-dishwash-liquid-750-ml-Brand E-dishwash-liquid-refill-2-ltr-_",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…pani provides a refreshing, natural clean, while keeping your hands safe from harsh chemicals.Use the bottle n…"
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…contains the following:1 bottle of Natural Dishwash Liquid 750 ml1 refill pouch of Natural Dishwash Liquid 2L"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 46,
+   "rank": 14,
+   "title": "Laundry Liquid Duo (Front Load) (Bottle + Refill Combo)",
+   "url": "https://brand-e.example/products/Brand E-natural-laundry-cleaner-liquid-front-960-ml-laundry-cleaner-liquid-front-refill-2-ltr",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…Laundry Liquid is a coconut and plant-based powerhouse designed to clean deeply while being gentle on fabrics."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…contains the following:1 bottle of Natural Laundry Liquid Front Load 960 ml1 refill pouch of Natural Laundry…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 47,
+   "rank": 15,
+   "title": "Laundry Liquid Duo (Top Load) (Bottle + Refill Combo)",
+   "url": "https://brand-e.example/products/Brand E-natural-laundry-cleaner-liquid-top-960-ml-laundry-cleaner-liquid-top-refill-2-ltr-_",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…Laundry Liquid is a coconut and plant-based powerhouse designed to clean deeply while being gentle on fabrics."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…contains the following:1 bottle of Natural Laundry Liquid Top Load 960 ml1 refill pouch of Natural Laundry Li…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 39,
+   "rank": 16,
+   "title": "Max - Tap & Shower Cleaner",
+   "url": "https://brand-e.example/products/Brand E-tap-shower-limescale-remover-liquid-500-ml",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…al bio-enzymes, it brings together serious cleaning power with Brand E’s signature natural care.That’s MAX clean."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…ith coconut-based surfactants and 5 natural bio-enzymes, it brings together serious cleaning power with Brand E’s…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 45,
+   "rank": 17,
+   "title": "Ultra Soft Baby Tissues - 3 ply 100 Pulls Pack of 3",
+   "url": "https://brand-e.example/products/Brand E-bamboo-ultra-soft-baby-tissues-3-ply-100-pulls-po3",
+   "score": 2,
+   "band": "low",
+   "terms": [
+    {
+     "term": "clean",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…s mealtime, playtime, or mess-time, every wipe is a soft, clean hug that protects your baby and reassures you."
+    },
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…ft Tissues are made from bamboo for natural antibacterial protection and infused with food-grade glycerin to k…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“clean” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 6,
+   "rank": 18,
+   "title": "Bake & Wrap Roll - 10 mtr",
+   "url": "https://brand-e.example/products/bake-and-wrap-roll-10-mtr",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Made from natural wood pulpChlorine freeHeat resistant GreaseproofCan be used in microwave and ovenPerfect for…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 0,
+   "rank": 19,
+   "title": "Bake & Wrap Roll - 10 mtr | Pack of 2",
+   "url": "https://brand-e.example/products/bake-and-wrap-roll-10-mtr-pack-of-2",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Made from natural wood pulpChlorine freeHeat resistant GreaseproofCan be used in microwave and ovenPerfect for…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 10,
+   "rank": 20,
+   "title": "Bake & Wrap Roll - 20 mtr",
+   "url": "https://brand-e.example/products/best-parchment-paper-for-baking-20mtr",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Made from natural wood pulpChlorine freeHeat resistant GreaseproofCan be used in microwave and ovenPerfect for…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 7,
+   "rank": 21,
+   "title": "Bamboo Serving Napkins - 50 sheets",
+   "url": "https://brand-e.example/products/tissue-paper-napkins-50-pcs",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "pure",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Made from 100% pure bamboo pulp50 Two Ply NapkinsSuper AbsorbentSafe for sensitive skinMulti-purposeWe could g…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“pure” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 29,
+   "rank": 22,
+   "title": "Liquids Saver Combo - Floor Cleaner & Laundry Liquid | Front Load",
+   "url": "https://brand-e.example/products/liquids-saver-combo-floor-cleaner-laundry-liquid-top-load",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…ains the following 1 Refill Pack of Natural Laundry Liquid - Front load (2000 ml)1 Refill Pack of Natural Floo…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 30,
+   "rank": 23,
+   "title": "Liquids Saver Combo - Floor Cleaner & Laundry Liquid | Top Load",
+   "url": "https://brand-e.example/products/liquids-saver-combo-floor-cleaner-laundry-liquid-front-load",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…ains the following 1 Refill Pack of Natural Laundry Liquid - Top load (2000 ml)1 Refill Pack of Natural Floor…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 25,
+   "rank": 24,
+   "title": "Liquids Super Saver - Dishwash , Floor & Laundry Liquid | Front Load",
+   "url": "https://brand-e.example/products/liquids-super-saver-dishwash-floor-laundry-liquid-front-load",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "…contains the following 1 Bottle of Natural Floor Cleaner Liquid (1000ml)1 Bottle of Natural Dishwash Liquid (…"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 32,
+   "rank": 25,
+   "title": "Natural Laundry Cleaner Liquid Refill | Front Load - 1 litre",
+   "url": "https://brand-e.example/products/natural-laundry-cleaner-liquid-refill-front-load-1-litre",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid Refill | Front Load - 1 litre"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 18,
+   "rank": 26,
+   "title": "Natural Laundry Cleaner Liquid Refill | Front Load - 2 litre",
+   "url": "https://brand-e.example/products/copy-of-natural-laundry-cleaner-liquid-front-load-1000-ml",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid Refill | Front Load - 2 litre"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 31,
+   "rank": 27,
+   "title": "Natural Laundry Cleaner Liquid Refill | Top Load - 1 litre",
+   "url": "https://brand-e.example/products/natural-laundry-cleaner-liquid-refill-top-load-1-litre",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid Refill | Top Load - 1 litre"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 19,
+   "rank": 28,
+   "title": "Natural Laundry Cleaner Liquid Refill | Top Load - 2 litre",
+   "url": "https://brand-e.example/products/natural-laundry-cleaner-liquid-refill-top-load-2000-ml",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid Refill | Top Load - 2 litre"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 3,
+   "rank": 29,
+   "title": "Natural Laundry Cleaner Liquid | Front Load - 960 ml",
+   "url": "https://brand-e.example/products/natural-laundry-cleaner-liquid-front-load-1000-ml",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid | Front Load - 960 ml"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 2,
+   "rank": 30,
+   "title": "Natural Laundry Cleaner Liquid | Top Load - 960 ml",
+   "url": "https://brand-e.example/products/natural-laundry-cleaner-liquid-top-load-1000-ml",
+   "score": 1,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Laundry Cleaner Liquid | Top Load - 960 ml"
+    }
+   ],
+   "proof": [],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 5,
+   "rank": 31,
+   "title": "Natural Dishwash Liquid - 750 ml",
+   "url": "https://brand-e.example/products/natural-dishwashing-liquid-750-ml",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Dishwash Liquid - 750 ml"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 27,
+   "rank": 32,
+   "title": "Natural Dishwash Liquid Refill - 2 litre",
+   "url": "https://brand-e.example/products/Brand E-natural-dishwash-liquid-refill-2-ltrs",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Dishwash Liquid Refill - 2 litre"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 4,
+   "rank": 33,
+   "title": "Natural Floor Cleaner Liquid - 1 litre",
+   "url": "https://brand-e.example/products/natural-floor-cleaner-liquid-1000-ml",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Floor Cleaner Liquid - 1 litre"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 21,
+   "rank": 34,
+   "title": "Natural Floor Cleaner Liquid - 1 litre | Pack of 2",
+   "url": "https://brand-e.example/products/copy-of-natural-floor-cleaner-liquid-1000-ml",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Floor Cleaner Liquid - 1 litre | Pack of 2"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 28,
+   "rank": 35,
+   "title": "Natural Floor Cleaner Liquid Refill - 2 litre",
+   "url": "https://brand-e.example/products/Brand E-natural-floor-cleaner-liquid-refill-2-ltrs",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Floor Cleaner Liquid Refill - 2 litre"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 26,
+   "rank": 36,
+   "title": "Natural Floor Cleaner Liquid Value Saver Combo - 4L",
+   "url": "https://brand-e.example/products/floor-cleaner-value-saver-combo-2l-2l",
+   "score": 0,
+   "band": "low",
+   "terms": [
+    {
+     "term": "natural",
+     "kind": "vague",
+     "rule_ids": [
+      "R01"
+     ],
+     "weight": 1,
+     "snippet": "Natural Floor Cleaner Liquid Value Saver Combo - 4L"
+    }
+   ],
+   "proof": [
+    {
+     "kind": "certifier",
+     "text": "Ecocert",
+     "weight": 2
+    }
+   ],
+   "reasons": [
+    "“natural” (vague) · R01: Vague green terms need qualifiers and substantiation",
+    "Proof signal: names the certifier Ecocert (−2)"
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 23,
+   "rank": 37,
+   "title": "Aloe Infused Bamboo Wet Wipes | Pack of 2",
+   "url": "https://brand-e.example/products/wipes-pack-of-2",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 15,
+   "rank": 38,
+   "title": "Bamboo Facial Tissues - 100 pulls 2ply",
+   "url": "https://brand-e.example/products/Brand E-sustainable-bamboo-facial-tissues-100-pieces",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 41,
+   "rank": 39,
+   "title": "Bamboo Facial Tissues - 100 pulls 2ply (Pack of 2)",
+   "url": "https://brand-e.example/products/bamboo-facial-tissues-100-pulls-pack-of-2",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 1,
+   "rank": 40,
+   "title": "Bamboo Facial Tissues - 100 pulls | Pack of 6",
+   "url": "https://brand-e.example/products/copy-of-bamboo-facial-tissues-soft-and-absorbent-pack-of-6-100-pulls-box",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 14,
+   "rank": 41,
+   "title": "Bamboo Facial Tissues - 200 pulls",
+   "url": "https://brand-e.example/products/Brand E-sustainable-bamboo-facial-tissues-200-pieces",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 11,
+   "rank": 42,
+   "title": "Bamboo Toothbrush with Activated Charcoal Bristles, Pack of 4",
+   "url": "https://brand-e.example/products/bamboo-toothbrush-charcoal-activated-bristles-pack-of-4",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 12,
+   "rank": 43,
+   "title": "Biofriendly Garbage Bags - Medium - 30 bags/roll | Pack of 3",
+   "url": "https://brand-e.example/products/biodegradable-garbage-bags-extra-large-30-in-x-40-in-10-pieces",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 20,
+   "rank": 44,
+   "title": "Biofriendly Garbage Bags - Medium - 30 bags/roll | Pack of 4",
+   "url": "https://brand-e.example/products/biodegradable-medium-garbage-bags-19-x-21-pack-of-4-30-bags-roll",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 16,
+   "rank": 45,
+   "title": "Biofriendly Garbage Bags - Small - 30 bags/roll | Pack of 3",
+   "url": "https://brand-e.example/products/biodegradable-small-garbage-bags-17-x-19-15-pieces-roll-2",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 24,
+   "rank": 46,
+   "title": "Biofriendly Garbage Bags - Small - 30 bags/roll | Pack of 4",
+   "url": "https://brand-e.example/products/biodegradable-small-garbage-bags-17-x-19-pack-of-4-30-bags-roll",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 49,
+   "rank": 47,
+   "title": "Biofriendly Garbage Bags Small (Pack of 5)",
+   "url": "https://brand-e.example/products/biofriendly-garbage-bags-small-30-bags-roll-pack-of-5",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 33,
+   "rank": 48,
+   "title": "Instant Stain Remover Wipes - 20 Sachets",
+   "url": "https://brand-e.example/products/instant-stain-remover-wipe-20-satchets",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 22,
+   "rank": 49,
+   "title": "Pocket Tissue | Pack of 12",
+   "url": "https://brand-e.example/products/pocket-tissue-pack-of-12",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  },
+  {
+   "product": 17,
+   "rank": 50,
+   "title": "Reusable Bamboo Kitchen Towel - 20 Sheets | Pack of 2",
+   "url": "https://brand-e.example/products/bamboo-reusable-kitchen-towel-roll-pack-of-2-20-sheets-single-roll",
+   "score": 0,
+   "band": "none",
+   "terms": [],
+   "proof": [],
+   "reasons": [
+    "No claim terms from the rules in the title, description or tags."
+   ],
+   "listing_id": null,
+   "error": null
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "listing_id": "L21",
+ "model": "gemini-3.8-flash",
+ "entries": [
+  {
+   "key": "ca1f4548a8efcb746e085e83b408de63a89ef3c2f26e2e2ef5f6ed21fdabfc7b",
+   "model": "gemini-3.5-flash-lite",
+   "template": "extract_claims",
+   "response_json": "{\"claims\": [{\"quote\": \"Building Blocks of Sustainability\", \"type\": \"vague\", \"scope\": \"product\", \"location\": \"title\", \"is_claim\": false, \"not_claim_reason\": \"The environmental word is the subject of the product rather than a property of it.\"}]}",
+   "tokens_in": 1243,
+   "tokens_out": 89,
+   "listing_id": "L21"
+  }
+ ]
+}

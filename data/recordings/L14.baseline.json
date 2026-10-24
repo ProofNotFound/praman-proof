@@ -1,0 +1,566 @@
+{
+ "format": "praman-recording/1",
+ "synthetic": false,
+ "listing_id": "L14",
+ "mode": "baseline",
+ "title": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2",
+ "recorded_at": "2026-10-18T12:49:01.688948+00:00",
+ "llm_mode": "offline",
+ "run_id": "L14-b-fcbdcc",
+ "events": [
+  {
+   "seq": 1,
+   "t_ms": 0,
+   "type": "run_started",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "listing_id": "L14",
+    "mode": "baseline",
+    "llm_mode": "offline",
+    "started_at": "2026-10-18T12:49:01.688948+00:00"
+   }
+  },
+  {
+   "seq": 2,
+   "t_ms": 0,
+   "type": "listing",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "id": "L14",
+    "title": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2",
+    "store": "brand-e.example",
+    "body_text": "Made from Sugarcane and cornstarch\n100% compostable garbage bags\nLeak proof\nCan be used for dry/wet waste & for diaper disposal\nBreaks down naturally in the environment\nThis pack contains 2 rolls, each roll contains 15 bags per roll - small - 19 x 21 inches\n\nWe could go on but do you really need more?",
+    "photos": [
+     {
+      "index": 1,
+      "url": "demo/photos/L14/1.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 2,
+      "url": "demo/photos/L14/2.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 3,
+      "url": "demo/photos/L14/3.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 4,
+      "url": "demo/photos/L14/4.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 5,
+      "url": "demo/photos/L14/5.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 6,
+      "url": "demo/photos/L14/6.jpg",
+      "width": 1080,
+      "height": 1080
+     },
+     {
+      "index": 7,
+      "url": "demo/photos/L14/7.jpg",
+      "width": 1080,
+      "height": 1080
+     }
+    ],
+    "tags": [
+     "All_product_New",
+     "B2G1_Nov'25",
+     "B3G2_Nov'25",
+     "Buy-M-Save-M",
+     "emp50",
+     "garbage_bags",
+     "general_offer",
+     "Qty_break",
+     "quantity_break"
+    ]
+   }
+  },
+  {
+   "seq": 3,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": null,
+    "n": 1,
+    "phase": "act",
+    "tool": "extract_claims",
+    "summary": "Listed 2 claims and 2 items that look like claims but aren't.",
+    "ms": 0,
+    "tokens_in": 957,
+    "tokens_out": 1710,
+    "payload_preview": "{\"claims\": [\"100% compostable garbage bags\", \"Breaks down naturally in the environment\", \"Leak proof\", \"Can be used for dry/wet waste & for diaper disposal\"], \"dropped\": []}"
+   }
+  },
+  {
+   "seq": 4,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": null,
+    "n": 2,
+    "phase": "act",
+    "tool": "match_rule",
+    "summary": "C1 → R02, R07, R08 · C2 → R02 · C3 → R11 · C4 → R11",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"C1\": [\"R02\", \"R07\", \"R08\"], \"C2\": [\"R02\"], \"C3\": [\"R11\"], \"C4\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 5,
+   "t_ms": 3,
+   "type": "claims",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "100% compostable garbage bags",
+      "normalised": "100% compostable garbage bags",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02",
+       "R07",
+       "R08"
+      ]
+     },
+     {
+      "id": "C2",
+      "quote": "Breaks down naturally in the environment",
+      "normalised": "breaks down naturally in the environment",
+      "type": "specific",
+      "scope": "disposal",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C3",
+      "quote": "Leak proof",
+      "normalised": "leak proof",
+      "type": "vague",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Functional performance statement that does not make an environmental claim.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C4",
+      "quote": "Can be used for dry/wet waste & for diaper disposal",
+      "normalised": "can be used for dry/wet waste & for diaper disposal",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Product usage instruction, not a claim of environmental benefit.",
+      "rule_ids": [
+       "R11"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 6,
+   "t_ms": 3,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C1",
+    "n": 3,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 7,
+   "t_ms": 3,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C1",
+    "n": 4,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 8,
+   "t_ms": 4,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C1",
+    "n": 5,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 8 lines names a certificate, standard, test, code or link.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 8 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 9,
+   "t_ms": 4,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C1",
+    "n": 6,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R07\", \"R08\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 10,
+   "t_ms": 5,
+   "type": "verdict",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "claim_id": "C1",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R07",
+     "R08",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product; Maker found on CPCB's certified list.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R07",
+      "name": "Compostable plastic needs a CPCB certificate and IS/ISO 17088 conformity",
+      "summary": "Makers of compostable plastic carry bags and commodities must hold a CPCB certificate before marketing or selling, and compostable plastic must conform to IS/ISO 17088:2021.",
+      "clause": "Rule 4(1)(ha) (CPCB certificate before marketing or selling); Rule 4(1)(h) (IS/ISO 17088:2021)",
+      "source": "Plastic Waste Management (Amendment) Rules, 2024"
+     },
+     {
+      "id": "R08",
+      "name": "Compostable items must carry the industrial-composting label",
+      "summary": "Each compostable plastic item must bear the label 'compostable only under industrial composting'.",
+      "clause": "Rule 11(3)",
+      "source": "Plastic Waste Management (Amendment) Rules, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 11,
+   "t_ms": 5,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C2",
+    "n": 7,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 12,
+   "t_ms": 5,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C2",
+    "n": 8,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 13,
+   "t_ms": 6,
+   "type": "evidence",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "id": "E1",
+    "claim_id": "C2",
+    "source": "consistency",
+    "detail": "\"Breaks down naturally in the environment\" vs \"100% compostable garbage bags\" (description)",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": "R08",
+    "note": "Compostable plastic must be labelled for industrial composting only, so saying it composts at home or breaks down naturally in the environment conflicts with the required label."
+   }
+  },
+  {
+   "seq": 14,
+   "t_ms": 6,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C2",
+    "n": 9,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "Page text: 1 item conflicts with the claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [\"E1\"], \"detail\": \"No proof in the page text. E1 conflicts with the claim: Compostable plastic must be labelled for industrial composting only, so saying it composts at home or breaks down…\"}"
+   }
+  },
+  {
+   "seq": 15,
+   "t_ms": 6,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C2",
+    "n": 10,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Compostable plastic must be labelled for industrial composting only, so saying it composts at…",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E1\"], \"rule_ids\": [\"R02\", \"R08\", \"R03\"], \"detail\": \"Contradicted: Compostable plastic must be labelled for industrial composting only, so saying it composts at home or breaks down naturally in the environment conflicts with the required label.\"}"
+   }
+  },
+  {
+   "seq": 16,
+   "t_ms": 7,
+   "type": "verdict",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "claim_id": "C2",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E1"
+    ],
+    "rule_ids": [
+     "R02",
+     "R08",
+     "R03"
+    ],
+    "reason": "Compostable plastic must be labelled for industrial composting only, so saying it composts at home or breaks down naturally in the environment conflicts with the required label.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R08",
+      "name": "Compostable items must carry the industrial-composting label",
+      "summary": "Each compostable plastic item must bear the label 'compostable only under industrial composting'.",
+      "clause": "Rule 11(3)",
+      "source": "Plastic Waste Management (Amendment) Rules, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 17,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C3",
+    "n": 11,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Functional performance statement that does not make an environmental claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 18,
+   "t_ms": 7,
+   "type": "verdict",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "claim_id": "C3",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Functional performance statement that does not make an environmental claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 19,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "run_id": "L14-b-fcbdcc",
+    "claim_id": "C4",
+    "n": 12,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Product usage instruction, not a claim of environmental benefit.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 20,
+   "t_ms": 8,
+   "type": "verdict",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "claim_id": "C4",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Product usage instruction, not a claim of environmental benefit.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 21,
+   "t_ms": 8,
+   "type": "run_finished",
+   "run_id": "L14-b-fcbdcc",
+   "data": {
+    "llm_calls": 1,
+    "tokens_in": 957,
+    "tokens_out": 1710,
+    "est_cost_inr": 0.4015,
+    "elapsed_ms": 8,
+    "counts": {
+     "Not backed": 1,
+     "Contradicted": 1,
+     "Not a claim": 2
+    },
+    "cached_calls": 1,
+    "tool_calls": 3
+   }
+  }
+ ]
+}

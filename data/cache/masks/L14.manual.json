@@ -1,0 +1,24 @@
+{
+ "1": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    415,
+    448,
+    535,
+    485
+   ],
+   "why": "brand printed on the box's end panel (perspective; OCR can't read it)"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    460,
+    696,
+    560,
+    876
+   ],
+   "why": "brand printed faintly along the upper bag roll (right half)"
+  }
+ ]
+}

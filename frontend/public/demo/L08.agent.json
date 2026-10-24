@@ -1,0 +1,3662 @@
+{
+ "format": "praman-recording/1",
+ "synthetic": false,
+ "listing_id": "L08",
+ "mode": "agent",
+ "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+ "recorded_at": "2026-10-18T12:49:14.086142+00:00",
+ "llm_mode": "offline",
+ "run_id": "L08-a-f2a122",
+ "events": [
+  {
+   "seq": 1,
+   "t_ms": 0,
+   "type": "run_started",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "listing_id": "L08",
+    "mode": "agent",
+    "llm_mode": "offline",
+    "started_at": "2026-10-18T12:49:14.086142+00:00"
+   }
+  },
+  {
+   "seq": 2,
+   "t_ms": 1,
+   "type": "listing",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "L08",
+    "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+    "store": "brand-c.example",
+    "body_text": "300 toothbrushes. That's how many each of us uses in a lifetime. Almost all of them plastic. Almost all of them in a landfill or ocean right now.\n\nThis one isn't.\n\nOur FDA-approved compostable bamboo toothbrush is built for the whole family - a biodegradable bamboo handle, BPA-free nylon bristles infused with black bamboo charcoal, and a water-repellant anti-fungal coating that keeps it fresh between uses.\n\nComes in 4 colours so everyone gets their own - no bathroom confusion, no plastic guilt.\n\nZero waste oral care. Made in India.\n\nOver 4.7 billion plastic toothbrushes are produced every year. Every bamboo toothbrush you choose is one less plastic one in the ocean.\n\n•\nApply toothpaste like you normally would and brush away. Once done, wipe down the handle of the bamboo toothbrush and let it dry. Wash them with water and vinegar once every 2 months for thorough cleaning\n\n• Once done, there are many ways to ensure the jar doesn’t go waste. Once your toothbrush has reached the end of its life, pluck the bristles and compost the bamboo handle! As of now, a solution for bristles doesn't exist in the Indian market while still ensuring zero waste and ensuring the toothbrush remains accessible to the masses! We are doing immense research on this to bring you a fully compostable bamboo toothbrush. With that said, by investing in our toothbrush, you are eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers. If this isn't time for innovation, when is?!\n\nCountry of Origin: India\nPacked by: Brand C Zero Waste Solutions Pvt. Ltd.\n49, II Block, Koramangala, Bangalore, 560034, India\n\n--------------\n\nMRP: Rs.100/- incl. of all taxes (per unit)",
+    "photos": [
+     {
+      "index": 1,
+      "url": "demo/photos/L08/1.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 2,
+      "url": "demo/photos/L08/2.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 3,
+      "url": "demo/photos/L08/3.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 4,
+      "url": "demo/photos/L08/4.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 5,
+      "url": "demo/photos/L08/5.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 6,
+      "url": "demo/photos/L08/6.jpg",
+      "width": 3024,
+      "height": 3024
+     },
+     {
+      "index": 7,
+      "url": "demo/photos/L08/7.jpg",
+      "width": 2832,
+      "height": 2832
+     },
+     {
+      "index": 8,
+      "url": "demo/photos/L08/8.jpg",
+      "width": 3024,
+      "height": 3024
+     }
+    ],
+    "tags": [
+     "bamboo-toothbrush",
+     "compostable",
+     "eco-friendly",
+     "family-safe",
+     "zero-waste"
+    ]
+   }
+  },
+  {
+   "seq": 3,
+   "t_ms": 6,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 1,
+    "phase": "act",
+    "tool": "extract_claims",
+    "summary": "Listed 8 claims and 2 items that look like claims but aren't.",
+    "ms": 4,
+    "tokens_in": 1323,
+    "tokens_out": 916,
+    "payload_preview": "{\"claims\": [\"Biodegradable & Zero Waste\", \"biodegradable bamboo handle\", \"Zero waste oral care\", \"compost the bamboo handle\", \"fully compostable bamboo toothbrush\", \"eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the variou…"
+   }
+  },
+  {
+   "seq": 4,
+   "t_ms": 8,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 2,
+    "phase": "act",
+    "tool": "match_rule",
+    "summary": "C1 → R02 · C2 → R02 · C3 → R02 · C4 → R02 · C5 → R02 · C6 → R02 · C7 → R01 · C8 → R02 · C9 → R11 (+1 more)",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"C1\": [\"R02\"], \"C2\": [\"R02\"], \"C3\": [\"R02\"], \"C4\": [\"R02\"], \"C5\": [\"R02\"], \"C6\": [\"R02\"], \"C7\": [\"R01\"], \"C8\": [\"R02\"], \"C9\": [\"R11\"], \"C10\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 5,
+   "t_ms": 9,
+   "type": "claims",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "Biodegradable & Zero Waste",
+      "normalised": "biodegradable & zero waste",
+      "type": "specific",
+      "scope": "product",
+      "location": "title",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C2",
+      "quote": "biodegradable bamboo handle",
+      "normalised": "biodegradable bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C3",
+      "quote": "Zero waste oral care",
+      "normalised": "zero waste oral care",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C4",
+      "quote": "compost the bamboo handle",
+      "normalised": "compost the bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C5",
+      "quote": "fully compostable bamboo toothbrush",
+      "normalised": "fully compostable bamboo toothbrush",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C6",
+      "quote": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "normalised": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C7",
+      "quote": "eco-friendly",
+      "normalised": "eco-friendly",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R01"
+      ]
+     },
+     {
+      "id": "C8",
+      "quote": "plastic-free alternative",
+      "normalised": "plastic-free alternative",
+      "type": "specific",
+      "scope": "product",
+      "location": "photo:5",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C9",
+      "quote": "FDA-approved",
+      "normalised": "fda-approved",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C10",
+      "quote": "family-safe",
+      "normalised": "family-safe",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 6,
+   "t_ms": 9,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 3,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 7,
+   "t_ms": 9,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 4,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 8,
+   "t_ms": 11,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 5,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 9,
+   "t_ms": 11,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 6,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No text evidence was found; product photos often display certification logos, composition details, and the…",
+    "ms": 0,
+    "tokens_in": 475,
+    "tokens_out": 41,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"model\", \"options\": [\"read_photos\"], \"detail\": \"No text evidence was found; product photos often display certification logos, composition details, and the CPCB code.\"}"
+   }
+  },
+  {
+   "seq": 10,
+   "t_ms": 12,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 7,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Reading the product photos.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 11,
+   "t_ms": 12,
+   "type": "photo_read",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "photos": [
+     {
+      "index": 8,
+      "items": [
+       {
+        "text": "Zero Waste",
+        "kind": "claim",
+        "box_2d": [
+         156,
+         145,
+         196,
+         166
+        ]
+       },
+       {
+        "text": "Certified (B) Corporation",
+        "kind": "certificate",
+        "box_2d": [
+         223,
+         192,
+         287,
+         253
+        ]
+       },
+       {
+        "text": "ANIMAL TEST-FREE",
+        "kind": "certificate",
+        "box_2d": [
+         317,
+         219,
+         386,
+         267
+        ]
+       },
+       {
+        "text": "Vegan",
+        "kind": "certificate",
+        "box_2d": [
+         410,
+         241,
+         455,
+         278
+        ]
+       },
+       {
+        "text": "Soft bristles",
+        "kind": "composition",
+        "box_2d": [
+         436,
+         277,
+         499,
+         308
+        ]
+       },
+       {
+        "text": "Compostable and recyclable packaging",
+        "kind": "claim",
+        "box_2d": [
+         427,
+         303,
+         606,
+         376
+        ]
+       },
+       {
+        "text": "#BareZeroWaste",
+        "kind": "claim",
+        "box_2d": [
+         370,
+         621,
+         490,
+         679
+        ]
+       },
+       {
+        "text": "For full details on responsible disposal visit brand-c.example",
+        "kind": "label",
+        "box_2d": [
+         335,
+         577,
+         513,
+         634
+        ]
+       },
+       {
+        "text": "MRP: ₹ 150/-(Incl. of all taxes)",
+        "kind": "other",
+        "box_2d": [
+         573,
+         670,
+         671,
+         725
+        ]
+       },
+       {
+        "text": "[number hidden]",
+        "kind": "code",
+        "box_2d": [
+         712,
+         706,
+         839,
+         796
+        ]
+       },
+       {
+        "text": "Biodegradable bamboo handle",
+        "kind": "claim",
+        "box_2d": [
+         701,
+         407,
+         862,
+         477
+        ]
+       },
+       {
+        "text": "BPA free nylon bristles",
+        "kind": "composition",
+        "box_2d": [
+         711,
+         384,
+         827,
+         437
+        ]
+       },
+       {
+        "text": "Water repellent and anti-fungal coating",
+        "kind": "composition",
+        "box_2d": [
+         720,
+         359,
+         925,
+         445
+        ]
+       },
+       {
+        "text": "Bamboo Toothbrush",
+        "kind": "other",
+        "box_2d": [
+         539,
+         487,
+         804,
+         602
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         447,
+         431,
+         529,
+         492
+        ]
+       },
+       {
+        "text": "Brand C.zerowasteindia",
+        "kind": "other",
+        "box_2d": [
+         93,
+         491,
+         307,
+         591
+        ]
+       },
+       {
+        "text": "Brand CZeroWasteIndia",
+        "kind": "other",
+        "box_2d": [
+         100,
+         467,
+         295,
+         563
+        ]
+       },
+       {
+        "text": "HOW TO USE Apply toothpaste and brush away!",
+        "kind": "other",
+        "box_2d": [
+         266,
+         73,
+         376,
+         142
+        ]
+       },
+       {
+        "text": "POST USE Wipe the handle and let it dry",
+        "kind": "other",
+        "box_2d": [
+         559,
+         139,
+         692,
+         211
+        ]
+       },
+       {
+        "text": "END OF LIFE Pluck the bristles and compost the bamboo handle",
+        "kind": "label",
+        "box_2d": [
+         777,
+         220,
+         928,
+         307
+        ]
+       }
+      ]
+     },
+     {
+      "index": 7,
+      "items": []
+     },
+     {
+      "index": 6,
+      "items": [
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         518,
+         574,
+         600,
+         616
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         524,
+         485,
+         606,
+         529
+        ]
+       },
+       {
+        "text": "Bamboo Toothbrush",
+        "kind": "other",
+        "box_2d": [
+         925,
+         521,
+         941,
+         693
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         910,
+         335,
+         960,
+         401
+        ]
+       }
+      ]
+     },
+     {
+      "index": 4,
+      "items": [
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         626,
+         555,
+         703,
+         596
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         630,
+         479,
+         710,
+         526
+        ]
+       }
+      ]
+     },
+     {
+      "index": 1,
+      "items": [
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         216,
+         297,
+         255,
+         347
+        ]
+       },
+       {
+        "text": "Bamboo Toothbrush",
+        "kind": "other",
+        "box_2d": [
+         137,
+         424,
+         192,
+         544
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         659,
+         222,
+         725,
+         270
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         561,
+         381,
+         622,
+         438
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         704,
+         479,
+         770,
+         534
+        ]
+       },
+       {
+        "text": "Brand C",
+        "kind": "other",
+        "box_2d": [
+         628,
+         697,
+         692,
+         736
+        ]
+       }
+      ]
+     }
+    ],
+    "claim_id": "C1"
+   }
+  },
+  {
+   "seq": 12,
+   "t_ms": 13,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E1",
+    "claim_id": "C1",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certificate covers the company rather than the specific product or claim."
+   }
+  },
+  {
+   "seq": 13,
+   "t_ms": 13,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E2",
+    "claim_id": "C1",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a link for disposal details but lacks a named certification or scientific evidence."
+   }
+  },
+  {
+   "seq": 14,
+   "t_ms": 14,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E3",
+    "claim_id": "C1",
+    "source": "photo",
+    "detail": "Photo 8: BPA free nylon bristles",
+    "photo_index": 8,
+    "crop_box": [
+     711,
+     384,
+     827,
+     437
+    ],
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": null,
+    "note": "Mentions nylon bristles which contradicts a zero waste claim."
+   }
+  },
+  {
+   "seq": 15,
+   "t_ms": 14,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E4",
+    "claim_id": "C1",
+    "source": "photo",
+    "detail": "Photo 8: END OF LIFE Pluck the bristles and compost the bamboo handle",
+    "photo_index": 8,
+    "crop_box": [
+     777,
+     220,
+     928,
+     307
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "plan",
+    "rule_id": null,
+    "note": "Gives disposal instructions but lacks credible certification or scientific evidence."
+   }
+  },
+  {
+   "seq": 16,
+   "t_ms": 14,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 8,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Read 5 photos, 32 printed items: 1 item conflicts with the claim, 3 items partly support it.",
+    "ms": 2,
+    "tokens_in": 6839,
+    "tokens_out": 2608,
+    "payload_preview": "{\"evidence\": [\"E1\", \"E2\", \"E3\", \"E4\"], \"detail\": \"Read 5 photos (8, 7, 6, 4, 1): 32 printed items (19 other, 4 claim, 3 certificate, 3 composition, 2 label, 1 code). E1 partly supports the claim: This certificate covers the company rather than the specific product or claim; E2 partly supports the c…"
+   }
+  },
+  {
+   "seq": 17,
+   "t_ms": 18,
+   "type": "claims",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "Biodegradable & Zero Waste",
+      "normalised": "biodegradable & zero waste",
+      "type": "specific",
+      "scope": "product",
+      "location": "title",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C2",
+      "quote": "biodegradable bamboo handle",
+      "normalised": "biodegradable bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C3",
+      "quote": "Zero waste oral care",
+      "normalised": "zero waste oral care",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C4",
+      "quote": "compost the bamboo handle",
+      "normalised": "compost the bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C5",
+      "quote": "fully compostable bamboo toothbrush",
+      "normalised": "fully compostable bamboo toothbrush",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C6",
+      "quote": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "normalised": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C7",
+      "quote": "eco-friendly",
+      "normalised": "eco-friendly",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R01"
+      ]
+     },
+     {
+      "id": "C8",
+      "quote": "plastic-free alternative",
+      "normalised": "plastic-free alternative",
+      "type": "specific",
+      "scope": "product",
+      "location": "photo:5",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C9",
+      "quote": "FDA-approved",
+      "normalised": "fda-approved",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C10",
+      "quote": "family-safe",
+      "normalised": "family-safe",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C11",
+      "quote": "Compostable and recyclable packaging",
+      "normalised": "compostable and recyclable packaging",
+      "type": "specific",
+      "scope": "packaging",
+      "location": "photo:8",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 18,
+   "t_ms": 18,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 9,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photos print 1 claim not in the page text (C11); added to the queue.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"added\": [{\"id\": \"C11\", \"quote\": \"Compostable and recyclable packaging\", \"normalised\": \"compostable and recyclable packaging\", \"type\": \"specific\", \"scope\": \"packaging\", \"location\": \"photo:8\", \"is_claim\": true, \"not_claim_reason\": null, \"rule_ids\": [\"R02\"], \"derived_from\": null}], \"detail\": \"C11 \\\"…"
+   }
+  },
+  {
+   "seq": 19,
+   "t_ms": 19,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 10,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Mentions nylon bristles which contradicts a zero waste claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E3\"], \"rule_ids\": [\"R02\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 20,
+   "t_ms": 19,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C1",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E3"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Mentions nylon bristles which contradicts a zero waste claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 21,
+   "t_ms": 19,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 11,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 22,
+   "t_ms": 19,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 12,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 23,
+   "t_ms": 21,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 13,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 24,
+   "t_ms": 21,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 14,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 25,
+   "t_ms": 21,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 15,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 26,
+   "t_ms": 22,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E5",
+    "claim_id": "C2",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certificate covers the company, not this product's biodegradable bamboo handle."
+   }
+  },
+  {
+   "seq": 27,
+   "t_ms": 22,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E6",
+    "claim_id": "C2",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a disposal link but does not name a specific standard or certification for the handle."
+   }
+  },
+  {
+   "seq": 28,
+   "t_ms": 23,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 16,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 2 items partly support it.",
+    "ms": 1,
+    "tokens_in": 726,
+    "tokens_out": 589,
+    "payload_preview": "{\"evidence\": [\"E5\", \"E6\"], \"detail\": \"Reused the photo print from earlier (32 items). E5 partly supports the claim: This certificate covers the company, not this product's biodegradable bamboo handle; E6 partly supports the claim: Provides a disposal link but does not name a specific standard or ce…"
+   }
+  },
+  {
+   "seq": 29,
+   "t_ms": 23,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 17,
+    "phase": "plan",
+    "tool": null,
+    "summary": "Every source that could hold proof has been searched.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"STOP\", \"by\": \"code\", \"options\": []}"
+   }
+  },
+  {
+   "seq": 30,
+   "t_ms": 25,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C2",
+    "n": 18,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Partly backed: This certificate covers the company, not this claim (B Corp).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 5, \"evidence_ids\": [\"E5\", \"E6\"], \"rule_ids\": [\"R02\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 31,
+   "t_ms": 26,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C2",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E5",
+     "E6"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "This certificate covers the company, not this claim (B Corp).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 32,
+   "t_ms": 26,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 19,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 33,
+   "t_ms": 27,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 20,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 34,
+   "t_ms": 28,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 21,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 35,
+   "t_ms": 28,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 22,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 36,
+   "t_ms": 28,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 23,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 37,
+   "t_ms": 29,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E7",
+    "claim_id": "C3",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certificate covers the company, not this product's zero waste claim."
+   }
+  },
+  {
+   "seq": 38,
+   "t_ms": 29,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E8",
+    "claim_id": "C3",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a link for disposal details but lacks a named standard or certification."
+   }
+  },
+  {
+   "seq": 39,
+   "t_ms": 30,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E9",
+    "claim_id": "C3",
+    "source": "photo",
+    "detail": "Photo 8: END OF LIFE Pluck the bristles and compost the bamboo handle",
+    "photo_index": 8,
+    "crop_box": [
+     777,
+     220,
+     928,
+     307
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "plan",
+    "rule_id": null,
+    "note": "Outlines an end-of-life disposal plan without citing an independent standard or certification."
+   }
+  },
+  {
+   "seq": 40,
+   "t_ms": 30,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 24,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 3 items partly support it.",
+    "ms": 1,
+    "tokens_in": 725,
+    "tokens_out": 585,
+    "payload_preview": "{\"evidence\": [\"E7\", \"E8\", \"E9\"], \"detail\": \"Reused the photo print from earlier (32 items). E7 partly supports the claim: This certificate covers the company, not this product's zero waste claim; E8 partly supports the claim: Provides a link for disposal details but lacks a named standard or certif…"
+   }
+  },
+  {
+   "seq": 41,
+   "t_ms": 30,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 25,
+    "phase": "plan",
+    "tool": null,
+    "summary": "Every source that could hold proof has been searched.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"STOP\", \"by\": \"code\", \"options\": []}"
+   }
+  },
+  {
+   "seq": 42,
+   "t_ms": 31,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 26,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Partly backed: This certificate covers the company, not this claim (B Corp).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 5, \"evidence_ids\": [\"E7\", \"E8\", \"E9\"], \"rule_ids\": [\"R02\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 43,
+   "t_ms": 31,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C3",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E7",
+     "E8",
+     "E9"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "This certificate covers the company, not this claim (B Corp).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 44,
+   "t_ms": 32,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 27,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 45,
+   "t_ms": 32,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 28,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 46,
+   "t_ms": 34,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 29,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 47,
+   "t_ms": 34,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 30,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 48,
+   "t_ms": 34,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 31,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 49,
+   "t_ms": 35,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E10",
+    "claim_id": "C4",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "B Corporation certification covers the company rather than product compostability."
+   }
+  },
+  {
+   "seq": 50,
+   "t_ms": 35,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E11",
+    "claim_id": "C4",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a disposal link for more information but no certification or test standard."
+   }
+  },
+  {
+   "seq": 51,
+   "t_ms": 36,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 32,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 2 items partly support it.",
+    "ms": 1,
+    "tokens_in": 726,
+    "tokens_out": 562,
+    "payload_preview": "{\"evidence\": [\"E10\", \"E11\"], \"detail\": \"Reused the photo print from earlier (32 items). E10 partly supports the claim: B Corporation certification covers the company rather than product compostability; E11 partly supports the claim: Provides a disposal link for more information but no certification…"
+   }
+  },
+  {
+   "seq": 52,
+   "t_ms": 37,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 33,
+    "phase": "plan",
+    "tool": null,
+    "summary": "Every source that could hold proof has been searched.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"STOP\", \"by\": \"code\", \"options\": []}"
+   }
+  },
+  {
+   "seq": 53,
+   "t_ms": 37,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C4",
+    "n": 34,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Partly backed: This certificate covers the company, not this claim (B Corp).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 5, \"evidence_ids\": [\"E10\", \"E11\"], \"rule_ids\": [\"R02\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 54,
+   "t_ms": 37,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C4",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E10",
+     "E11"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "This certificate covers the company, not this claim (B Corp).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 55,
+   "t_ms": 38,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 35,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 56,
+   "t_ms": 38,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 36,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 57,
+   "t_ms": 40,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 37,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 58,
+   "t_ms": 40,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 38,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 59,
+   "t_ms": 40,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 39,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 60,
+   "t_ms": 41,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E12",
+    "claim_id": "C5",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certificate covers the company, not this product."
+   }
+  },
+  {
+   "seq": 61,
+   "t_ms": 41,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E13",
+    "claim_id": "C5",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a link for disposal details without naming a certification or test."
+   }
+  },
+  {
+   "seq": 62,
+   "t_ms": 42,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E14",
+    "claim_id": "C5",
+    "source": "photo",
+    "detail": "Photo 8: BPA free nylon bristles",
+    "photo_index": 8,
+    "crop_box": [
+     711,
+     384,
+     827,
+     437
+    ],
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": null,
+    "note": "Nylon bristles conflict with a fully compostable claim."
+   }
+  },
+  {
+   "seq": 63,
+   "t_ms": 42,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 40,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 1 item conflicts with the claim, 2 items partly support it.",
+    "ms": 1,
+    "tokens_in": 726,
+    "tokens_out": 534,
+    "payload_preview": "{\"evidence\": [\"E12\", \"E13\", \"E14\"], \"detail\": \"Reused the photo print from earlier (32 items). E12 partly supports the claim: This certificate covers the company, not this product; E13 partly supports the claim: Provides a link for disposal details without naming a certification or test; E14 confli…"
+   }
+  },
+  {
+   "seq": 64,
+   "t_ms": 42,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 41,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Nylon bristles conflict with a fully compostable claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E14\"], \"rule_ids\": [\"R02\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 65,
+   "t_ms": 43,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C5",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E14"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Nylon bristles conflict with a fully compostable claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 66,
+   "t_ms": 43,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 42,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 67,
+   "t_ms": 43,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 43,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 68,
+   "t_ms": 45,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 44,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 69,
+   "t_ms": 45,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 45,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 70,
+   "t_ms": 45,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 46,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 71,
+   "t_ms": 46,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E15",
+    "claim_id": "C6",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certification covers the company, not this product or its plastic waste claim."
+   }
+  },
+  {
+   "seq": 72,
+   "t_ms": 47,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E16",
+    "claim_id": "C6",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a link for disposal details but does not directly prove the claim on the listing."
+   }
+  },
+  {
+   "seq": 73,
+   "t_ms": 47,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E17",
+    "claim_id": "C6",
+    "source": "photo",
+    "detail": "Photo 8: BPA free nylon bristles",
+    "photo_index": 8,
+    "crop_box": [
+     711,
+     384,
+     827,
+     437
+    ],
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "label_text",
+    "rule_id": null,
+    "note": "Mentions nylon bristles which contradicts the complete elimination of plastic waste from the product."
+   }
+  },
+  {
+   "seq": 74,
+   "t_ms": 47,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E18",
+    "claim_id": "C6",
+    "source": "photo",
+    "detail": "Photo 8: END OF LIFE Pluck the bristles and compost the bamboo handle",
+    "photo_index": 8,
+    "crop_box": [
+     777,
+     220,
+     928,
+     307
+    ],
+    "covers_claim": "partly",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "plan",
+    "rule_id": null,
+    "note": "Provides disposal instructions for parts of the product but lacks credible certification or scientific evidence for the full claim."
+   }
+  },
+  {
+   "seq": 75,
+   "t_ms": 48,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 47,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 1 item conflicts with the claim, 3 items partly support it.",
+    "ms": 2,
+    "tokens_in": 750,
+    "tokens_out": 360,
+    "payload_preview": "{\"evidence\": [\"E15\", \"E16\", \"E17\", \"E18\"], \"detail\": \"Reused the photo print from earlier (32 items). E15 partly supports the claim: This certification covers the company, not this product or its plastic waste claim; E16 partly supports the claim: Provides a link for disposal details but does not d…"
+   }
+  },
+  {
+   "seq": 76,
+   "t_ms": 48,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C6",
+    "n": 48,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Mentions nylon bristles which contradicts the complete elimination of plastic waste from the…",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E17\"], \"rule_ids\": [\"R02\", \"R10\"], \"detail\": \"Contradicted: Mentions nylon bristles which contradicts the complete elimination of plastic waste from the product.\"}"
+   }
+  },
+  {
+   "seq": 77,
+   "t_ms": 49,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C6",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E17"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Mentions nylon bristles which contradicts the complete elimination of plastic waste from the product.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 78,
+   "t_ms": 50,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 49,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 79,
+   "t_ms": 50,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 50,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 80,
+   "t_ms": 51,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 51,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 81,
+   "t_ms": 51,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 52,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 82,
+   "t_ms": 52,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 53,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 83,
+   "t_ms": 53,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E19",
+    "claim_id": "C7",
+    "source": "photo",
+    "detail": "Photo 8: Certified (B) Corporation",
+    "photo_index": 8,
+    "crop_box": [
+     223,
+     192,
+     287,
+     253
+    ],
+    "covers_claim": "partly",
+    "certifier": "B Corp",
+    "cert_scope": "company",
+    "kind": "certification",
+    "rule_id": null,
+    "note": "This certificate covers the company, not this specific product."
+   }
+  },
+  {
+   "seq": 84,
+   "t_ms": 56,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E20",
+    "claim_id": "C7",
+    "source": "photo",
+    "detail": "Photo 8: For full details on responsible disposal visit brand-c.example",
+    "photo_index": 8,
+    "crop_box": [
+     335,
+     577,
+     513,
+     634
+    ],
+    "covers_claim": "yes",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "disclosure_link",
+    "rule_id": null,
+    "note": "Provides a link for responsible disposal details as required by the rules."
+   }
+  },
+  {
+   "seq": 85,
+   "t_ms": 56,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E21",
+    "claim_id": "C7",
+    "source": "photo",
+    "detail": "Photo 8: END OF LIFE Pluck the bristles and compost the bamboo handle",
+    "photo_index": 8,
+    "crop_box": [
+     777,
+     220,
+     928,
+     307
+    ],
+    "covers_claim": "yes",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": "qualifier",
+    "rule_id": null,
+    "note": "Provides specific disposal instructions explaining how the product handles end of life."
+   }
+  },
+  {
+   "seq": 86,
+   "t_ms": 57,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 54,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: 2 items back the claim, 1 item partly supports it.",
+    "ms": 4,
+    "tokens_in": 742,
+    "tokens_out": 569,
+    "payload_preview": "{\"evidence\": [\"E19\", \"E20\", \"E21\"], \"detail\": \"Reused the photo print from earlier (32 items). E19 partly supports the claim: This certificate covers the company, not this specific product; E20 backs the claim: Provides a link for responsible disposal details as required by the rules; E21 backs the…"
+   }
+  },
+  {
+   "seq": 87,
+   "t_ms": 57,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 55,
+    "phase": "plan",
+    "tool": null,
+    "summary": "Every source that could hold proof has been searched.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"STOP\", \"by\": \"code\", \"options\": []}"
+   }
+  },
+  {
+   "seq": 88,
+   "t_ms": 57,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C7",
+    "n": 56,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Partly backed: The page explains the claim, but no certificate, standard, test or registry entry backs it.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 4, \"evidence_ids\": [\"E19\", \"E20\", \"E21\"], \"rule_ids\": [\"R01\", \"R10\"]}"
+   }
+  },
+  {
+   "seq": 89,
+   "t_ms": 58,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C7",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E19",
+     "E20",
+     "E21"
+    ],
+    "rule_ids": [
+     "R01",
+     "R10"
+    ],
+    "reason": "The page explains the claim, but no certificate, standard, test or registry entry backs it.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R01",
+      "name": "Vague green terms need qualifiers and substantiation",
+      "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+      "clause": "Clause 5(a)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 90,
+   "t_ms": 58,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C8",
+    "n": 57,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 91,
+   "t_ms": 58,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C8",
+    "n": 58,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 92,
+   "t_ms": 59,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E22",
+    "claim_id": "C8",
+    "source": "text",
+    "detail": "Description: BPA-free nylon bristles infused with black bamboo charcoal",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": "R02",
+    "note": "The listing names a plastic material, which conflicts with a plastic-free claim."
+   }
+  },
+  {
+   "seq": 93,
+   "t_ms": 60,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C8",
+    "n": 59,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "Page text: 1 item conflicts with the claim.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [\"E22\"], \"detail\": \"No proof in the page text. E22 conflicts with the claim: The listing names a plastic material, which conflicts with a plastic-free claim.\"}"
+   }
+  },
+  {
+   "seq": 94,
+   "t_ms": 60,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C8",
+    "n": 60,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: The listing names a plastic material, which conflicts with a plastic-free claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E22\"], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 95,
+   "t_ms": 60,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C8",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E22"
+    ],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "The listing names a plastic material, which conflicts with a plastic-free claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 96,
+   "t_ms": 60,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C9",
+    "n": 61,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Health and safety statement that says nothing about the environment.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 97,
+   "t_ms": 61,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C9",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Health and safety statement that says nothing about the environment.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 98,
+   "t_ms": 61,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C10",
+    "n": 62,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Health and safety statement that says nothing about the environment.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 99,
+   "t_ms": 61,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C10",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Health and safety statement that says nothing about the environment.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 100,
+   "t_ms": 61,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 63,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Start with the page text: it's the cheapest source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\", \"options\": [\"search_text\", \"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 101,
+   "t_ms": 62,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 64,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 102,
+   "t_ms": 63,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 65,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 103,
+   "t_ms": 63,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 66,
+    "phase": "plan",
+    "tool": "read_photos",
+    "summary": "No proof in the text yet; pack photos often print codes, marks and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"by\": \"code\", \"options\": [\"read_photos\"]}"
+   }
+  },
+  {
+   "seq": 104,
+   "t_ms": 63,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 67,
+    "phase": "act",
+    "tool": "read_photos",
+    "summary": "Checking the photo print for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"read_photos\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 105,
+   "t_ms": 64,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 68,
+    "phase": "observe",
+    "tool": "read_photos",
+    "summary": "Photo print: nothing that is proof for this claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"Reused the photo print from earlier (32 items); none of it is proof for this claim.\"}"
+   }
+  },
+  {
+   "seq": 106,
+   "t_ms": 64,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 69,
+    "phase": "plan",
+    "tool": null,
+    "summary": "Every source that could hold proof has been searched.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"STOP\", \"by\": \"code\", \"options\": []}"
+   }
+  },
+  {
+   "seq": 107,
+   "t_ms": 65,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C11",
+    "n": 70,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text and product photos).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 108,
+   "t_ms": 65,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C11",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text and product photos).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 109,
+   "t_ms": 65,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 71,
+    "phase": "plan",
+    "tool": "check_consistency",
+    "summary": "Check the listing against itself: claims vs materials, numbers and printed text.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": ""
+   }
+  },
+  {
+   "seq": 110,
+   "t_ms": 65,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 72,
+    "phase": "act",
+    "tool": "check_consistency",
+    "summary": "Comparing every claim with the page and the photo print.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": ""
+   }
+  },
+  {
+   "seq": 111,
+   "t_ms": 69,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E23",
+    "claim_id": "C1",
+    "source": "consistency",
+    "detail": "Description: BPA-free nylon bristles",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": null,
+    "note": "The listing states the product is zero waste, but the bristles are made of nylon, which is a plastic."
+   }
+  },
+  {
+   "seq": 112,
+   "t_ms": 70,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E24",
+    "claim_id": "C3",
+    "source": "consistency",
+    "detail": "Description: BPA-free nylon bristles",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": null,
+    "note": "The listing claims zero waste oral care, but notes that a solution for the nylon bristles does not yet exist."
+   }
+  },
+  {
+   "seq": 113,
+   "t_ms": 70,
+   "type": "evidence",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "id": "E25",
+    "claim_id": "C5",
+    "source": "consistency",
+    "detail": "Description: As of now, a solution for bristles doesn't exist in the Indian market while still ensuring zero waste and ensuring the toothbrush remains accessible to the masses! We are doing immense research on this to bring you a fully compostable bamboo toothbrush.",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": null,
+    "note": "The listing refers to the toothbrush as fully compostable, but acknowledges that the bristles are not yet compostable."
+   }
+  },
+  {
+   "seq": 114,
+   "t_ms": 70,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 73,
+    "phase": "observe",
+    "tool": "check_consistency",
+    "summary": "3 new conflicts found (C1, C3, C5).",
+    "ms": 4,
+    "tokens_in": 1452,
+    "tokens_out": 261,
+    "payload_preview": "{\"conflicts\": {\"C1\": [\"E23\"], \"C3\": [\"E24\"], \"C5\": [\"E25\"]}, \"detail\": \"C1: The listing states the product is zero waste, but the bristles are made of nylon, which is a plastic.; C3: The listing claims zero waste oral care, but notes that a solution for the nylon bristles does not yet exist.; C5: T…"
+   }
+  },
+  {
+   "seq": 115,
+   "t_ms": 71,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C1",
+    "n": 74,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Mentions nylon bristles which contradicts a zero waste claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2}"
+   }
+  },
+  {
+   "seq": 116,
+   "t_ms": 71,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C1",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E3",
+     "E23"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Mentions nylon bristles which contradicts a zero waste claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 117,
+   "t_ms": 72,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C3",
+    "n": 75,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: The listing claims zero waste oral care, but notes that a solution for the nylon bristles does…",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"detail\": \"Contradicted (was Partly backed): The listing claims zero waste oral care, but notes that a solution for the nylon bristles does not yet exist.\"}"
+   }
+  },
+  {
+   "seq": 118,
+   "t_ms": 72,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C3",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E24"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "The listing claims zero waste oral care, but notes that a solution for the nylon bristles does not yet exist.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 119,
+   "t_ms": 72,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": "C5",
+    "n": 76,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: Nylon bristles conflict with a fully compostable claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2}"
+   }
+  },
+  {
+   "seq": 120,
+   "t_ms": 73,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C5",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E14",
+     "E25"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Nylon bristles conflict with a fully compostable claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 121,
+   "t_ms": 73,
+   "type": "step",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "run_id": "L08-a-f2a122",
+    "claim_id": null,
+    "n": 77,
+    "phase": "act",
+    "tool": "write_rewrite",
+    "summary": "Suggested wording for 9 claim(s) that aren't Backed.",
+    "ms": 0,
+    "tokens_in": 697,
+    "tokens_out": 368,
+    "payload_preview": "{\"C1\": \"Bamboo handle is biodegradable; nylon bristles should be placed in general waste. See disposal instructions on packaging.\", \"C2\": \"Biodegradable bamboo handle. See B Corp certification details at [link to certificate].\", \"C3\": \"Bamboo handle offers a zero waste oral care option; nylon brist…"
+   }
+  },
+  {
+   "seq": 122,
+   "t_ms": 74,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C1",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E3",
+     "E23"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Mentions nylon bristles which contradicts a zero waste claim.",
+    "missing": null,
+    "rewrite": "Bamboo handle is biodegradable; nylon bristles should be placed in general waste. See disposal instructions on packaging.",
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 123,
+   "t_ms": 75,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C2",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E5",
+     "E6"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "This certificate covers the company, not this claim (B Corp).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": "Biodegradable bamboo handle. See B Corp certification details at [link to certificate].",
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 124,
+   "t_ms": 76,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C3",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E24"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "The listing claims zero waste oral care, but notes that a solution for the nylon bristles does not yet exist.",
+    "missing": null,
+    "rewrite": "Bamboo handle offers a zero waste oral care option; nylon bristles are currently non-recyclable.",
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 125,
+   "t_ms": 77,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C4",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E10",
+     "E11"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "This certificate covers the company, not this claim (B Corp).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": "Compost the bamboo handle after removing bristles. See B Corp certification details at [link to certificate].",
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 126,
+   "t_ms": 79,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C5",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E14",
+     "E25"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Nylon bristles conflict with a fully compostable claim.",
+    "missing": null,
+    "rewrite": "Bamboo handle is fully compostable; toothbrush includes nylon bristles.",
+    "sources_searched": [
+     "text",
+     "photos",
+     "consistency"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 127,
+   "t_ms": 80,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C6",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E17"
+    ],
+    "rule_ids": [
+     "R02",
+     "R10"
+    ],
+    "reason": "Mentions nylon bristles which contradicts the complete elimination of plastic waste from the product.",
+    "missing": null,
+    "rewrite": "Bamboo handle eliminates plastic from the main body; toothbrush contains nylon bristles.",
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 128,
+   "t_ms": 82,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C7",
+    "label": "Partly backed",
+    "evidence_ids": [
+     "E19",
+     "E20",
+     "E21"
+    ],
+    "rule_ids": [
+     "R01",
+     "R10"
+    ],
+    "reason": "The page explains the claim, but no certificate, standard, test or registry entry backs it.",
+    "missing": null,
+    "rewrite": "Remove 'eco-friendly', or state the specific benefit and link to proof.",
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R01",
+      "name": "Vague green terms need qualifiers and substantiation",
+      "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+      "clause": "Clause 5(a)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R10",
+      "name": "A certificate must cover this claim and this product",
+      "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+      "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 129,
+   "t_ms": 82,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C8",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E22"
+    ],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "The listing names a plastic material, which conflicts with a plastic-free claim.",
+    "missing": null,
+    "rewrite": "Plastic-free bamboo handle alternative; toothbrush includes nylon bristles.",
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 130,
+   "t_ms": 83,
+   "type": "verdict",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "claim_id": "C11",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text and product photos).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": "Compostable and recyclable packaging. See test report at [link to test report].",
+    "sources_searched": [
+     "text",
+     "photos"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 131,
+   "t_ms": 83,
+   "type": "run_finished",
+   "run_id": "L08-a-f2a122",
+   "data": {
+    "llm_calls": 12,
+    "tokens_in": 15181,
+    "tokens_out": 7393,
+    "est_cost_inr": 2.0272,
+    "elapsed_ms": 83,
+    "counts": {
+     "Contradicted": 5,
+     "Partly backed": 3,
+     "Not a claim": 2,
+     "Not backed": 1
+    },
+    "cached_calls": 12,
+    "tool_calls": 19
+   }
+  }
+ ]
+}

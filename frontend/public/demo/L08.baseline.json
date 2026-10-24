@@ -1,0 +1,1274 @@
+{
+ "format": "praman-recording/1",
+ "synthetic": false,
+ "listing_id": "L08",
+ "mode": "baseline",
+ "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+ "recorded_at": "2026-10-18T12:49:14.220963+00:00",
+ "llm_mode": "offline",
+ "run_id": "L08-b-7eaca4",
+ "events": [
+  {
+   "seq": 1,
+   "t_ms": 0,
+   "type": "run_started",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "listing_id": "L08",
+    "mode": "baseline",
+    "llm_mode": "offline",
+    "started_at": "2026-10-18T12:49:14.220963+00:00"
+   }
+  },
+  {
+   "seq": 2,
+   "t_ms": 1,
+   "type": "listing",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "id": "L08",
+    "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+    "store": "brand-c.example",
+    "body_text": "300 toothbrushes. That's how many each of us uses in a lifetime. Almost all of them plastic. Almost all of them in a landfill or ocean right now.\n\nThis one isn't.\n\nOur FDA-approved compostable bamboo toothbrush is built for the whole family - a biodegradable bamboo handle, BPA-free nylon bristles infused with black bamboo charcoal, and a water-repellant anti-fungal coating that keeps it fresh between uses.\n\nComes in 4 colours so everyone gets their own - no bathroom confusion, no plastic guilt.\n\nZero waste oral care. Made in India.\n\nOver 4.7 billion plastic toothbrushes are produced every year. Every bamboo toothbrush you choose is one less plastic one in the ocean.\n\n•\nApply toothpaste like you normally would and brush away. Once done, wipe down the handle of the bamboo toothbrush and let it dry. Wash them with water and vinegar once every 2 months for thorough cleaning\n\n• Once done, there are many ways to ensure the jar doesn’t go waste. Once your toothbrush has reached the end of its life, pluck the bristles and compost the bamboo handle! As of now, a solution for bristles doesn't exist in the Indian market while still ensuring zero waste and ensuring the toothbrush remains accessible to the masses! We are doing immense research on this to bring you a fully compostable bamboo toothbrush. With that said, by investing in our toothbrush, you are eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers. If this isn't time for innovation, when is?!\n\nCountry of Origin: India\nPacked by: Brand C Zero Waste Solutions Pvt. Ltd.\n49, II Block, Koramangala, Bangalore, 560034, India\n\n--------------\n\nMRP: Rs.100/- incl. of all taxes (per unit)",
+    "photos": [
+     {
+      "index": 1,
+      "url": "demo/photos/L08/1.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 2,
+      "url": "demo/photos/L08/2.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 3,
+      "url": "demo/photos/L08/3.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 4,
+      "url": "demo/photos/L08/4.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 5,
+      "url": "demo/photos/L08/5.jpg",
+      "width": 2656,
+      "height": 2656
+     },
+     {
+      "index": 6,
+      "url": "demo/photos/L08/6.jpg",
+      "width": 3024,
+      "height": 3024
+     },
+     {
+      "index": 7,
+      "url": "demo/photos/L08/7.jpg",
+      "width": 2832,
+      "height": 2832
+     },
+     {
+      "index": 8,
+      "url": "demo/photos/L08/8.jpg",
+      "width": 3024,
+      "height": 3024
+     }
+    ],
+    "tags": [
+     "bamboo-toothbrush",
+     "compostable",
+     "eco-friendly",
+     "family-safe",
+     "zero-waste"
+    ]
+   }
+  },
+  {
+   "seq": 3,
+   "t_ms": 5,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": null,
+    "n": 1,
+    "phase": "act",
+    "tool": "extract_claims",
+    "summary": "Listed 8 claims and 2 items that look like claims but aren't.",
+    "ms": 4,
+    "tokens_in": 1323,
+    "tokens_out": 916,
+    "payload_preview": "{\"claims\": [\"Biodegradable & Zero Waste\", \"biodegradable bamboo handle\", \"Zero waste oral care\", \"compost the bamboo handle\", \"fully compostable bamboo toothbrush\", \"eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the variou…"
+   }
+  },
+  {
+   "seq": 4,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": null,
+    "n": 2,
+    "phase": "act",
+    "tool": "match_rule",
+    "summary": "C1 → R02 · C2 → R02 · C3 → R02 · C4 → R02 · C5 → R02 · C6 → R02 · C7 → R01 · C8 → R02 · C9 → R11 (+1 more)",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"C1\": [\"R02\"], \"C2\": [\"R02\"], \"C3\": [\"R02\"], \"C4\": [\"R02\"], \"C5\": [\"R02\"], \"C6\": [\"R02\"], \"C7\": [\"R01\"], \"C8\": [\"R02\"], \"C9\": [\"R11\"], \"C10\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 5,
+   "t_ms": 8,
+   "type": "claims",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "Biodegradable & Zero Waste",
+      "normalised": "biodegradable & zero waste",
+      "type": "specific",
+      "scope": "product",
+      "location": "title",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C2",
+      "quote": "biodegradable bamboo handle",
+      "normalised": "biodegradable bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C3",
+      "quote": "Zero waste oral care",
+      "normalised": "zero waste oral care",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C4",
+      "quote": "compost the bamboo handle",
+      "normalised": "compost the bamboo handle",
+      "type": "specific",
+      "scope": "part",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C5",
+      "quote": "fully compostable bamboo toothbrush",
+      "normalised": "fully compostable bamboo toothbrush",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C6",
+      "quote": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "normalised": "eliminating majority of the plastic waste that ends up in our landfills, from the handle, to the grips, to the colours and the various layers",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C7",
+      "quote": "eco-friendly",
+      "normalised": "eco-friendly",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R01"
+      ]
+     },
+     {
+      "id": "C8",
+      "quote": "plastic-free alternative",
+      "normalised": "plastic-free alternative",
+      "type": "specific",
+      "scope": "product",
+      "location": "photo:5",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02"
+      ]
+     },
+     {
+      "id": "C9",
+      "quote": "FDA-approved",
+      "normalised": "fda-approved",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C10",
+      "quote": "family-safe",
+      "normalised": "family-safe",
+      "type": "vague",
+      "scope": "product",
+      "location": "tag",
+      "is_claim": false,
+      "not_claim_reason": "Health and safety statement that says nothing about the environment.",
+      "rule_ids": [
+       "R11"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 6,
+   "t_ms": 8,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C1",
+    "n": 3,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 7,
+   "t_ms": 8,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C1",
+    "n": 4,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 8,
+   "t_ms": 10,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C1",
+    "n": 5,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 9,
+   "t_ms": 10,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C1",
+    "n": 6,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 10,
+   "t_ms": 10,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C1",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 11,
+   "t_ms": 10,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C2",
+    "n": 7,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 12,
+   "t_ms": 11,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C2",
+    "n": 8,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 13,
+   "t_ms": 12,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C2",
+    "n": 9,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 14,
+   "t_ms": 12,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C2",
+    "n": 10,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 15,
+   "t_ms": 12,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C2",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 16,
+   "t_ms": 12,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C3",
+    "n": 11,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 17,
+   "t_ms": 13,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C3",
+    "n": 12,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 18,
+   "t_ms": 14,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C3",
+    "n": 13,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 19,
+   "t_ms": 14,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C3",
+    "n": 14,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 20,
+   "t_ms": 14,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C3",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 21,
+   "t_ms": 14,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C4",
+    "n": 15,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 22,
+   "t_ms": 15,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C4",
+    "n": 16,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 23,
+   "t_ms": 16,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C4",
+    "n": 17,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 24,
+   "t_ms": 16,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C4",
+    "n": 18,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 25,
+   "t_ms": 17,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C4",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 26,
+   "t_ms": 17,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C5",
+    "n": 19,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 27,
+   "t_ms": 17,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C5",
+    "n": 20,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 28,
+   "t_ms": 18,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C5",
+    "n": 21,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 29,
+   "t_ms": 18,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C5",
+    "n": 22,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 30,
+   "t_ms": 19,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C5",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 31,
+   "t_ms": 19,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C6",
+    "n": 23,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 32,
+   "t_ms": 19,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C6",
+    "n": 24,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 33,
+   "t_ms": 20,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C6",
+    "n": 25,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 34,
+   "t_ms": 20,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C6",
+    "n": 26,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 35,
+   "t_ms": 21,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C6",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 36,
+   "t_ms": 21,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C7",
+    "n": 27,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 37,
+   "t_ms": 21,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C7",
+    "n": 28,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 38,
+   "t_ms": 22,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C7",
+    "n": 29,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 27 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 39,
+   "t_ms": 22,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C7",
+    "n": 30,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R01\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 40,
+   "t_ms": 23,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C7",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R01",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Says which aspect (product, part, packaging, process, disposal) and how; Or verifiable evidence / a link or QR to details.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R01",
+      "name": "Vague green terms need qualifiers and substantiation",
+      "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+      "clause": "Clause 5(a)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 41,
+   "t_ms": 23,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C8",
+    "n": 31,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 42,
+   "t_ms": 23,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C8",
+    "n": 32,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 43,
+   "t_ms": 24,
+   "type": "evidence",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "id": "E1",
+    "claim_id": "C8",
+    "source": "text",
+    "detail": "Description: BPA-free nylon bristles infused with black bamboo charcoal",
+    "photo_index": null,
+    "crop_box": null,
+    "covers_claim": "contradicts",
+    "certifier": null,
+    "cert_scope": null,
+    "kind": null,
+    "rule_id": "R02",
+    "note": "The listing names a plastic material, which conflicts with a plastic-free claim."
+   }
+  },
+  {
+   "seq": 44,
+   "t_ms": 25,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C8",
+    "n": 33,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "Page text: 1 item conflicts with the claim.",
+    "ms": 1,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [\"E1\"], \"detail\": \"No proof in the page text. E1 conflicts with the claim: The listing names a plastic material, which conflicts with a plastic-free claim.\"}"
+   }
+  },
+  {
+   "seq": 45,
+   "t_ms": 25,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C8",
+    "n": 34,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Contradicted: The listing names a plastic material, which conflicts with a plastic-free claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 2, \"evidence_ids\": [\"E1\"], \"rule_ids\": [\"R02\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 46,
+   "t_ms": 25,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C8",
+    "label": "Contradicted",
+    "evidence_ids": [
+     "E1"
+    ],
+    "rule_ids": [
+     "R02",
+     "R03"
+    ],
+    "reason": "The listing names a plastic material, which conflicts with a plastic-free claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 47,
+   "t_ms": 25,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C9",
+    "n": 35,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Health and safety statement that says nothing about the environment.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 48,
+   "t_ms": 26,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C9",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Health and safety statement that says nothing about the environment.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 49,
+   "t_ms": 26,
+   "type": "step",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "run_id": "L08-b-7eaca4",
+    "claim_id": "C10",
+    "n": 36,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Health and safety statement that says nothing about the environment.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 50,
+   "t_ms": 26,
+   "type": "verdict",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "claim_id": "C10",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Health and safety statement that says nothing about the environment.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 51,
+   "t_ms": 26,
+   "type": "run_finished",
+   "run_id": "L08-b-7eaca4",
+   "data": {
+    "llm_calls": 1,
+    "tokens_in": 1323,
+    "tokens_out": 916,
+    "est_cost_inr": 0.2364,
+    "elapsed_ms": 26,
+    "counts": {
+     "Not backed": 7,
+     "Contradicted": 1,
+     "Not a claim": 2
+    },
+    "cached_calls": 1,
+    "tool_calls": 9
+   }
+  }
+ ]
+}

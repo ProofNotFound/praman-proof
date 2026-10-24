@@ -1,0 +1,15 @@
+{
+  "_note": "Synthetic Shopify product for parser tests. Not a real listing.",
+  "product": {
+    "id": 1,
+    "title": "Compostable Test Bags - Medium",
+    "vendor": "Test Vendor",
+    "product_type": "Bags",
+    "tags": "garbage_bags, compostable",
+    "body_html": "<p>Made from <b>cornstarch</b></p><ul><li>100% compostable bags</li><li>Leak proof</li></ul><p>See <a href=\"/pages/certificates\">our certificates</a> and <a href=\"https://elsewhere.example/x\">elsewhere</a>.</p><script>var x = 1;</script>",
+    "images": [
+      {"position": 2, "src": "https://cdn.example/files/2_Back.jpg?v=1", "alt": "", "width": 800, "height": 800},
+      {"position": 1, "src": "https://cdn.example/files/1.jpg?v=1", "alt": "front", "width": 800, "height": 800}
+    ]
+  }
+}

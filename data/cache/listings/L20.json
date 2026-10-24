@@ -1,0 +1,249 @@
+{
+  "listing": {
+    "id": "L20",
+    "source": "shopify_json",
+    "url": "https://bombayshavingcompany.com/products/eco-sensi-3-with-2-cartridges",
+    "store": "bombayshavingcompany.com",
+    "title": "Eco Sensi 3 with 2 Cartridges",
+    "body_text": "Eco Sensi 3 combines environmental responsibility with exceptional shaving. The handle uses recycled coconut shells and rice husk from Indian temples and farms, creating a durable eco-alternative to plastic. Triple curved blades provide close, comfortable shaves with minimal irritation, while the aloe vera lubrication strip soothes and hydrates skin. Each cartridge delivers up to 15 shaves for cost-effective sustainability, featuring an ergonomic design for comfortable grip and precise control.",
+    "tags": [
+      "99_store",
+      "CRED-3at599",
+      "CRED-4at699",
+      "Home-New-Arrival",
+      "overlay#LIMITED TIME DEAL",
+      "payday",
+      "Paytm_Sale_3at499",
+      "razor-all",
+      "razor-collection",
+      "razor_3b",
+      "rzr_compare",
+      "ZPT6@999"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/EcoSensi.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/1.jpg",
+        "alt": "",
+        "width": 2000,
+        "height": 2000,
+        "text_score": 0.09408
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/2_59.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/2.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.08126
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/3_56.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/3.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.11403
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/4_58.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/4.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.06442
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/5_51.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/5.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.0625
+      },
+      {
+        "index": 6,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/6_45.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/6.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.08484
+      },
+      {
+        "index": 7,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/EcoSensi-OnlyRazor.webp?v=1762337428",
+        "local_path": "data/cache/images/L20/7.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.09387
+      }
+    ],
+    "fetched_at": "2026-10-17T21:12:48.906342Z",
+    "product_type": "Razors & Blades",
+    "vendor": "Bombay Shaving Company",
+    "links": []
+  },
+  "raw": {
+    "id": 8480544129178,
+    "title": "Eco Sensi 3 with 2 Cartridges",
+    "body_html": "<p>Eco Sensi 3 combines environmental responsibility with exceptional shaving. The handle uses recycled coconut shells and rice husk from Indian temples and farms, creating a durable eco-alternative to plastic. Triple curved blades provide close, comfortable shaves with minimal irritation, while the aloe vera lubrication strip soothes and hydrates skin. Each cartridge delivers up to 15 shaves for cost-effective sustainability, featuring an ergonomic design for comfortable grip and precise control.</p>",
+    "vendor": "Bombay Shaving Company",
+    "product_type": "Razors & Blades",
+    "created_at": "2025-04-16T12:29:57+05:30",
+    "handle": "eco-sensi-3-with-2-cartridges",
+    "updated_at": "2026-10-18T02:42:48+05:30",
+    "published_at": "2026-06-29T14:27:57+05:30",
+    "template_suffix": "new-template",
+    "published_scope": "global",
+    "tags": "99_store, CRED-3at599, CRED-4at699, Home-New-Arrival, overlay#LIMITED TIME DEAL, payday, Paytm_Sale_3at499, razor-all, razor-collection, razor_3b, rzr_compare, ZPT6@999",
+    "variants": [
+      {
+        "id": 45673770975386,
+        "product_id": 8480544129178,
+        "title": "Default Title",
+        "price": "179.00",
+        "sku": "SHAVE_ECO_SENSI-3_RAZOR",
+        "position": 1,
+        "compare_at_price": "179.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2025-04-16T12:29:59+05:30",
+        "updated_at": "2026-10-18T02:42:48+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0.0,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 10918880149658,
+        "product_id": 8480544129178,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 45544613150874,
+        "product_id": 8480544129178,
+        "position": 1,
+        "created_at": "2025-11-05T15:40:18+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 2000,
+        "height": 2000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/EcoSensi.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 42319712157850,
+        "product_id": 8480544129178,
+        "position": 2,
+        "created_at": "2025-04-16T12:24:34+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/2_59.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 42319712452762,
+        "product_id": 8480544129178,
+        "position": 3,
+        "created_at": "2025-04-16T12:24:39+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/3_56.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 42319713075354,
+        "product_id": 8480544129178,
+        "position": 4,
+        "created_at": "2025-04-16T12:24:45+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/4_58.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 42319713370266,
+        "product_id": 8480544129178,
+        "position": 5,
+        "created_at": "2025-04-16T12:24:50+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/5_51.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 42319713927322,
+        "product_id": 8480544129178,
+        "position": 6,
+        "created_at": "2025-04-16T12:24:56+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/6_45.webp?v=1762337428",
+        "variant_ids": []
+      },
+      {
+        "id": 45120756187290,
+        "product_id": 8480544129178,
+        "position": 7,
+        "created_at": "2025-09-10T18:33:36+05:30",
+        "updated_at": "2025-11-05T15:40:28+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/EcoSensi-OnlyRazor.webp?v=1762337428",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 45544613150874,
+      "product_id": 8480544129178,
+      "position": 1,
+      "created_at": "2025-11-05T15:40:18+05:30",
+      "updated_at": "2025-11-05T15:40:28+05:30",
+      "alt": null,
+      "width": 2000,
+      "height": 2000,
+      "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/EcoSensi.webp?v=1762337428",
+      "variant_ids": []
+    }
+  }
+}

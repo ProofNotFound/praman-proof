@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Praman case mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet">
+<style>
+/* Reference mockup for docs/DESIGN.md. Static sample data for case L14. The real app self-hosts fonts. */
+:root{
+  --paper:#F3EFE6; --paper-sunk:#EAE4D7; --card:#FBF9F4;
+  --ink:#1C1B17; --ink-2:#4A473F; --ink-3:#7C776B;
+  --rule:#D6CFBF; --rule-strong:#B9B09C;
+  --accent:#1F5C3F; --accent-wash:#1F5C3F14;
+  --v-backed:#1F7A4D; --v-partly:#A86A12; --v-not:#5F5B51; --v-contra:#B3261E; --v-review:#2457A6; --v-none:#A39E92;
+  --serif:"Fraunces", Georgia, serif; --sans:"IBM Plex Sans", system-ui, sans-serif; --mono:"IBM Plex Mono", ui-monospace, monospace;
+  --deva:"Noto Serif Devanagari", serif;
+  --col-ex:340px; --col-tr:370px;
+}
+@media (max-width:1439px){ :root{ --col-ex:290px; --col-tr:316px; } }
+@media (min-width:1800px){ :root{ --col-ex:380px; --col-tr:420px; } html{font-size:17px} }
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--paper);color:var(--ink);font:400 16px/1.45 var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.07;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .1  0 0 0 0 .09  0 0 0 0 .07  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.label{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.mono{font-family:var(--mono)}
+
+/* top bar */
+.top{height:56px;display:flex;align-items:center;gap:20px;padding:0 24px;border-bottom:1.5px solid var(--rule-strong);background:var(--paper)}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .word{font:600 21px/1 var(--serif);letter-spacing:-.01em}
+.seal{width:38px;height:38px;flex:none}
+.seal.spin{animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.crumb{color:var(--ink-3);font:500 13px/1 var(--mono);letter-spacing:.06em}
+.crumb b{color:var(--ink);font-weight:600}
+.seg{display:flex;border:1px solid var(--rule-strong);border-radius:4px;overflow:hidden;margin-left:12px}
+.seg span{padding:7px 14px;font:500 13px/1 var(--mono);letter-spacing:.06em;color:var(--ink-2)}
+.seg span.on{background:var(--ink);color:var(--paper)}
+.spacer{flex:1}
+.chip{font:500 12px/1 var(--mono);letter-spacing:.08em;padding:6px 8px;border:1px solid var(--rule-strong);border-radius:2px;color:var(--ink-2)}
+.chip.dot::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:7px;vertical-align:1px}
+.chip.warn{border-style:dashed}
+.btn{font:500 14px/1 var(--sans);padding:9px 14px;border-radius:4px;border:1px solid var(--ink);background:transparent;color:var(--ink);display:inline-flex;gap:8px;align-items:center}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn kbd{font:500 11px/1 var(--mono);border:1px solid currentColor;border-radius:2px;padding:2px 4px;opacity:.6}
+
+/* case grid */
+.case{display:grid;grid-template-columns:var(--col-ex) minmax(0,1fr) var(--col-tr);height:calc(100vh - 56px - 56px)}
+.col{min-height:0;overflow:auto;scrollbar-width:thin}
+.exhibit{padding:20px 22px 28px;border-right:1px solid var(--rule)}
+.exhibit h1{font:600 26px/1.15 var(--serif);margin:10px 0 6px;letter-spacing:-.01em;font-variation-settings:"opsz" 60}
+.store{font:500 13px/1 var(--mono);color:var(--ink-3);letter-spacing:.04em}
+.well{margin:16px 0 10px;background:var(--paper-sunk);border:1px solid var(--rule);border-radius:4px;padding:12px;position:relative}
+.well svg{display:block;width:100%;height:auto}
+.thumbs{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.thumb{aspect-ratio:1;border:1px solid var(--rule);border-radius:2px;background:var(--card);position:relative}
+.thumb.on{outline:2px solid var(--accent);outline-offset:1px}
+.thumb.read::after{content:"READ";position:absolute;left:2px;bottom:2px;font:600 8px/1 var(--mono);letter-spacing:.06em;color:var(--accent)}
+.thumb i{position:absolute;inset:22%;border-radius:50%;border:2px solid var(--rule-strong)}
+.thumb.box i{border-radius:2px;inset:18% 26%}
+.desc{margin-top:18px}
+.desc p{margin:8px 0 0;color:var(--ink-2);font-size:16px;line-height:1.6}
+mark{background:none;color:var(--ink);padding:0 1px;border-bottom:2px solid;font-weight:500}
+mark.b{border-color:var(--v-backed);background:#1F7A4D1A}
+mark.c{border-color:var(--v-contra);background:#B3261E1A}
+mark.q{border-bottom:2px dotted var(--ink-3)}
+sup{font:600 10px/1 var(--mono);color:var(--ink-3);margin-left:2px}
+.boxtext{margin-top:14px;padding:10px 12px;border-left:2px solid var(--rule-strong);background:var(--card);font-size:15px;color:var(--ink-2)}
+
+/* board */
+.board{position:relative;padding:20px 24px 28px}
+.board-head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.board-head h2{font:600 22px/1 var(--serif);margin:0}
+.lanes{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);align-items:start}
+.lane{display:flex;flex-direction:column;gap:12px;position:relative;z-index:2}
+.threads{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:visible}
+.threads path{fill:none;stroke-width:1.5;stroke-linecap:round}
+.threads circle{r:3}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:14px 14px 12px;position:relative}
+.claim.active{border-left:2px solid var(--accent);padding-left:13px}
+.claim.wait{opacity:.45}
+.cid{font:600 12px/1 var(--mono);letter-spacing:.08em;color:var(--ink-3)}
+.quote{font:500 20px/1.25 var(--serif);margin:8px 96px 8px 0;font-variation-settings:"opsz" 30}
+.meta{font:500 12px/1.4 var(--mono);letter-spacing:.04em;color:var(--ink-3)}
+.rules{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.rule{font:500 12px/1 var(--mono);padding:4px 6px;border:1px solid var(--rule-strong);border-radius:2px;color:var(--ink-2)}
+.reason{margin:10px 0 0;font-size:15px;color:var(--ink-2);line-height:1.45}
+.sugg{margin-top:8px;font:500 13px/1 var(--sans);color:var(--accent)}
+.stamp{position:absolute;top:12px;right:12px;font:600 14px/1 var(--mono);letter-spacing:.12em;padding:6px 8px 5px;border:2px solid currentColor;outline:1px solid currentColor;outline-offset:2px;transform:rotate(-3deg);filter:url(#ink);opacity:0;animation:stamp .26s cubic-bezier(.2,.9,.3,1.2) forwards}
+.stamp.backed{color:var(--v-backed)} .stamp.contra{color:var(--v-contra)} .stamp.review{color:var(--v-review)}
+@keyframes stamp{0%{opacity:0;transform:scale(1.6) rotate(-8deg)}100%{opacity:.92;transform:scale(1) rotate(-3deg)}}
+.claim.jolt{animation:jolt .08s linear 1}
+@keyframes jolt{50%{transform:translateY(1px)}}
+.working{position:absolute;top:12px;right:12px;display:flex;align-items:center;gap:8px;font:500 12px/1 var(--mono);letter-spacing:.08em;color:var(--accent)}
+.working svg{width:22px;height:22px;animation:spin 6s linear infinite}
+
+.ev .label{display:block;margin-bottom:8px}
+.crop{background:var(--paper-sunk);border-radius:2px;padding:8px;position:relative}
+.crop svg{display:block;width:100%;height:auto}
+.code{font:500 13px/1.45 var(--mono);color:var(--ink-2);margin-top:8px}
+.ledger{font:500 13px/1.5 var(--mono)}
+.ledger .row{display:grid;grid-template-columns:auto 1fr auto;gap:10px;padding:6px 8px;border-top:1px solid var(--rule);align-items:baseline}
+.ledger .row span:first-child{white-space:nowrap}
+.ledger .row.hit{background:linear-gradient(90deg,#1F7A4D22,#1F7A4D0A);border-left:2px solid var(--v-backed)}
+.ledger .row span:last-child{color:var(--v-backed);font-weight:600}
+.ledger small{color:var(--ink-3);font-size:12px}
+.vs{display:grid;grid-template-columns:22px 1fr;align-items:baseline;gap:4px 8px}
+.vs q{font:italic 500 16px/1.3 var(--serif);quotes:"“" "”"}
+.vs .ne{font:600 18px/1 var(--mono);color:var(--v-contra);text-align:center;grid-column:1}
+.vs .side{grid-column:2}
+.vs .tag{font:600 11px/1 var(--mono);color:var(--ink-3);letter-spacing:.06em}
+.vs small{display:block;font:500 11px/1.3 var(--mono);color:var(--ink-3);letter-spacing:.06em;margin-top:4px}
+.ev.contra{border-left:2px solid var(--v-contra);padding-left:13px}
+.ev.backed{border-left:2px solid var(--v-backed);padding-left:13px}
+
+/* trace */
+.trace{background:var(--paper-sunk);border-left:1.5px solid var(--rule-strong);display:flex;flex-direction:column}
+.trace-head{padding:16px 18px 12px;border-bottom:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between}
+.trace-head .t{font:600 13px/1 var(--mono);letter-spacing:.1em}
+.clock{font:500 15px/1 var(--mono);color:var(--ink)}
+.steps{list-style:none;margin:0;padding:6px 0;flex:1;overflow:auto}
+.step{display:grid;grid-template-columns:28px 1fr auto;gap:8px;padding:9px 18px 9px 16px;border-left:2px solid transparent;opacity:0;animation:rowin .18s ease-out forwards}
+@keyframes rowin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.step .n{font:500 12px/1.5 var(--mono);color:var(--ink-3)}
+.step .ph{font:600 11px/1 var(--mono);letter-spacing:.1em;margin-right:6px}
+.step .tool{font:500 13px/1 var(--mono);color:var(--ink)}
+.step .sum{font-size:14.5px;line-height:1.4;color:var(--ink-2);margin-top:4px}
+.step .ms{font:500 12px/1.5 var(--mono);color:var(--ink-3)}
+.ph.plan{color:var(--accent)} .ph.act{color:var(--ink)} .ph.obs{color:var(--ink-2)} .ph.dec{color:var(--v-backed)} .ph.dec.c{color:var(--v-contra)}
+.step.plan .sum{color:var(--ink);font-size:15px}
+.step.live{border-left-color:var(--accent);background:var(--accent-wash);animation:rowin .18s ease-out forwards, pulse 1.6s ease-in-out infinite .2s}
+@keyframes pulse{50%{border-left-color:transparent}}
+.trace-foot{border-top:1px solid var(--rule);padding:10px 18px;display:flex;gap:12px;font:500 12px/1 var(--mono);color:var(--ink-3);letter-spacing:.04em;white-space:nowrap}
+@media (max-width:1439px){.trace-foot .opt{display:none}}
+
+/* director bar */
+.director{height:56px;border-top:1.5px solid var(--rule-strong);display:flex;align-items:center;gap:16px;padding:0 24px;background:var(--card)}
+.ctrl{display:flex;gap:6px}
+.ctrl span{width:34px;height:34px;display:grid;place-items:center;border:1px solid var(--rule-strong);border-radius:4px;font:600 13px/1 var(--mono)}
+.ctrl span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ticks{flex:1;display:flex;gap:3px;align-items:center}
+.ticks i{flex:1;height:10px;border-radius:1px;background:var(--rule)}
+.ticks i.f{background:var(--ink-2)} .ticks i.s{background:var(--v-backed)} .ticks i.x{background:var(--v-contra)} .ticks i.now{background:var(--accent);height:16px}
+.keys{font:500 12px/1 var(--mono);color:var(--ink-3);letter-spacing:.04em;white-space:nowrap}
+.keys kbd{font:600 11px/1 var(--mono);border:1px solid var(--rule-strong);border-radius:2px;padding:2px 5px;color:var(--ink-2);background:var(--paper)}
+.foot-note{font:500 12px/1 var(--mono);color:var(--ink-3);letter-spacing:.03em}
+
+.scanline{animation:sweep 2.2s linear .3s 1 both}
+@keyframes sweep{from{transform:translateY(0)}to{transform:translateY(306px)}}
+.brk{stroke-dasharray:60;stroke-dashoffset:60;animation:draw .42s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition:none!important}.stamp{opacity:.92}.step{opacity:1}}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="ink" x="-10%" y="-20%" width="120%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="1" seed="2" result="s"/>
+      <feColorMatrix in="s" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -3 2.3" result="m"/>
+      <feComposite in="d" in2="m" operator="in"/>
+    </filter>
+    <symbol id="seal" viewBox="0 0 40 40">
+      <path id="ring" d="M20,20 m-15,0 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0" fill="none"/>
+      <circle cx="20" cy="20" r="19" fill="none" stroke="#1F5C3F" stroke-width="1.5"/>
+      <circle cx="20" cy="20" r="11" fill="none" stroke="#1F5C3F" stroke-width=".8"/>
+      <text font-family="IBM Plex Mono" font-size="4.6" font-weight="600" letter-spacing=".9" fill="#1F5C3F"><textPath href="#ring">PRAMAN · PROOF CHECK · PRAMAN · </textPath></text>
+      <text x="20" y="24.4" text-anchor="middle" font-family="Noto Serif Devanagari" font-size="11" font-weight="600" fill="#1F5C3F">प्र</text>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="brand"><svg class="seal spin" aria-hidden="true"><use href="#seal"/></svg><span class="word">Praman</span></div>
+  <div class="crumb">CASES / <b>L14</b></div>
+  <div class="seg" role="group" aria-label="Mode"><span class="on">AGENT</span><span>TEXT-ONLY</span></div>
+  <div class="spacer"></div>
+  <span class="chip dot">REPLAY</span>
+  <span class="chip">ANONYMISED</span>
+  <span class="chip warn">MOCKUP · SAMPLE DATA</span>
+  <button class="btn">Compare <kbd>B</kbd></button>
+  <button class="btn solid">Report <kbd>E</kbd></button>
+</header>
+
+<main class="case">
+  <!-- EXHIBIT -->
+  <aside class="col exhibit">
+    <span class="label">Exhibit · product page</span>
+    <h1>Compostable Garbage Bags, Medium 19 × 21 in, pack of 2</h1>
+    <div class="store">BRAND A · brand-a.example</div>
+
+    <div class="well">
+      <svg viewBox="0 0 300 320" role="img" aria-label="Photo 7: back of the box with printed maker codes">
+        <defs><clipPath id="boxclip"><rect x="20" y="10" width="260" height="300" rx="3"/></clipPath></defs>
+        <rect x="20" y="10" width="260" height="300" rx="3" fill="#FDFCF8" stroke="#CFC6B2"/>
+        <g clip-path="url(#boxclip)">
+          <rect x="20" y="10" width="260" height="46" fill="#2F6B4A"/>
+          <text x="36" y="39" font-family="IBM Plex Sans" font-weight="600" font-size="15" fill="#F3EFE6">BRAND A</text>
+          <text x="264" y="39" text-anchor="end" font-family="IBM Plex Mono" font-size="9" fill="#F3EFE6">GARBAGE BAGS · M</text>
+          <text x="36" y="84" font-family="IBM Plex Sans" font-weight="600" font-size="13" fill="#2A2925">100% ECOFRIENDLY</text>
+          <text x="36" y="104" font-family="IBM Plex Sans" font-weight="600" font-size="13" fill="#2A2925">0% PLASTIC</text>
+          <rect x="196" y="70" width="64" height="40" rx="2" fill="none" stroke="#9C9381"/>
+          <text x="228" y="94" text-anchor="middle" font-family="IBM Plex Mono" font-size="8" fill="#6B655A">COMPOST</text>
+          <g font-family="IBM Plex Mono" font-size="7.4" fill="#4A473F">
+            <text x="36" y="136">Size: 19 x 21 in · 15 bags per roll</text>
+            <text x="36" y="150">Breaks down in ~180 days*</text>
+            <text x="36" y="176" font-weight="600">Manufactured by:</text>
+            <text x="36" y="190">Greendot Biopak Pvt Ltd</text>
+            <text x="36" y="202">CPCB-UPC-II/GREEN DOT BIOPAK/Gujarat/443</text>
+            <text x="36" y="220">Sunshield Biotech LLP</text>
+            <text x="36" y="232">CPCB-UPC-II/SUNSHIELD BIOTECH LLP/Gujarat/131</text>
+            <text x="36" y="258">Marketed by: Brand A, [address masked]</text>
+            <text x="36" y="270">*under suitable conditions</text>
+          </g>
+          <g fill="#2A2925"><rect x="206" y="252" width="2" height="34"/><rect x="210" y="252" width="1" height="34"/><rect x="213" y="252" width="3" height="34"/><rect x="218" y="252" width="1" height="34"/><rect x="221" y="252" width="2" height="34"/><rect x="225" y="252" width="1" height="34"/><rect x="228" y="252" width="3" height="34"/><rect x="233" y="252" width="1" height="34"/><rect x="236" y="252" width="2" height="34"/><rect x="240" y="252" width="1" height="34"/><rect x="243" y="252" width="3" height="34"/><rect x="248" y="252" width="2" height="34"/><rect x="252" y="252" width="1" height="34"/><rect x="255" y="252" width="2" height="34"/></g>
+          <g class="scanline"><rect x="20" y="-14" width="260" height="22" fill="url(#glow)"/><rect x="20" y="8" width="260" height="1" fill="#1F5C3F"/></g>
+          <linearGradient id="glow" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#1F5C3F" stop-opacity="0"/><stop offset="1" stop-color="#1F5C3F" stop-opacity=".22"/></linearGradient>
+        </g>
+        <!-- brackets: maker codes (green) and 0% plastic (red) -->
+        <g fill="none" stroke="#1F7A4D" stroke-width="2.2" stroke-linecap="square">
+          <path class="brk" style="animation-delay:1.1s" d="M30 194 v-12 h12"/><path class="brk" style="animation-delay:1.1s" d="M262 182 h12 v12"/>
+          <path class="brk" style="animation-delay:1.1s" d="M30 228 v12 h12"/><path class="brk" style="animation-delay:1.1s" d="M262 240 h12 v-12"/>
+        </g>
+        <g fill="none" stroke="#B3261E" stroke-width="2.2" stroke-linecap="square">
+          <path class="brk" style="animation-delay:1.6s" d="M30 100 v-10 h10"/><path class="brk" style="animation-delay:1.6s" d="M110 90 h10 v10"/>
+          <path class="brk" style="animation-delay:1.6s" d="M30 102 v8 h10"/><path class="brk" style="animation-delay:1.6s" d="M110 110 h10 v-8"/>
+        </g>
+      </svg>
+    </div>
+    <div class="thumbs" aria-label="Photos">
+      <div class="thumb"><i></i></div><div class="thumb"><i></i></div><div class="thumb"><i></i></div><div class="thumb"><i></i></div>
+      <div class="thumb read box"><i></i></div><div class="thumb read box"><i></i></div><div class="thumb read box on"><i></i></div>
+    </div>
+
+    <div class="desc">
+      <span class="label">Description</span>
+      <p>Made from plant starch, these bags are <mark class="b">100% compostable</mark><sup>C1</sup> and break down in about 180 days<sup>C3</sup>. Strong enough for wet kitchen waste, with a tie-top for easy disposal.</p>
+      <div class="boxtext"><span class="label">On the box · photo 7</span><br>“100% <mark class="q">ecofriendly</mark><sup>C4</sup>, <mark class="c">0% plastic</mark><sup>C2</sup>”</div>
+    </div>
+  </aside>
+
+  <!-- BOARD -->
+  <section class="col board">
+    <div class="board-head"><h2>Claims and proof</h2><span class="label">4 claims · 2 decided</span></div>
+    <div class="lanes" id="lanes">
+      <svg class="threads" id="threads" aria-hidden="true"></svg>
+      <div class="lane" id="claims">
+        <article class="card claim jolt" id="c1" style="animation-delay:2.25s">
+          <span class="cid">C1 · DESCRIPTION</span>
+          <div class="quote">“100% compostable”</div>
+          <div class="meta">SPECIFIC · PRODUCT</div>
+          <div class="rules"><span class="rule">R07 · PWM 4(1)(ha), 4(1)(h)</span></div>
+          <p class="reason">Both makers printed on the box are on CPCB’s certified list.</p>
+          <span class="stamp backed" style="animation-delay:2.2s">BACKED</span>
+        </article>
+        <article class="card claim jolt" id="c2" style="animation-delay:3.05s">
+          <span class="cid">C2 · PHOTO 7</span>
+          <div class="quote">“0% plastic”</div>
+          <div class="meta">SPECIFIC · PRODUCT</div>
+          <div class="rules"><span class="rule">R07 · compostable plastic is still plastic</span></div>
+          <p class="reason">Conflicts with the plastic waste rules: certified compostable bags are compostable <em>plastic</em>.</p>
+          <div class="sugg">Suggested wording ›</div>
+          <span class="stamp contra" style="animation-delay:3s">CONTRADICTED</span>
+        </article>
+        <article class="card claim active" id="c3">
+          <span class="cid">C3 · DESCRIPTION</span>
+          <div class="quote">“break down in about 180 days”</div>
+          <div class="meta">SPECIFIC · DISPOSAL</div>
+          <div class="rules"><span class="rule">R08 · PWM 11(3) label</span><span class="rule">R04 · scope</span></div>
+          <div class="working"><svg aria-hidden="true"><use href="#seal"/></svg>CHECKING</div>
+        </article>
+        <article class="card claim wait" id="c4">
+          <span class="cid">C4 · PHOTO 7</span>
+          <div class="quote">“100% ecofriendly”</div>
+          <div class="meta">VAGUE · PRODUCT · WAITING</div>
+        </article>
+      </div>
+      <div></div>
+      <div class="lane" id="evidence">
+        <article class="card ev backed" id="e3">
+          <span class="label">E3 · Photo 7 · box back</span>
+          <div class="crop">
+            <svg viewBox="0 0 250 64" aria-hidden="true">
+              <g font-family="IBM Plex Mono" font-size="8.4" fill="#2A2925">
+                <text x="14" y="16">Greendot Biopak Pvt Ltd</text>
+                <text x="14" y="28">CPCB-UPC-II/GREEN DOT BIOPAK/Gujarat/443</text>
+                <text x="14" y="44">Sunshield Biotech LLP</text>
+                <text x="14" y="56">CPCB-UPC-II/SUNSHIELD BIOTECH LLP/Gujarat/131</text>
+              </g>
+              <g fill="none" stroke="#1F7A4D" stroke-width="2" stroke-linecap="square"><path d="M4 14 v-10 h10"/><path d="M236 4 h10 v10"/><path d="M4 50 v10 h10"/><path d="M236 60 h10 v-10"/></g>
+            </svg>
+          </div>
+          <div class="code">2 maker codes read exactly as printed</div>
+        </article>
+        <article class="card ev backed" id="e4">
+          <span class="label">E4 · CPCB list · 26 Oct 2023</span>
+          <div class="ledger">
+            <div class="row hit"><span>S.No. 32</span><span>Greendot Biopak Pvt Ltd<br><small>Gujarat · compostable</small></span><span>0.96</span></div>
+            <div class="row hit"><span>S.No. 2</span><span>Sunshield Biotech LLP<br><small>Gujarat · compostable</small></span><span>0.98</span></div>
+          </div>
+        </article>
+        <article class="card ev contra" id="e6">
+          <span class="label">E6 · Conflict check</span>
+          <div class="vs">
+            <span class="tag">C1</span><div class="side"><q>100% compostable</q><small>BACKED AS COMPOSTABLE PLASTIC</small></div>
+            <span class="ne">≠</span><div class="side"></div>
+            <span class="tag">C2</span><div class="side"><q>0% plastic</q><small>BOX · PHOTO 7</small></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACE -->
+  <aside class="col trace">
+    <div class="trace-head"><span class="t">TRACE · AGENT</span><span class="clock">00:23.4</span></div>
+    <ol class="steps">
+      <li class="step plan" style="animation-delay:.05s"><span class="n">01</span><div><span class="ph plan">◇ PLAN</span><span class="tool">C1</span><div class="sum">Look for a certificate in the page text first.</div></div><span class="ms"></span></li>
+      <li class="step" style="animation-delay:.15s"><span class="n">02</span><div><span class="ph act">▸ ACT</span><span class="tool">search_text</span><div class="sum">No CPCB, IS 17088 or certificate mention on the page.</div></div><span class="ms">38 ms</span></li>
+      <li class="step plan" style="animation-delay:.25s"><span class="n">03</span><div><span class="ph plan">◇ PLAN</span><span class="tool">C1</span><div class="sum">Maker codes are usually printed on the box back. Read photos 7, 6, 5.</div></div><span class="ms"></span></li>
+      <li class="step" style="animation-delay:.35s"><span class="n">04</span><div><span class="ph act">▸ ACT</span><span class="tool">read_photos</span><div class="sum">5 photos read · 2 CPCB codes found on photo 7.</div></div><span class="ms">3.8 s</span></li>
+      <li class="step plan" style="animation-delay:.45s"><span class="n">05</span><div><span class="ph plan">◇ PLAN</span><span class="tool">C1</span><div class="sum">Two makers named. Check both against CPCB’s certified list.</div></div><span class="ms"></span></li>
+      <li class="step" style="animation-delay:.55s"><span class="n">06</span><div><span class="ph act">▸ ACT</span><span class="tool">cpcb_lookup</span><div class="sum">Green Dot Biopak → S.No. 32 · Sunshield Biotech → S.No. 2.</div></div><span class="ms">12 ms</span></li>
+      <li class="step" style="animation-delay:.65s"><span class="n">07</span><div><span class="ph dec">■ DECIDE</span><span class="tool">C1</span><div class="sum">Backed · E3 E4 · R07</div></div><span class="ms"></span></li>
+      <li class="step" style="animation-delay:.75s"><span class="n">08</span><div><span class="ph act">▸ ACT</span><span class="tool">check_consistency</span><div class="sum">“0% plastic” on the box vs compostable plastic.</div></div><span class="ms">1.2 s</span></li>
+      <li class="step" style="animation-delay:.85s"><span class="n">09</span><div><span class="ph dec c">■ DECIDE</span><span class="tool">C2</span><div class="sum">Contradicted · E6 · R07</div></div><span class="ms"></span></li>
+      <li class="step plan live" style="animation-delay:.95s"><span class="n">10</span><div><span class="ph plan">◇ PLAN</span><span class="tool">C3</span><div class="sum">Look for “compostable only under industrial composting” in the photo text already read.</div></div><span class="ms"></span></li>
+    </ol>
+    <div class="trace-foot"><span>10 STEPS</span><span>6 MODEL CALLS</span><span>₹0.42</span><span class="opt">REPLAY</span></div>
+  </aside>
+</main>
+
+<footer class="director">
+  <div class="ctrl"><span>↺</span><span class="on">❚❚</span><span>→</span></div>
+  <span class="chip">1×</span>
+  <div class="ticks" aria-hidden="true">
+    <i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="s"></i><i class="f"></i><i class="x"></i><i class="now"></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <span class="keys"><kbd>Space</kbd> pause · <kbd>→</kbd> step · <kbd>B</kbd> compare · <kbd>P</kbd> present</span>
+  <span class="foot-note">Decision support, not legal advice · CPCB list 26 Oct 2023</span>
+</footer>
+
+<script>
+// Draw evidence threads between claim cards and evidence cards.
+const links = [["c1","e3","#1F7A4D",1.0],["c1","e4","#1F7A4D",1.5],["c2","e6","#B3261E",2.6],["c1","e6","#1F7A4D",2.6]];
+function draw(){
+  const lanes = document.getElementById("lanes"), svg = document.getElementById("threads");
+  const box = lanes.getBoundingClientRect();
+  svg.setAttribute("viewBox", `0 0 ${box.width} ${box.height}`);
+  svg.setAttribute("width", box.width); svg.setAttribute("height", box.height);
+  svg.innerHTML = "";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  for (const [a,b,col,delay] of links){
+    const ra = document.getElementById(a).getBoundingClientRect(), rb = document.getElementById(b).getBoundingClientRect();
+    const x1 = ra.right - box.left, y1 = ra.top - box.top + Math.min(44, ra.height/2);
+    const x2 = rb.left - box.left, y2 = rb.top - box.top + Math.min(30, rb.height/2);
+    const dx = (x2 - x1) * .55;
+    const p = document.createElementNS("http://www.w3.org/2000/svg","path");
+    p.setAttribute("d", `M${x1},${y1} C${x1+dx},${y1} ${x2-dx},${y2} ${x2},${y2}`);
+    p.setAttribute("stroke", col);
+    svg.appendChild(p);
+    const len = p.getTotalLength();
+    if (!reduce){
+      p.style.strokeDasharray = len; p.style.strokeDashoffset = len;
+      p.style.transition = `stroke-dashoffset .5s ease-out ${delay}s`;
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{ p.style.strokeDashoffset = 0; }));
+    }
+    for (const [cx,cy] of [[x1,y1],[x2,y2]]){
+      const c = document.createElementNS("http://www.w3.org/2000/svg","circle");
+      c.setAttribute("cx",cx); c.setAttribute("cy",cy); c.setAttribute("r",3); c.setAttribute("fill",col);
+      svg.appendChild(c);
+    }
+  }
+}
+addEventListener("load", ()=>{ draw(); const st=document.querySelector(".steps"); setTimeout(()=>st.scrollTo({top:st.scrollHeight,behavior:"smooth"}),1200); });
+addEventListener("resize", ()=>{ document.querySelectorAll(".threads path").forEach(p=>p.style.transition="none"); draw(); });
+</script>
+</body>
+</html>

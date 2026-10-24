@@ -1,0 +1,6 @@
+s_no,name,type,office_address,plant_address,validity,certificate,conditions,state,table,name_norm,list_date,source
+2,Sunshield Biotech Llp,,,,,,,Gujarat,1,sunshield biotech,2023-10-26,hand-check
+32,Greendotbiopak,,,,,,,Gujarat,1,greendotbiopak,2023-10-26,hand-check
+90,Synthetic Green Polymers Pvt Ltd,Manufacturer,,Pune Maharashtra,,,,Maharashtra,1,synthetic green polymers,2023-10-26,synthetic test row
+91,Synthetic Green Packaging,Manufacturer,,Surat Gujarat,,,,Gujarat,1,synthetic green packaging,2023-10-26,synthetic test row
+5,Synthetic Uncertified Bags,Manufacturer,,Delhi,,,,Delhi,2,synthetic uncertified bags,2023-10-26,synthetic test row

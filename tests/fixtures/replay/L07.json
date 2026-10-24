@@ -1,0 +1,105 @@
+{
+ "listing_id": "L07",
+ "model": "gemini-3.8-flash",
+ "entries": [
+  {
+   "key": "0035d68a6ca06f20b7a99d8418028d9683b3327e8d10c408b36c9ca9589e9acc",
+   "model": "groq:openai/gpt-oss-120b",
+   "template": "write_rewrite",
+   "response_json": "{\"rewrites\": [{\"claim_id\": \"C1\", \"rewrite\": \"The seat cover is made from sustainably sourced material; see the supplier’s sustainability statement [link to statement] for details.\"}, {\"claim_id\": \"C2\", \"rewrite\": \"The cover’s glassine paper layer is biodegradable under industrial composting conditions; refer to the test report [link to test report] for verification.\"}]}",
+   "tokens_in": 585,
+   "tokens_out": 147,
+   "listing_id": "L07"
+  },
+  {
+   "key": "13a7b19e93c35e76c3d2c0ef1989af1f1cf82ff3afcce96ac696e1f65d0c9686",
+   "model": "gemini-3.5-flash-lite",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Product photos often display certification logos or composition details needed to substantiate the eco-friendly claim.\"}",
+   "tokens_in": 499,
+   "tokens_out": 37,
+   "listing_id": "L07"
+  },
+  {
+   "key": "5df24dbe1412a84b684cd35ee461e92525d1fb6067499d45f530b310e0b69bb6",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"label_text\", \"certifier\": null, \"cert_scope\": null, \"note\": \"States the material composition without providing a specific qualifier or external substantiation.\"}, {\"candidate\": 2, \"covers_claim\": \"no\", \"kind\": \"label_text\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Describes the product as paper-based without detailing specific environmental qualifiers or certifications.\"}]}",
+   "tokens_in": 654,
+   "tokens_out": 157,
+   "listing_id": "L07"
+  },
+  {
+   "key": "806cf84a4e172d4558f7322b892b85d0db7e67412b8b2fc349a1595ffdad4722",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"qualifier\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Restates the claim without providing a substantiating standard or detailed qualifier.\"}, {\"candidate\": 2, \"covers_claim\": \"partly\", \"kind\": \"qualifier\", \"certifier\": null, \"cert_scope\": \"material\", \"note\": \"Mentions the material substance used, but lacks a specific test standard or certification.\"}]}",
+   "tokens_in": 692,
+   "tokens_out": 160,
+   "listing_id": "L07"
+  },
+  {
+   "key": "b4e03022be4b245b46ddd12797564235eb5a2ee3ea6bb2206a40acc0f7f41fbe",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Restates the claim using marketing text without providing a named standard or testing evidence.\"}]}",
+   "tokens_in": 643,
+   "tokens_out": 85,
+   "listing_id": "L07"
+  },
+  {
+   "key": "b72262d30607792f26217b3310ccd0a4a69f4516ce7a144c6b0843e2b6dc0599",
+   "model": "gemini-3.5-flash-lite",
+   "template": "read_photos",
+   "response_json": "{\"photos\": [{\"photo\": 1, \"items\": [{\"text\": \"ECO FRIENDLY\", \"kind\": \"claim\", \"box_2d\": [682, 279, 740, 337], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"PAPER BASED\", \"kind\": \"composition\", \"box_2d\": [766, 280, 781, 419]}], \"qr_present\": false}, {\"photo\": 2, \"items\": [{\"text\": \"ECO FRIENDLY\", \"kind\": \"claim\", \"box_2d\": [670, 329, 735, 382], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"PAPER BASED\", \"kind\": \"composition\", \"box_2d\": [755, 329, 776, 455]}], \"qr_present\": false}, {\"photo\": 3, \"items\": [{\"text\": \"COMPOSITION: Glassine paper\", \"kind\": \"composition\", \"box_2d\": [286, 257, 301, 396]}, {\"text\": \"MADE IN INDIA\", \"kind\": \"other\", \"box_2d\": [786, 642, 797, 737]}], \"qr_present\": true}]}",
+   "tokens_in": 3927,
+   "tokens_out": 468,
+   "listing_id": "L07"
+  },
+  {
+   "key": "bc74126df0868b6db104c851be7e9714ab7734c04c45fe69d8954423406ea9ea",
+   "model": "gemini-3.5-flash-lite",
+   "template": "check_consistency",
+   "response_json": "{\"conflicts\": []}",
+   "tokens_in": 813,
+   "tokens_out": 10,
+   "listing_id": "L07"
+  },
+  {
+   "key": "cfd2d8e1305fc3345d86b97a40b0935cec12ec2940abb4f71a3b5f592e0abb3d",
+   "model": "gemini-3.5-flash-lite",
+   "template": "extract_claims",
+   "response_json": "{\"claims\": [{\"quote\": \"ECO FRIENDLY\", \"type\": \"vague\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"biodegradable\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"BPA-free\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": false, \"not_claim_reason\": \"Health or safety statement that says nothing about the environment.\"}]}",
+   "tokens_in": 1114,
+   "tokens_out": 202,
+   "listing_id": "L07"
+  },
+  {
+   "key": "d8938277a26825c64a92ea6bdf7168d3a1134f9c523373cf019227c7d2e99050",
+   "model": "gemini-3.5-flash-lite",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"The text contains no certification; product photos often show biodegradable standards or certification logos.\"}",
+   "tokens_in": 452,
+   "tokens_out": 35,
+   "listing_id": "L07"
+  },
+  {
+   "key": "e88d77ea3b3cb448208b06a795d80344937cc95d428cb4b68b9df23f84c75690",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"label_text\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Mentions the material composition as glassine paper without providing a certification or scientific evidence for biodegradability.\"}, {\"candidate\": 2, \"covers_claim\": \"no\", \"kind\": \"label_text\", \"certifier\": null, \"cert_scope\": null, \"note\": \"States that the product is paper based without providing proof of biodegradability.\"}]}",
+   "tokens_in": 636,
+   "tokens_out": 162,
+   "listing_id": "L07"
+  },
+  {
+   "key": "f29f730f60d0fea7c920429baafccc039078145e0ec74b313dc3d0e54e76ef4a",
+   "model": "groq:openai/gpt-oss-120b",
+   "template": "write_rewrite",
+   "response_json": "{\"rewrites\": [{\"claim_id\": \"C1\", \"rewrite\": \"Replace \\\"ECO FRIENDLY\\\" with \\\"Made with partially renewable material; see [certificate number] for details\\\".\"}, {\"claim_id\": \"C2\", \"rewrite\": \"Remove \\\"biodegradable\\\" as no supporting evidence is available.\"}]}",
+   "tokens_in": 584,
+   "tokens_out": 131,
+   "listing_id": "L07"
+  }
+ ]
+}

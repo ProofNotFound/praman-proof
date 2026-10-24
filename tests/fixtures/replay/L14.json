@@ -1,0 +1,87 @@
+{
+ "listing_id": "L14",
+ "model": "gemini-3.8-flash",
+ "entries": [
+  {
+   "key": "0503c1b8e38489c6bf118645d5b12cf5d2dd1ac87bd3cdae87bdefecc38b16ba",
+   "model": "gemini-3.5-flash-lite",
+   "template": "write_rewrite",
+   "response_json": "{\"rewrites\": [{\"claim_id\": \"C2\", \"rewrite\": \"Remove 'breaks down naturally in the environment', as compostable bags require industrial composting; see disposal instructions on the package.\"}, {\"claim_id\": \"C5\", \"rewrite\": \"Remove '0% plastic' as compostable plastic is still categorized as plastic under current rules; state specific compostability instead.\"}, {\"claim_id\": \"C6\", \"rewrite\": \"Bags degrade within specified timeframes under industrial conditions; see [test report link] for details.\"}, {\"claim_id\": \"C7\", \"rewrite\": \"Ensure the required label stating 'compostable only under industrial composting' is visibly printed on the product packaging or roll.\"}]}",
+   "tokens_in": 562,
+   "tokens_out": 137,
+   "listing_id": "L14"
+  },
+  {
+   "key": "0ff7a2fd97301df727ec04cd92c8e82f65f4c339657917df53d326d9186d68d8",
+   "model": "gemini-3.8-flash",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"cpcb_lookup\", \"queries\": [\"CPCB-UPC-II/GREEN DOT BIOPAK/Gujarat/443\", \"CPCB-UPC-II/SUNSHIELD BIOTECH LLP/Gujarat/131\"], \"url\": null, \"rule_id\": null, \"why\": \"Check CPCB's official registry to verify the two certificate numbers found on the packaging photos.\"}",
+   "tokens_in": 625,
+   "tokens_out": 113,
+   "listing_id": "L14"
+  },
+  {
+   "key": "205586c8a1966313e64d2a460e6b408a3d4e30bd22c428e430ae2c69f1ab7786",
+   "model": "gemini-3.8-flash",
+   "template": "read_photos",
+   "response_json": "{\"photos\": [{\"photo\": 7, \"items\": [{\"text\": \"Marketed By:\\nKwick Living (1) Pvt. Ltd. A-202, Everest Chambers,\\nMarol Naka, Andheri East, Mumbai, Maharashtra,\\n400059.\", \"kind\": \"other\", \"box_2d\": [463, 180, 501, 340]}, {\"text\": \"Manufactured By:\\nGreendot Biopak Pvt Ltd., Joshi Estate-3, Nr. Siddhi\\nOil Mill, Changodar Canal Rd, Sarkhej-Bavla Highway,\\nChangodar, Ahmedabad, Gujarat, 382213.\", \"kind\": \"other\", \"box_2d\": [507, 180, 545, 347]}, {\"text\": \"CPCB: CPCB-UPC-II/GREEN DOT BIOPAK/Gujarat/443\", \"kind\": \"code\", \"box_2d\": [542, 182, 552, 350]}, {\"text\": \"Sunshield Biotech LLP Survey No. 102, Plot No. 1/B,\\nSector No. 3, Akshar Ind Park, Vasana Chacharwadi,\\nTaluka Sanand, Dist. Ahmedabad, Gujarat, 382213.\", \"kind\": \"other\", \"box_2d\": [561, 181, 589, 345]}, {\"text\": \"CPCB: CPCB-UPC-II/SUNSHIELD BIOTECH LLP/Gujarat/131\", \"kind\": \"code\", \"box_2d\": [587, 182, 597, 368]}, {\"text\": \"GREEN CREDS:\", \"kind\": \"claim\", \"box_2d\": [463, 401, 478, 500], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"Composts in 180 days.\", \"kind\": \"label\", \"box_2d\": [486, 415, 500, 535]}, {\"text\": \"100% ecofriendly, 0% plastic.\", \"kind\": \"claim\", \"box_2d\": [507, 417, 521, 567], \"claim_type\": \"specific\", \"scope\": \"product\"}], \"qr_present\": true}, {\"photo\": 6, \"items\": [{\"text\": \"COMPOSTABLE\", \"kind\": \"claim\", \"box_2d\": [490, 415, 498, 565], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"GARBAGE BAGS\", \"kind\": \"other\", \"box_2d\": [517, 408, 550, 676]}, {\"text\": \"100% CORNSTARCH, 0% PLASTIC\", \"kind\": \"composition\", \"box_2d\": [561, 370, 574, 606]}, {\"text\": \"BECAUSE YOUR GARBAGE BAG\", \"kind\": \"other\", \"box_2d\": [594, 377, 616, 764]}, {\"text\": \"SHOULDN'T ADD TO THE TRASH.\", \"kind\": \"claim\", \"box_2d\": [637, 376, 658, 802], \"claim_type\": \"vague\", \"scope\": \"product\"}], \"qr_present\": false}, {\"photo\": 5, \"items\": [{\"text\": \"DISPOSE SMARTER,\", \"kind\": \"other\", \"box_2d\": [45, 143, 134, 850]}, {\"text\": \"LIVE GREENER\", \"kind\": \"claim\", \"box_2d\": [143, 239, 217, 762], \"claim_type\": \"vague\", \"scope\": \"brand\"}, {\"text\": \"GREEN MATERIAL\", \"kind\": \"claim\", \"box_2d\": [717, 81, 754, 417], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"0% Plastic\", \"kind\": \"claim\", \"box_2d\": [301, 542, 368, 608], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"0% Plastic\", \"kind\": \"claim\", \"box_2d\": [837, 935, 934, 979], \"claim_type\": \"specific\", \"scope\": \"product\"}], \"qr_present\": true}, {\"photo\": 3, \"items\": [{\"text\": \"WHY ARE WE BETTER?\", \"kind\": \"claim\", \"box_2d\": [43, 80, 120, 917], \"claim_type\": \"comparative\", \"scope\": \"brand\"}, {\"text\": \"MADE WITH 100% CORNSTARCH\", \"kind\": \"composition\", \"box_2d\": [308, 112, 385, 381]}, {\"text\": \"TAKES ONLY 180 DAYS TO DECOMPOSE\", \"kind\": \"label\", \"box_2d\": [494, 150, 618, 340]}, {\"text\": \"THE REAL ENVIRONMENTAL FRIENDLY CHOICE\", \"kind\": \"claim\", \"box_2d\": [705, 116, 828, 377], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"0% Plastic\", \"kind\": \"claim\", \"box_2d\": [576, 725, 610, 764], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"0% Plastic\", \"kind\": \"claim\", \"box_2d\": [847, 910, 907, 935], \"claim_type\": \"specific\", \"scope\": \"product\"}], \"qr_present\": true}, {\"photo\": 1, \"items\": [{\"text\": \"COMPOSTABLE\", \"kind\": \"claim\", \"box_2d\": [287, 258, 297, 334], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"GARBAGE BAGS\", \"kind\": \"other\", \"box_2d\": [301, 256, 319, 390]}, {\"text\": \"100% CORNSTARCH, 0% PLASTIC\", \"kind\": \"composition\", \"box_2d\": [323, 235, 333, 353]}, {\"text\": \"BECAUSE YOUR GARBAGE BAG\", \"kind\": \"other\", \"box_2d\": [339, 239, 354, 432]}, {\"text\": \"SHOULDN'T ADD TO THE TRASH.\", \"kind\": \"claim\", \"box_2d\": [359, 239, 374, 451], \"claim_type\": \"vague\", \"scope\": \"product\"}, {\"text\": \"COMPOSTABLE\", \"kind\": \"claim\", \"box_2d\": [421, 204, 431, 276], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"GARBAGE BAGS\", \"kind\": \"other\", \"box_2d\": [435, 202, 454, 329]}, {\"text\": \"100% CORNSTARCH, 0% PLASTIC\", \"kind\": \"composition\", \"box_2d\": [457, 183, 467, 296]}, {\"text\": \"BECAUSE YOUR GARBAGE BAG\", \"kind\": \"other\", \"box_2d\": [474, 186, 490, 372]}, {\"text\": \"SHOULDN'T ADD TO THE TRASH.\", \"kind\": \"claim\", \"box_2d\": [493, 186, 511, 390], \"claim_type\": \"vague\", \"scope\": \"product\"}], \"qr_present\": false}]}",
+   "tokens_in": 6117,
+   "tokens_out": 2519,
+   "listing_id": "L14"
+  },
+  {
+   "key": "4686fe0eff0501f573f5f3f8172f0b480e1a005e1974cae98c20c861e6d99319",
+   "model": "gemini-3.8-flash",
+   "template": "extract_claims",
+   "response_json": "{\"claims\": [{\"quote\": \"100% compostable garbage bags\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"Breaks down naturally in the environment\", \"type\": \"specific\", \"scope\": \"disposal\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"Leak proof\", \"type\": \"vague\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": false, \"not_claim_reason\": \"Functional performance statement that does not make an environmental claim.\"}, {\"quote\": \"Can be used for dry/wet waste & for diaper disposal\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": false, \"not_claim_reason\": \"Product usage instruction, not a claim of environmental benefit.\"}]}",
+   "tokens_in": 957,
+   "tokens_out": 1710,
+   "listing_id": "L14"
+  },
+  {
+   "key": "4a7bce3b36baf36a3612c52121c9eebdcfdb91c4805e4b556fd2280b28255993",
+   "model": "gemini-3.8-flash",
+   "template": "check_consistency",
+   "response_json": "{\"conflicts\": []}",
+   "tokens_in": 1341,
+   "tokens_out": 1538,
+   "listing_id": "L14"
+  },
+  {
+   "key": "4d75b5888b341827071fa1d930cc67cb7c8a5a1f1e82baa9345f9489c7a1a2c7",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"partly\", \"kind\": \"scientific_evidence\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Provides a degradation timeframe but lacks a named standard or certifying body.\"}, {\"candidate\": 2, \"covers_claim\": \"partly\", \"kind\": \"qualifier\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Mentions material composition as cornstarch and zero plastic but lacks a certification or test report.\"}, {\"candidate\": 3, \"covers_claim\": \"partly\", \"kind\": \"qualifier\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Describes the material as 100 percent cornstarch without providing verification or standard details.\"}, {\"candidate\": 4, \"covers_claim\": \"partly\", \"kind\": \"scientific_evidence\", \"certifier\": null, \"cert_scope\": null, \"note\": \"States a decomposition timeframe but does not provide supporting test data or certification.\"}]}",
+   "tokens_in": 710,
+   "tokens_out": 307,
+   "listing_id": "L14"
+  },
+  {
+   "key": "78a52c4c410ad4881404d411224a88f979ac4c52558d0d0b816c8bdbf1d67a58",
+   "model": "gemini-3.8-flash",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Check packaging photos for CPCB registration codes, IS/ISO 17088 markings, and mandatory composting labels required by regulations.\"}",
+   "tokens_in": 536,
+   "tokens_out": 48,
+   "listing_id": "L14"
+  },
+  {
+   "key": "9d7942c067380e1ee5cf318fbcad8ae5811d5afa27a60f3ebf055c3320e41e49",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Restates the claim without naming a standard, certification, or test.\"}, {\"candidate\": 2, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Provides material composition details rather than proof of compostability certification.\"}, {\"candidate\": 3, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"States the material used without providing a certifying standard or registry match.\"}, {\"candidate\": 4, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Mentions decomposition time but lacks certification or scientific evidence.\"}]}",
+   "tokens_in": 768,
+   "tokens_out": 284,
+   "listing_id": "L14"
+  },
+  {
+   "key": "ca3938c79dadda7675cfcc109e1226a5a7e4fa987ee47c567b10775ad34ae8e2",
+   "model": "gemini-3.8-flash",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Check packaging photos for qualifiers, material disclosures, or certifications explaining the vague term 'green material'.\"}",
+   "tokens_in": 460,
+   "tokens_out": 38,
+   "listing_id": "L14"
+  }
+ ]
+}

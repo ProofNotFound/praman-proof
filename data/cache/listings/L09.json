@@ -1,0 +1,390 @@
+{
+  "listing": {
+    "id": "L09",
+    "source": "shopify_json",
+    "url": "https://barenecessities.in/products/garden-of-eden-deodorant-earth-friendly-vegan-zero-waste-natural-ecofriendly",
+    "store": "barenecessities.in",
+    "title": "Garden of Eden - Natural Floral Solid Deodorant",
+    "body_text": "Close your eyes. Now imagine a garden following you everywhere you go.\n\nGarden of Eden is a natural solid deodorant with a subtle, fresh frangipani fragrance — feminine without trying too hard. Made with magnesium hydroxide to neutralise odour at source and arrowroot powder to keep underarms dry, this is aluminium-free, baking soda-free, chemical-free personal care that genuinely works.\n\nNo pore-blocking compounds. No synthetic chemicals. No irritation. Just plant-based odour control that lets your skin breathe naturally all day.\n\nSuitable for all skin types including sensitive skin. Comes with a reusable wooden spatula in a recyclable tin.\n\n15g. Made in India.\n\nNatural colour and scent may vary slightly across batches — this is a feature, not a flaw. Always patch test before use\n\nShelf life: Use within 24 months of manufacture. Store in a cool, dry place\n\nRead more about our natural, eco-friendly deodorants here\n\nNote: While our deodorant effectively absorbs some moisture, it is not an antiperspirant\n\n--------------\n\nMRP: Rs.289/- incl. of all taxes (per unit)\n\nCaution: For external use only\n\nCountry of Origin: India\n\n--------------",
+    "tags": [
+      "floral-deodorant",
+      "moisturizing",
+      "natural-deodorant",
+      "plastic-free",
+      "vegan-personal-care"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/5X1A5385copy.webp?v=1704958169",
+        "local_path": "data/cache/images/L09/1.jpg",
+        "alt": "Garden of Eden floral natural deodorant plastic-free",
+        "width": 2552,
+        "height": 2552,
+        "text_score": 0.04829
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_1_1.webp?v=1719481250",
+        "local_path": "data/cache/images/L09/2.jpg",
+        "alt": "Moisturizing plant-based deodorant with floral scent",
+        "width": 1080,
+        "height": 1080,
+        "text_score": 0.0898
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/9.webp?v=1766998617",
+        "local_path": "data/cache/images/L09/3.jpg",
+        "alt": "Round The Clock deodorant lifestyle image sustainable personal care",
+        "width": 1080,
+        "height": 1080,
+        "text_score": 0.01665
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/5X1A5451copy.webp?v=1719481289",
+        "local_path": "data/cache/images/L09/4.jpg",
+        "alt": "Garden of Eden deodorant product detail showing texture",
+        "width": 2491,
+        "height": 2491,
+        "text_score": 0.04367
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/C78D4034-DCC8-4646-B97D-ED60EFBD68BDcopy.webp?v=1719481289",
+        "local_path": "data/cache/images/L09/5.jpg",
+        "alt": "Plant-based floral deodorant lifestyle shot",
+        "width": 2656,
+        "height": 2656,
+        "text_score": 0.02881
+      },
+      {
+        "index": 6,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_3.webp?v=1719481250",
+        "local_path": "data/cache/images/L09/6.jpg",
+        "alt": "Natural floral deodorant eco-conscious personal care",
+        "width": 1080,
+        "height": 1080,
+        "text_score": 0.05113
+      },
+      {
+        "index": 7,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_5_1.webp?v=1719481250",
+        "local_path": "data/cache/images/L09/7.jpg",
+        "alt": "Garden of Eden deodorant eco-friendly packaging design",
+        "width": 1080,
+        "height": 1080,
+        "text_score": 0.0869
+      },
+      {
+        "index": 8,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_6_2.webp?v=1719481250",
+        "local_path": "data/cache/images/L09/8.jpg",
+        "alt": "",
+        "width": 1080,
+        "height": 1080,
+        "text_score": 0.07002
+      },
+      {
+        "index": 9,
+        "url": "https://cdn.shopify.com/s/files/1/1770/7729/files/Edited.webp?v=1719481289",
+        "local_path": "data/cache/images/L09/9.jpg",
+        "alt": "Garden of Eden deodorant sustainable packaging close-up",
+        "width": 2656,
+        "height": 2656,
+        "text_score": 0.05431
+      }
+    ],
+    "fetched_at": "2026-10-17T21:11:22.694574Z",
+    "product_type": "Personal Care",
+    "vendor": "Bare Necessities",
+    "links": [
+      "https://barenecessities.in/products/rock-n-roll-deodorant-earth-friendly-vegan-zero-waste-ecofriendly-natural"
+    ]
+  },
+  "raw": {
+    "id": 8336505897206,
+    "title": "Garden of Eden - Natural Floral Solid Deodorant",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Close your eyes. Now imagine a garden following you everywhere you go.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Garden of Eden</strong> is a <strong>natural solid deodorant</strong> with a subtle, fresh frangipani fragrance — feminine without trying too hard. Made with <strong>magnesium hydroxide</strong> to neutralise odour at source and <strong>arrowroot powder</strong> to keep underarms dry, this is <strong>aluminium-free, baking soda-free, chemical-free</strong> personal care that genuinely works.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">No pore-blocking compounds. No synthetic chemicals. No irritation. Just <strong>plant-based odour control</strong> that lets your skin breathe naturally all day.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Suitable for <strong>all skin types including sensitive skin.</strong> Comes with a <strong>reusable wooden spatula</strong> in a recyclable tin.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>15g. Made in India.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Natural colour and scent may vary slightly across batches — this is a feature, not a flaw. Always patch test before use</em></p>\n<p><b>Shelf life:</b> Use within 24 months of manufacture. Store in a cool, dry place<strong><span style=\"font-weight: 400;\"><br><br></span></strong><a rel=\"noopener noreferrer\" title=\"Natural and eco-friendly underarm deodorants\" href=\"https://barenecessities.in/products/rock-n-roll-deodorant-earth-friendly-vegan-zero-waste-ecofriendly-natural\" target=\"_blank\"><span style=\"text-decoration: underline;\"><span style=\"color: #2b00ff; text-decoration: underline;\">Read more about our natural, eco-friendly deodorants here</span></span></a><br><br><meta charset=\"utf-8\"> <strong>Note:</strong> <span style=\"font-weight: 400;\">While our </span><span style=\"font-weight: 400;\">deodorant</span><span style=\"font-weight: 400;\"> effectively absorbs some moisture, it is not an antiperspirant</span><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\"><b></b></span></span></span><span style=\"font-weight: 400;\"></span></p>\n<p><meta charset=\"utf-8\">--------------</p>\n<p><b>MRP:</b> Rs.289/- incl. of all taxes <meta charset=\"utf-8\">(per unit)</p>\n<p><strong>Caution: </strong>For external use only</p>\n<p><strong>Country of Origin:</strong> India</p>\n<p><b></b>--------------<br></p>",
+    "vendor": "Bare Necessities",
+    "product_type": "Personal Care",
+    "created_at": "2024-01-11T12:53:45+05:30",
+    "handle": "garden-of-eden-deodorant-earth-friendly-vegan-zero-waste-natural-ecofriendly",
+    "updated_at": "2026-10-18T02:41:22+05:30",
+    "published_at": "2024-01-12T08:31:49+05:30",
+    "template_suffix": "",
+    "published_scope": "global",
+    "tags": "floral-deodorant, moisturizing, natural-deodorant, plastic-free, vegan-personal-care",
+    "variants": [
+      {
+        "id": 46246050038006,
+        "product_id": 8336505897206,
+        "title": "Just 1 / With Wooden Applicator",
+        "price": "289.00",
+        "sku": "BNPC1033",
+        "position": 1,
+        "compare_at_price": "",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Just 1",
+        "option2": "With Wooden Applicator",
+        "option3": null,
+        "created_at": "2024-04-01T12:21:12+05:30",
+        "updated_at": "2026-10-18T02:41:22+05:30",
+        "taxable": true,
+        "barcode": "8906126590888",
+        "grams": 32,
+        "image_id": null,
+        "weight": 0.032,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "",
+        "quantity_price_breaks": []
+      },
+      {
+        "id": 46246050365686,
+        "product_id": 8336505897206,
+        "title": "Just 1 / Without Wooden Applicator",
+        "price": "289.00",
+        "sku": "BNPC1033",
+        "position": 2,
+        "compare_at_price": "",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Just 1",
+        "option2": "Without Wooden Applicator",
+        "option3": null,
+        "created_at": "2024-04-01T12:21:12+05:30",
+        "updated_at": "2026-10-18T02:41:22+05:30",
+        "taxable": true,
+        "barcode": "8906126590888",
+        "grams": 34,
+        "image_id": null,
+        "weight": 0.034,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "",
+        "quantity_price_breaks": []
+      },
+      {
+        "id": 47024613196022,
+        "product_id": 8336505897206,
+        "title": "Pack of 2 / With Wooden Applicator",
+        "price": "559.00",
+        "sku": "BNPC1033 -1",
+        "position": 3,
+        "compare_at_price": "578.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Pack of 2",
+        "option2": "With Wooden Applicator",
+        "option3": null,
+        "created_at": "2024-07-19T11:39:45+05:30",
+        "updated_at": "2026-10-18T02:41:22+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 32,
+        "image_id": null,
+        "weight": 0.032,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      },
+      {
+        "id": 47024613228790,
+        "product_id": 8336505897206,
+        "title": "Pack of 2 / Without Wooden Applicator",
+        "price": "559.00",
+        "sku": "BNPC1033 -1",
+        "position": 4,
+        "compare_at_price": "578.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Pack of 2",
+        "option2": "Without Wooden Applicator",
+        "option3": null,
+        "created_at": "2024-07-19T11:39:45+05:30",
+        "updated_at": "2026-10-18T02:41:22+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 32,
+        "image_id": null,
+        "weight": 0.032,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 11117915373814,
+        "product_id": 8336505897206,
+        "name": "How many?",
+        "position": 1,
+        "values": [
+          "Just 1",
+          "Pack of 2"
+        ]
+      },
+      {
+        "id": 10751603015926,
+        "product_id": 8336505897206,
+        "name": "Style",
+        "position": 2,
+        "values": [
+          "With Wooden Applicator",
+          "Without Wooden Applicator"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 39702199173366,
+        "product_id": 8336505897206,
+        "position": 1,
+        "created_at": "2024-01-11T12:59:16+05:30",
+        "updated_at": "2024-01-11T12:59:29+05:30",
+        "alt": "Garden of Eden floral natural deodorant plastic-free",
+        "width": 2552,
+        "height": 2552,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/5X1A5385copy.webp?v=1704958169",
+        "variant_ids": []
+      },
+      {
+        "id": 40866373566710,
+        "product_id": 8336505897206,
+        "position": 2,
+        "created_at": "2024-06-27T15:10:49+05:30",
+        "updated_at": "2024-06-27T15:10:50+05:30",
+        "alt": "Moisturizing plant-based deodorant with floral scent",
+        "width": 1080,
+        "height": 1080,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_1_1.webp?v=1719481250",
+        "variant_ids": []
+      },
+      {
+        "id": 40866352595190,
+        "product_id": 8336505897206,
+        "position": 3,
+        "created_at": "2024-06-27T15:01:59+05:30",
+        "updated_at": "2025-12-29T14:26:57+05:30",
+        "alt": "Round The Clock deodorant lifestyle image sustainable personal care",
+        "width": 1080,
+        "height": 1080,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/9.webp?v=1766998617",
+        "variant_ids": []
+      },
+      {
+        "id": 39702199107830,
+        "product_id": 8336505897206,
+        "position": 4,
+        "created_at": "2024-01-11T12:59:16+05:30",
+        "updated_at": "2024-06-27T15:11:29+05:30",
+        "alt": "Garden of Eden deodorant product detail showing texture",
+        "width": 2491,
+        "height": 2491,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/5X1A5451copy.webp?v=1719481289",
+        "variant_ids": []
+      },
+      {
+        "id": 39702195339510,
+        "product_id": 8336505897206,
+        "position": 5,
+        "created_at": "2024-01-11T12:58:43+05:30",
+        "updated_at": "2024-06-27T15:11:29+05:30",
+        "alt": "Plant-based floral deodorant lifestyle shot",
+        "width": 2656,
+        "height": 2656,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/C78D4034-DCC8-4646-B97D-ED60EFBD68BDcopy.webp?v=1719481289",
+        "variant_ids": []
+      },
+      {
+        "id": 40866373599478,
+        "product_id": 8336505897206,
+        "position": 6,
+        "created_at": "2024-06-27T15:10:48+05:30",
+        "updated_at": "2024-06-27T15:10:50+05:30",
+        "alt": "Natural floral deodorant eco-conscious personal care",
+        "width": 1080,
+        "height": 1080,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_3.webp?v=1719481250",
+        "variant_ids": []
+      },
+      {
+        "id": 40866373632246,
+        "product_id": 8336505897206,
+        "position": 7,
+        "created_at": "2024-06-27T15:10:49+05:30",
+        "updated_at": "2024-06-27T15:10:50+05:30",
+        "alt": "Garden of Eden deodorant eco-friendly packaging design",
+        "width": 1080,
+        "height": 1080,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_5_1.webp?v=1719481250",
+        "variant_ids": []
+      },
+      {
+        "id": 40866373665014,
+        "product_id": 8336505897206,
+        "position": 8,
+        "created_at": "2024-06-27T15:10:49+05:30",
+        "updated_at": "2024-06-27T15:10:50+05:30",
+        "alt": null,
+        "width": 1080,
+        "height": 1080,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/Garden_of_Eden_Deo_6_2.webp?v=1719481250",
+        "variant_ids": []
+      },
+      {
+        "id": 39702195405046,
+        "product_id": 8336505897206,
+        "position": 9,
+        "created_at": "2024-01-11T12:58:43+05:30",
+        "updated_at": "2024-06-27T15:11:29+05:30",
+        "alt": "Garden of Eden deodorant sustainable packaging close-up",
+        "width": 2656,
+        "height": 2656,
+        "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/Edited.webp?v=1719481289",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 39702199173366,
+      "product_id": 8336505897206,
+      "position": 1,
+      "created_at": "2024-01-11T12:59:16+05:30",
+      "updated_at": "2024-01-11T12:59:29+05:30",
+      "alt": "Garden of Eden floral natural deodorant plastic-free",
+      "width": 2552,
+      "height": 2552,
+      "src": "https://cdn.shopify.com/s/files/1/1770/7729/files/5X1A5385copy.webp?v=1704958169",
+      "variant_ids": []
+    }
+  }
+}

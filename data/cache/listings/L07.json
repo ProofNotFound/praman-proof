@@ -1,0 +1,156 @@
+{
+  "listing": {
+    "id": "L07",
+    "source": "shopify_json",
+    "url": "https://peesafe.com/products/disposable-toilet-seat-cover-20n-bulk-buy",
+    "store": "peesafe.com",
+    "title": "Disposable Toilet Seat Cover (20N) - BULK BUY",
+    "body_text": "• FOR COMPLETE PROTECTION IN PUBLIC TOILETS - Pee Safe Disposable Toilet Seat Cover is best suited for offices/public toilets where direct contact with the seat is required. It assures zero germ contact and is a must-have for commuters and those who are prone to UTIs and other diseases.\n\n• DISPOSABLE AND ECO FRIENDLY - Pee Safe Disposable Toilet Seat Cover can be safely disposed of in the garbage after use. It's made with paper-based components to keep you healthy and safe from filthy restrooms.\n\n• HOW TO USE - Take the Pee Safe Disposable Toilet Seat Cover out of the pouch and place it on the top of the toilet seat. After using the cover, dispose of it in a dustbin.\n\n• COMFORTABLE SHEETS - Pee Safe Disposable Toilet Covers are made from biodegradable paper substances and fit any standard toilet seat. Soft, comfy, hygienic, and simple to use, the covers are a great choice.\n\n• EASY TO CARRY & SUITABLE FOR EVERYONE - Pee Safe Disposable Toilet Seat Covers are packaged in a small, lightweight package that readily fits into any handbag or backpack. Everyone can use it safely.",
+    "tags": [
+      "block-sticky-atc-bar",
+      "corner-hide-qty",
+      "Corporate Orders"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_Seat_Cover_20ps.jpg?v=1744031846",
+        "local_path": "data/cache/images/L07/1.jpg",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.04835
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_seat_cover_20_pcs_side.jpg?v=1744031987",
+        "local_path": "data/cache/images/L07/2.jpg",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.03571
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_seat_cover_20_pcs_Back.jpg?v=1744031987",
+        "local_path": "data/cache/images/L07/3.jpg",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "text_score": 0.0693
+      }
+    ],
+    "fetched_at": "2026-10-17T21:11:09.673040Z",
+    "product_type": "Toilet Seat Cover",
+    "vendor": "Pee Safe",
+    "links": []
+  },
+  "raw": {
+    "id": 7568167600239,
+    "title": "Disposable Toilet Seat Cover (20N) - BULK BUY",
+    "body_html": "<ul class=\"a-unordered-list a-vertical a-spacing-mini\">\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">FOR COMPLETE PROTECTION IN PUBLIC TOILETS - Pee Safe Disposable Toilet Seat Cover is best suited for offices/public toilets where direct contact with the seat is required. It assures zero germ contact and is a must-have for commuters and those who are prone to UTIs and other diseases.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">DISPOSABLE AND ECO FRIENDLY - Pee Safe Disposable Toilet Seat Cover can be safely disposed of in the garbage after use. It's made with paper-based components to keep you healthy and safe from filthy restrooms.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">HOW TO USE - Take the Pee Safe Disposable Toilet Seat Cover out of the pouch and place it on the top of the toilet seat. After using the cover, dispose of it in a dustbin.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">COMFORTABLE SHEETS - Pee Safe Disposable Toilet Covers are made from biodegradable paper substances and fit any standard toilet seat. Soft, comfy, hygienic, and simple to use, the covers are a great choice.</span></li>\n<li class=\"a-spacing-mini\"><span class=\"a-list-item\">EASY TO CARRY &amp; SUITABLE FOR EVERYONE - Pee Safe Disposable Toilet Seat Covers are packaged in a small, lightweight package that readily fits into any handbag or backpack. Everyone can use it safely.</span></li>\n</ul>\n<!---->",
+    "vendor": "Pee Safe",
+    "product_type": "Toilet Seat Cover",
+    "created_at": "2024-07-04T12:02:01+05:30",
+    "handle": "disposable-toilet-seat-cover-20n-bulk-buy",
+    "updated_at": "2026-10-18T02:41:09+05:30",
+    "published_at": "2024-07-13T19:20:31+05:30",
+    "template_suffix": "corporate-orders",
+    "published_scope": "global",
+    "tags": "block-sticky-atc-bar, corner-hide-qty, Corporate Orders",
+    "variants": [
+      {
+        "id": 42265364922479,
+        "product_id": 7568167600239,
+        "title": "Default Title",
+        "price": "123.00",
+        "sku": "RC361",
+        "position": 1,
+        "compare_at_price": "175.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2024-07-04T12:02:01+05:30",
+        "updated_at": "2026-10-18T02:41:09+05:30",
+        "taxable": true,
+        "barcode": "8906124302179",
+        "grams": 0,
+        "image_id": null,
+        "weight": 0.0,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 9625779011695,
+        "product_id": 7568167600239,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 34191356297327,
+        "product_id": 7568167600239,
+        "position": 1,
+        "created_at": "2024-07-09T11:51:30+05:30",
+        "updated_at": "2025-04-07T18:47:26+05:30",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_Seat_Cover_20ps.jpg?v=1744031846",
+        "variant_ids": []
+      },
+      {
+        "id": 34012555706479,
+        "product_id": 7568167600239,
+        "position": 2,
+        "created_at": "2024-06-11T17:17:27+05:30",
+        "updated_at": "2025-04-07T18:49:47+05:30",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_seat_cover_20_pcs_side.jpg?v=1744031987",
+        "variant_ids": []
+      },
+      {
+        "id": 34012555640943,
+        "product_id": 7568167600239,
+        "position": 3,
+        "created_at": "2024-06-11T17:17:27+05:30",
+        "updated_at": "2025-04-07T18:49:47+05:30",
+        "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+        "width": 2100,
+        "height": 2100,
+        "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_seat_cover_20_pcs_Back.jpg?v=1744031987",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 34191356297327,
+      "product_id": 7568167600239,
+      "position": 1,
+      "created_at": "2024-07-09T11:51:30+05:30",
+      "updated_at": "2025-04-07T18:47:26+05:30",
+      "alt": "Pee Safe Disposable Toilet Seat Cover (20N) - BULK BUY",
+      "width": 2100,
+      "height": 2100,
+      "src": "https://cdn.shopify.com/s/files/1/0055/7855/5503/files/Disposable_Toilet_Seat_Cover_20ps.jpg?v=1744031846",
+      "variant_ids": []
+    }
+  }
+}

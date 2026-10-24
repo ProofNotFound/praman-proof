@@ -1,0 +1,471 @@
+[
+ {
+  "name": "green_claims",
+  "title": "Green claims",
+  "domain": "Environmental claims on consumer products",
+  "status": "active",
+  "status_note": "Runs in the agent today: every case in this app.",
+  "version": "0.2",
+  "as_of": "2026-10-24",
+  "sources": [
+   "CCPA guidelines on environmental claims, 2024",
+   "Plastic Waste Management (Amendment) Rules, 2024"
+  ],
+  "rules": [
+   {
+    "id": "R01",
+    "name": "Vague green terms need qualifiers and substantiation",
+    "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+    "clause": "Clause 5(a)",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "eco-friendly",
+     "eco friendly",
+     "ecofriendly",
+     "environment friendly",
+     "environmentally friendly",
+     "earth-friendly",
+     "earth friendly",
+     "planet-friendly",
+     "planet friendly",
+     "green",
+     "sustainable",
+     "sustainably",
+     "natural",
+     "clean",
+     "pure",
+     "organic",
+     "cruelty-free",
+     "carbon-neutral",
+     "carbon neutral",
+     "eco-conscious",
+     "good for the planet",
+     "kind to the planet",
+     "minimal impact",
+     "regenerative",
+     "conscious",
+     "eco-consciousness",
+     "chemical-free",
+     "chemical free",
+     "free from chemicals",
+     "nature-friendly",
+     "nature friendly"
+    ],
+    "evidence": [
+     "Says which aspect (product, part, packaging, process, disposal) and how",
+     "Or verifiable evidence / a link or QR to details"
+    ]
+   },
+   {
+    "id": "R02",
+    "name": "Specific environmental claims need credible certification or scientific evidence",
+    "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+    "clause": "Clause 6(5); Clause 5(c)",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "compostable",
+     "degradable",
+     "biodegradable",
+     "bio-degradable",
+     "free of",
+     "free-of",
+     "plastic-free",
+     "plastic free",
+     "zero plastic",
+     "0% plastic",
+     "non-toxic",
+     "toxin-free",
+     "recyclable",
+     "recycled",
+     "renewable",
+     "climate-positive",
+     "climate positive",
+     "net-zero",
+     "net zero",
+     "zero waste",
+     "zero-waste",
+     "plastic neutral",
+     "carbon negative",
+     "plastic-positive",
+     "plastic positive",
+     "refillable",
+     "100% natural",
+     "all natural",
+     "sustainability",
+     "sustainably sourced",
+     "responsibly sourced",
+     "climate neutral",
+     "climate-neutral",
+     "carbon positive",
+     "carbon-positive",
+     "water positive",
+     "upcycled",
+     "recycled content",
+     "post-consumer"
+    ],
+    "evidence": [
+     "Named certifier or standard that covers this claim and this product"
+    ]
+   },
+   {
+    "id": "R03",
+    "name": "Material details must be accessible (QR code or URL)",
+    "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+    "clause": "Clause 6(1), 6(2) and 6(6)",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [],
+    "evidence": [
+     "A QR code or link to the details behind the claim"
+    ]
+   },
+   {
+    "id": "R04",
+    "name": "The claim must state its scope",
+    "summary": "A claim must say whether it refers to the whole product or part of it, the manufacturing process, the packaging, use or disposal, or a service.",
+    "clause": "Clause 6(3); Annexure 1, para 4",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [],
+    "evidence": [
+     "Scope is explicit (claim.scope is not 'unclear')"
+    ]
+   },
+   {
+    "id": "R05",
+    "name": "Comparisons need data on what exactly is compared",
+    "summary": "Comparative claims must rest on verifiable, relevant data and say exactly what is being compared. 'Greener than the competition' alone is not enough; 'first' or 'only' claims are comparisons too.",
+    "clause": "Clause 6(4); Annexure 1, para 3",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "greener than",
+     "better for the planet than",
+     "less plastic than",
+     "first ",
+     "only ",
+     "most sustainable",
+     "lower emissions",
+     "less water",
+     "more sustainable",
+     "better for the environment",
+     "kinder to the planet than",
+     "than before",
+     "than our previous",
+     "than conventional",
+     "than regular",
+     "than traditional",
+     "compared to",
+     "% less",
+     "reduced plastic",
+     "lower carbon",
+     "fewer emissions"
+    ],
+    "evidence": [
+     "Data, method and baseline for the comparison"
+    ]
+   },
+   {
+    "id": "R06",
+    "name": "Future promises need an actionable plan",
+    "summary": "Aspirational claims (for example 'net zero by 2030') may be made only with clear, actionable plans for how they will be achieved.",
+    "clause": "Clause 7",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "by 20",
+     "will be",
+     "aim to",
+     "committed to",
+     "on our way to",
+     "pledge",
+     "pledged",
+     "working towards",
+     "striving to",
+     "plan to",
+     "target of",
+     "will become",
+     "by the year"
+    ],
+    "evidence": [
+     "Concrete plan, milestones or a linked roadmap"
+    ]
+   },
+   {
+    "id": "R07",
+    "name": "Compostable plastic needs a CPCB certificate and IS/ISO 17088 conformity",
+    "summary": "Makers of compostable plastic carry bags and commodities must hold a CPCB certificate before marketing or selling, and compostable plastic must conform to IS/ISO 17088:2021.",
+    "clause": "Rule 4(1)(ha) (CPCB certificate before marketing or selling); Rule 4(1)(h) (IS/ISO 17088:2021)",
+    "source": "Plastic Waste Management (Amendment) Rules, 2024",
+    "terms": [
+     "compostable"
+    ],
+    "evidence": [
+     "Maker found on CPCB's certified list"
+    ]
+   },
+   {
+    "id": "R08",
+    "name": "Compostable items must carry the industrial-composting label",
+    "summary": "Each compostable plastic item must bear the label 'compostable only under industrial composting'.",
+    "clause": "Rule 11(3)",
+    "source": "Plastic Waste Management (Amendment) Rules, 2024",
+    "terms": [
+     "compostable"
+    ],
+    "evidence": [
+     "Required label visible in text or photos"
+    ]
+   },
+   {
+    "id": "R09",
+    "name": "Biodegradable plastic: no microplastics, a label with days and environment, and a CPCB certificate",
+    "summary": "Biodegradable plastic must degrade by biological processes without leaving microplastics or visible or toxic residue, must state the number of days and the environment in which it degrades, and its maker needs a CPCB certificate.",
+    "clause": "Rule 3 definition of biodegradable plastics (as substituted); Rule 11(4); Rule 4(1)(ha)",
+    "source": "Plastic Waste Management (Amendment) Rules, 2024",
+    "terms": [
+     "biodegradable",
+     "bio-degradable",
+     "oxo-biodegradable",
+     "oxo biodegradable",
+     "degradable"
+    ],
+    "evidence": [
+     "CPCB certificate (the list we hold covers compostable makers; mark Needs review if not found)",
+     "Number of days and environment stated"
+    ]
+   },
+   {
+    "id": "R10",
+    "name": "A certificate must cover this claim and this product",
+    "summary": "Certifications must come from credible statutory or independent bodies and be relevant to the claim. Company-level badges (B Corp), fragrance-safety certificates (IFRA) or natural-origin ingredient certificates do not back claims like eco-friendly, compostable or plastic-free.",
+    "clause": "Clause 5(c) and 6(5); Annexure 1, para 6",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "certified",
+     "certificate",
+     "B Corp",
+     "Ecocert",
+     "IFRA",
+     "FSC",
+     "GOTS",
+     "PETA",
+     "COSMOS",
+     "BPI",
+     "plastic neutral",
+     "recommended by",
+     "endorsed by",
+     "approved by",
+     "expert approved",
+     "experts recommend",
+     "certified organic",
+     "organic certified",
+     "India Organic",
+     "Jaivik Bharat",
+     "NPOP",
+     "USDA Organic",
+     "Ecomark",
+     "GreenPro",
+     "Green Seal",
+     "EU Ecolabel",
+     "OEKO-TEX",
+     "Cradle to Cradle",
+     "Fairtrade",
+     "Rainforest Alliance",
+     "Leaping Bunny",
+     "OK compost",
+     "TUV",
+     "TÜV",
+     "EN 13432",
+     "ISO 17088",
+     "ASTM D6400",
+     "seal of approval"
+    ],
+    "evidence": [
+     "cert_scope is 'product' or 'material' and matches the claim"
+    ]
+   },
+   {
+    "id": "R11",
+    "name": "Puffery and mission statements are not product claims",
+    "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+    "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [],
+    "evidence": []
+   },
+   {
+    "id": "R12",
+    "name": "Technical environmental terms must be explained in plain words",
+    "summary": "Technical terms such as Environmental Impact Assessment, greenhouse gas emissions or ecological footprint need consumer-friendly language that explains what they mean for this product.",
+    "clause": "Clause 5(b)",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "greenhouse gas",
+     "greenhouse gases",
+     "ghg",
+     "carbon footprint",
+     "ecological footprint",
+     "environmental impact assessment",
+     "life cycle assessment",
+     "life-cycle assessment",
+     "lca",
+     "co2e",
+     "co2 emissions",
+     "carbon emissions",
+     "scope 1",
+     "scope 2",
+     "scope 3",
+     "carbon offset",
+     "carbon offsets",
+     "carbon credits"
+    ],
+    "evidence": [
+     "A plain-language explanation of the technical term and what it means for this product"
+    ]
+   },
+   {
+    "id": "R13",
+    "name": "Nature slogans and imagery need real substance behind them",
+    "summary": "Words, symbols or imagery that suggest a product is environmentally responsible, such as 'gentle on nature', without relevant details or context are misleading.",
+    "clause": "Clause 2(1)(f)(ii); Annexure 1, para 5",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "gentle on nature",
+     "kind to nature",
+     "in harmony with nature",
+     "made by nature",
+     "nature's way",
+     "back to nature",
+     "love the planet",
+     "greener tomorrow",
+     "greener future",
+     "save the planet",
+     "save the earth",
+     "protect the planet",
+     "mother earth",
+     "go green"
+    ],
+    "evidence": [
+     "Specific details of the environmental benefit the slogan suggests"
+    ]
+   },
+   {
+    "id": "R14",
+    "name": "Research results must be disclosed in full, not only the favourable parts",
+    "summary": "Data from research must not be selected to highlight only favourable observations while hiding unfavourable ones; claims citing studies or tests should give access to the full results.",
+    "clause": "Clause 6(2); Annexure 1, para 1",
+    "source": "CCPA guidelines on environmental claims, 2024",
+    "terms": [
+     "studies show",
+     "study shows",
+     "research shows",
+     "independently tested",
+     "lab tested",
+     "laboratory tested",
+     "tested by",
+     "test results",
+     "test report",
+     "proven to",
+     "scientifically proven"
+    ],
+    "evidence": [
+     "A link or QR code to the full study or test report, unfavourable results included"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "food_labels",
+  "title": "Food label claims",
+  "domain": "Packaged food and beverages",
+  "status": "loaded",
+  "status_note": "Rules load and match through the same engine. Connecting the agent needs a claim prompt for food labels and a labelled set to check it against.",
+  "version": "0.1",
+  "as_of": "2026-10-23",
+  "sources": [
+   "FSSAI advertising and claims regulations, 2018",
+   "FSSAI organic foods regulations, 2017"
+  ],
+  "rules": [
+   {
+    "id": "F01",
+    "name": "Organic needs certification and the Jaivik Bharat mark",
+    "summary": "Food sold as organic must be certified under a recognised system (NPOP or PGS-India) and carry the Jaivik Bharat logo on the label.",
+    "clause": "clause to be confirmed",
+    "source": "FSSAI organic foods regulations, 2017",
+    "terms": [
+     "organic",
+     "organically grown",
+     "certified organic",
+     "jaivik"
+    ],
+    "evidence": [
+     "NPOP or PGS-India certificate, or the Jaivik Bharat logo on the pack"
+    ]
+   },
+   {
+    "id": "F02",
+    "name": "Words like natural, fresh and pure have conditions",
+    "summary": "Natural, fresh, pure, original, traditional, authentic, genuine and real may be used only when the food meets the conditions set for each word; otherwise the label must qualify or drop the word.",
+    "clause": "clause to be confirmed",
+    "source": "FSSAI advertising and claims regulations, 2018",
+    "terms": [
+     "natural",
+     "100% natural",
+     "all natural",
+     "fresh",
+     "farm fresh",
+     "pure",
+     "original",
+     "traditional",
+     "authentic",
+     "genuine",
+     "real"
+    ],
+    "evidence": [
+     "Ingredient list and processing note that meet the word's condition"
+    ]
+   },
+   {
+    "id": "F03",
+    "name": "Nutrition claims need the nutrient amounts to back them",
+    "summary": "Claims such as high protein, low fat, sugar free or source of fibre must meet the set thresholds, shown in the nutrition information on the label.",
+    "clause": "clause to be confirmed",
+    "source": "FSSAI advertising and claims regulations, 2018",
+    "terms": [
+     "high protein",
+     "rich in protein",
+     "low fat",
+     "fat free",
+     "sugar free",
+     "no added sugar",
+     "low sugar",
+     "source of fibre",
+     "high fibre",
+     "low sodium"
+    ],
+    "evidence": [
+     "Nutrition information table with amounts per 100 g or 100 ml"
+    ]
+   },
+   {
+    "id": "F04",
+    "name": "Health claims need scientific substantiation",
+    "summary": "Claims that a food helps a body function or reduces a disease risk must be backed by generally accepted scientific evidence; disease-risk claims need prior approval.",
+    "clause": "clause to be confirmed",
+    "source": "FSSAI advertising and claims regulations, 2018",
+    "terms": [
+     "boosts immunity",
+     "immunity booster",
+     "improves digestion",
+     "heart healthy",
+     "good for heart",
+     "reduces cholesterol",
+     "controls diabetes",
+     "weight loss",
+     "detox"
+    ],
+    "evidence": [
+     "Published studies or an approval reference for the claim"
+    ]
+   }
+  ]
+ }
+]

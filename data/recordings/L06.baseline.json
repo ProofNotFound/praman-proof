@@ -1,0 +1,634 @@
+{
+ "format": "praman-recording/1",
+ "synthetic": false,
+ "listing_id": "L06",
+ "mode": "baseline",
+ "title": "Oxo-Biodegradable Disposable Bags - 50 Bags (Small) *",
+ "recorded_at": "2026-10-18T12:49:09.671477+00:00",
+ "llm_mode": "offline",
+ "run_id": "L06-b-b5914d",
+ "events": [
+  {
+   "seq": 1,
+   "t_ms": 0,
+   "type": "run_started",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "listing_id": "L06",
+    "mode": "baseline",
+    "llm_mode": "offline",
+    "started_at": "2026-10-18T12:49:09.671477+00:00"
+   }
+  },
+  {
+   "seq": 2,
+   "t_ms": 0,
+   "type": "listing",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "id": "L06",
+    "title": "Oxo-Biodegradable Disposable Bags - 50 Bags (Small) *",
+    "store": "brand-b.example",
+    "body_text": "• Environment-friendly bags for easy and discreet disposal of hygiene products.\n\n• These bags are tear and tamper proof making them travel friendly too.\n\n• Adhesive seal locks the odour and prevents spilling of the waste.\n\n• Decreases human contact with waste, thus preventing waste pickers from catching any disease.\n\n•\nOxo-biodegradable bags for eco-friendly disposal.",
+    "photos": [
+     {
+      "index": 1,
+      "url": "demo/photos/L06/1.jpg",
+      "width": 2100,
+      "height": 2100
+     },
+     {
+      "index": 2,
+      "url": "demo/photos/L06/2.jpg",
+      "width": 2100,
+      "height": 2100
+     },
+     {
+      "index": 3,
+      "url": "demo/photos/L06/3.jpg",
+      "width": 2100,
+      "height": 2100
+     }
+    ],
+    "tags": [
+     "all_discount",
+     "all_products_new",
+     "amzn",
+     "B1G1_ALL_NEW",
+     "B1G1_NEW",
+     "Bags",
+     "Biodegrable Disposable Bags",
+     "corner-hide-qty",
+     "corner-non-clickable-product-title",
+     "demo_tag",
+     "Disposable Bags",
+     "Disposable_bags",
+     "EPD_Bundle",
+     "label_New Arrival",
+     "Oxo Bags",
+     "Pads Bags",
+     "pro_temp_2",
+     "prod_temp_2",
+     "UAE"
+    ]
+   }
+  },
+  {
+   "seq": 3,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": null,
+    "n": 1,
+    "phase": "act",
+    "tool": "extract_claims",
+    "summary": "Listed 3 claims and 2 items that look like claims but aren't.",
+    "ms": 1,
+    "tokens_in": 1064,
+    "tokens_out": 1981,
+    "payload_preview": "{\"claims\": [\"Environment-friendly bags\", \"Oxo-biodegradable bags\", \"eco-friendly disposal\", \"Decreases human contact with waste, thus preventing waste pickers from catching any disease.\", \"These bags are tear and tamper proof making them travel friendly too.\"], \"dropped\": []}"
+   }
+  },
+  {
+   "seq": 4,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": null,
+    "n": 2,
+    "phase": "act",
+    "tool": "match_rule",
+    "summary": "C1 → R01 · C2 → R02, R09 · C3 → R01 · C4 → R11 · C5 → R11",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"C1\": [\"R01\"], \"C2\": [\"R02\", \"R09\"], \"C3\": [\"R01\"], \"C4\": [\"R11\"], \"C5\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 5,
+   "t_ms": 3,
+   "type": "claims",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "Environment-friendly bags",
+      "normalised": "environment-friendly bags",
+      "type": "vague",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R01"
+      ]
+     },
+     {
+      "id": "C2",
+      "quote": "Oxo-biodegradable bags",
+      "normalised": "oxo-biodegradable bags",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R02",
+       "R09"
+      ]
+     },
+     {
+      "id": "C3",
+      "quote": "eco-friendly disposal",
+      "normalised": "eco-friendly disposal",
+      "type": "vague",
+      "scope": "disposal",
+      "location": "description",
+      "is_claim": true,
+      "not_claim_reason": null,
+      "rule_ids": [
+       "R01"
+      ]
+     },
+     {
+      "id": "C4",
+      "quote": "Decreases human contact with waste, thus preventing waste pickers from catching any disease.",
+      "normalised": "decreases human contact with waste, thus preventing waste pickers from catching any disease.",
+      "type": "specific",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Health and occupational safety statement regarding waste handling, not an environmental claim.",
+      "rule_ids": [
+       "R11"
+      ]
+     },
+     {
+      "id": "C5",
+      "quote": "These bags are tear and tamper proof making them travel friendly too.",
+      "normalised": "these bags are tear and tamper proof making them travel friendly too.",
+      "type": "vague",
+      "scope": "product",
+      "location": "description",
+      "is_claim": false,
+      "not_claim_reason": "Functional product features and convenience claim with no environmental meaning.",
+      "rule_ids": [
+       "R11"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 6,
+   "t_ms": 3,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C1",
+    "n": 3,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 7,
+   "t_ms": 3,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C1",
+    "n": 4,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 8,
+   "t_ms": 4,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C1",
+    "n": 5,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "1 line in the page text looked relevant; none of it is proof for this claim.",
+    "ms": 0,
+    "tokens_in": 654,
+    "tokens_out": 57,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"1 line in the page text looked relevant; none of it is proof for this claim.\"}"
+   }
+  },
+  {
+   "seq": 9,
+   "t_ms": 4,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C1",
+    "n": 6,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R01\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 10,
+   "t_ms": 4,
+   "type": "verdict",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claim_id": "C1",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R01",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Says which aspect (product, part, packaging, process, disposal) and how; Or verifiable evidence / a link or QR to details.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R01",
+      "name": "Vague green terms need qualifiers and substantiation",
+      "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+      "clause": "Clause 5(a)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 11,
+   "t_ms": 5,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C2",
+    "n": 7,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 12,
+   "t_ms": 5,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C2",
+    "n": 8,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 13,
+   "t_ms": 6,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C2",
+    "n": 9,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "No proof in the page text: none of 6 lines names a certificate, standard, test, code or link.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"No proof in the page text: none of 6 lines names a certificate, standard, test, code or link.\"}"
+   }
+  },
+  {
+   "seq": 14,
+   "t_ms": 6,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C2",
+    "n": 10,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R02\", \"R09\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 15,
+   "t_ms": 6,
+   "type": "verdict",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claim_id": "C2",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R02",
+     "R09",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Named certifier or standard that covers this claim and this product; CPCB certificate (the list we hold covers compostable makers; mark Needs review if not found).",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R02",
+      "name": "Specific environmental claims need credible certification or scientific evidence",
+      "summary": "Claims such as compostable, degradable, free-of, non-toxic, recyclable, renewable, climate-positive and net-zero need credible certification, reliable scientific evidence, or verifiable evidence from a statutory or independent third party.",
+      "clause": "Clause 6(5); Clause 5(c)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R09",
+      "name": "Biodegradable plastic: no microplastics, a label with days and environment, and a CPCB certificate",
+      "summary": "Biodegradable plastic must degrade by biological processes without leaving microplastics or visible or toxic residue, must state the number of days and the environment in which it degrades, and its maker needs a CPCB certificate.",
+      "clause": "Rule 3 definition of biodegradable plastics (as substituted); Rule 11(4); Rule 4(1)(ha)",
+      "source": "Plastic Waste Management (Amendment) Rules, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 16,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C3",
+    "n": 11,
+    "phase": "plan",
+    "tool": "search_text",
+    "summary": "Fixed pipeline: the page text is the only source.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"by\": \"code\"}"
+   }
+  },
+  {
+   "seq": 17,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C3",
+    "n": 12,
+    "phase": "act",
+    "tool": "search_text",
+    "summary": "Searching the page text for certificates, standards, tests, codes, links and labels.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"tool\": \"search_text\", \"queries\": [], \"url\": null, \"rule_id\": null}"
+   }
+  },
+  {
+   "seq": 18,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C3",
+    "n": 13,
+    "phase": "observe",
+    "tool": "search_text",
+    "summary": "1 line in the page text looked relevant; none of it is proof for this claim.",
+    "ms": 0,
+    "tokens_in": 654,
+    "tokens_out": 84,
+    "payload_preview": "{\"evidence\": [], \"detail\": \"1 line in the page text looked relevant; none of it is proof for this claim.\"}"
+   }
+  },
+  {
+   "seq": 19,
+   "t_ms": 7,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C3",
+    "n": 14,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not backed: Proof not found on this page (searched page text).",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 8, \"evidence_ids\": [], \"rule_ids\": [\"R01\", \"R03\"]}"
+   }
+  },
+  {
+   "seq": 20,
+   "t_ms": 8,
+   "type": "verdict",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claim_id": "C3",
+    "label": "Not backed",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R01",
+     "R03"
+    ],
+    "reason": "Proof not found on this page (searched page text).",
+    "missing": "Needs: Says which aspect (product, part, packaging, process, disposal) and how; Or verifiable evidence / a link or QR to details.",
+    "rewrite": null,
+    "sources_searched": [
+     "text"
+    ],
+    "rules": [
+     {
+      "id": "R01",
+      "name": "Vague green terms need qualifiers and substantiation",
+      "summary": "Terms like eco-friendly, green, sustainable, natural, clean, pure, organic, cruelty-free, carbon-neutral, eco-conscious, good for the planet, minimal impact or regenerative may be used only with accurate, accessible qualifiers, substantiation and disclosures.",
+      "clause": "Clause 5(a)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     },
+     {
+      "id": "R03",
+      "name": "Material details must be accessible (QR code or URL)",
+      "summary": "Detailed material information behind a claim should be disclosed through a QR code, URL or similar, be easy for consumers to access, and include unfavourable as well as favourable findings.",
+      "clause": "Clause 6(1), 6(2) and 6(6)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 21,
+   "t_ms": 8,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C4",
+    "n": 15,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Health and occupational safety statement regarding waste handling, not an environmental claim.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 22,
+   "t_ms": 9,
+   "type": "verdict",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claim_id": "C4",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Health and occupational safety statement regarding waste handling, not an environmental claim.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 23,
+   "t_ms": 9,
+   "type": "step",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "run_id": "L06-b-b5914d",
+    "claim_id": "C5",
+    "n": 16,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: Functional product features and convenience claim with no environmental meaning.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 24,
+   "t_ms": 9,
+   "type": "verdict",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "claim_id": "C5",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "Functional product features and convenience claim with no environmental meaning.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 25,
+   "t_ms": 9,
+   "type": "run_finished",
+   "run_id": "L06-b-b5914d",
+   "data": {
+    "llm_calls": 3,
+    "tokens_in": 2372,
+    "tokens_out": 2122,
+    "est_cost_inr": 0.5295,
+    "elapsed_ms": 9,
+    "counts": {
+     "Not backed": 3,
+     "Not a claim": 2
+    },
+    "cached_calls": 3,
+    "tool_calls": 4
+   }
+  }
+ ]
+}

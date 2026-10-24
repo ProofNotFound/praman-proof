@@ -1,0 +1,114 @@
+{
+ "listing_id": "L06",
+ "model": "gemini-3.8-flash",
+ "entries": [
+  {
+   "key": "011c7194cdbcacce35ee6a4b39d36014f11bfef16ff74b437b781f8192b3135f",
+   "model": "gemini-3.8-flash",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Lists virgin polyethylene material specifications and additives without providing qualifiers or substantiation for the environment-friendly claim.\"}]}",
+   "tokens_in": 698,
+   "tokens_out": 89,
+   "listing_id": "L06"
+  },
+  {
+   "key": "0ae75d0a625d12e30b89cfeb7f24e975b179142f450d8c58d7adf50ee96394f4",
+   "model": "gemini-3.5-flash-lite",
+   "template": "check_consistency",
+   "response_json": "{\"conflicts\": [{\"claim_id\": \"C2\", \"conflicting_quote\": \"These bags convert into biodegradable material via oxidation over a short period of time.\", \"where\": \"photo:3\", \"explanation\": \"Oxo-biodegradable bags break down through oxidation into fragments rather than true biodegradation.\"}, {\"claim_id\": \"C1\", \"conflicting_quote\": \"Carrier Resin- PE Virgin Grade, Master Batch\", \"where\": \"photo:3\", \"explanation\": \"The listing states the bags are made of virgin polyethylene, which is a standard plastic.\"}]}",
+   "tokens_in": 1004,
+   "tokens_out": 157,
+   "listing_id": "L06"
+  },
+  {
+   "key": "0b71de63f5a98ed4c9816644c5cb51ee0a2af023ea0cbad4de07ea4c3ee27547",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Restates the claim without providing a qualifier, standard, or test evidence.\"}]}",
+   "tokens_in": 654,
+   "tokens_out": 84,
+   "listing_id": "L06"
+  },
+  {
+   "key": "1418e10516274027a7c1b0c5266bb01bcece4f74c13803710d94efa52cef612c",
+   "model": "gemini-3.5-flash-lite",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Product photos often display the required CPCB certificate details, biodegradation labels, and maker information.\"}",
+   "tokens_in": 530,
+   "tokens_out": 37,
+   "listing_id": "L06"
+  },
+  {
+   "key": "59b6c0ba8f0a7c5c50debbb98ad5df30f6991424a6dcedbfba2b2388fcb19ec8",
+   "model": "gemini-3.8-flash",
+   "template": "read_photos",
+   "response_json": "{\"photos\": [{\"photo\": 3, \"items\": [{\"text\": \"These bags convert into biodegradable material via oxidation over a short period of time.\", \"kind\": \"claim\", \"box_2d\": [337, 214, 362, 463], \"claim_type\": \"specific\", \"scope\": \"product\"}, {\"text\": \"PRODUCT DETAILS: Carrier Resin- PE Virgin Grade, Master Batch, Bulk Density(g/l) 500 (Provisional) Pellets per gram (50 Provisional) Additive(%)- 5 (Nominal)-Spec., Gravity:0.93\", \"kind\": \"composition\", \"box_2d\": [464, 216, 488, 775], \"claim_type\": null, \"scope\": null}, {\"text\": \"MANUFACTURED FOR/MARKETED BY: Redcliffe Hygiene Pvt. Ltd., Plot No. 456-457, Ground Floor, Udyog Vihar Phase-III, Gurugram, Haryana - 122016, India\", \"kind\": \"other\", \"box_2d\": [596, 398, 655, 584], \"claim_type\": null, \"scope\": null}, {\"text\": \"Regd. no. GOI/HR/2019/655\", \"kind\": \"code\", \"box_2d\": [655, 398, 667, 533], \"claim_type\": null, \"scope\": null}, {\"text\": \"MANUFACTURED BY: Shrianand Poly, Behrampur Indl. Area, Gurugram - 122001, Haryana, India\", \"kind\": \"other\", \"box_2d\": [670, 397, 705, 571], \"claim_type\": null, \"scope\": null}], \"qr_present\": true}, {\"photo\": 2, \"items\": [{\"text\": \"OXO-BIODEGRADABLE\", \"kind\": \"claim\", \"box_2d\": [524, 431, 557, 641], \"claim_type\": \"specific\", \"scope\": \"product\"}], \"qr_present\": false}, {\"photo\": 1, \"items\": [{\"text\": \"OXO-BIODEGRADABLE\", \"kind\": \"claim\", \"box_2d\": [546, 371, 560, 623], \"claim_type\": \"specific\", \"scope\": \"product\"}], \"qr_present\": false}]}",
+   "tokens_in": 3931,
+   "tokens_out": 1957,
+   "listing_id": "L06"
+  },
+  {
+   "key": "97c13d9af8f5d988bab00276798c8c5e29c40fa2492894960cefdb064b34e9fe",
+   "model": "gemini-3.8-flash",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Product photos often show packaging details, certifications, or qualifiers to substantiate the environment-friendly claim.\"}",
+   "tokens_in": 475,
+   "tokens_out": 38,
+   "listing_id": "L06"
+  },
+  {
+   "key": "a3a0d0cd63a6a62d7650a2cfb00a02859bb4e808f7a5eca3dbb2b1cbc5eea8c1",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"qualifier\", \"certifier\": null, \"cert_scope\": null, \"note\": \"The candidate lists raw material details like polyethylene but does not provide certification or scientific evidence for oxo-biodegradability.\"}]}",
+   "tokens_in": 746,
+   "tokens_out": 94,
+   "listing_id": "L06"
+  },
+  {
+   "key": "b4a798a34d83b16cfb2c3fa63e32bb4f6fe45172e435ca8bb6379391471d4a4c",
+   "model": "gemini-3.5-flash-lite",
+   "template": "plan_next",
+   "response_json": "{\"tool\": \"read_photos\", \"why\": \"Box photos often show disposal instructions or certifications that substantiate eco-friendly claims when text does not.\"}",
+   "tokens_in": 460,
+   "tokens_out": 38,
+   "listing_id": "L06"
+  },
+  {
+   "key": "d7fa162acd2191ae2c0ac5bcb706f4761aa36f45fa4442323f3e87c49675add5",
+   "model": "gemini-3.8-flash",
+   "template": "extract_claims",
+   "response_json": "{\"claims\": [{\"quote\": \"Environment-friendly bags\", \"type\": \"vague\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"Oxo-biodegradable bags\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"eco-friendly disposal\", \"type\": \"vague\", \"scope\": \"disposal\", \"location\": \"description\", \"is_claim\": true, \"not_claim_reason\": null}, {\"quote\": \"Decreases human contact with waste, thus preventing waste pickers from catching any disease.\", \"type\": \"specific\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": false, \"not_claim_reason\": \"Health and occupational safety statement regarding waste handling, not an environmental claim.\"}, {\"quote\": \"These bags are tear and tamper proof making them travel friendly too.\", \"type\": \"vague\", \"scope\": \"product\", \"location\": \"description\", \"is_claim\": false, \"not_claim_reason\": \"Functional product features and convenience claim with no environmental meaning.\"}]}",
+   "tokens_in": 1064,
+   "tokens_out": 1981,
+   "listing_id": "L06"
+  },
+  {
+   "key": "e60075fb9f8967c51b93a586825009b0977405600f81afa63c9de68aefd94504",
+   "model": "gemini-3.5-flash-lite",
+   "template": "write_rewrite",
+   "response_json": "{\"rewrites\": [{\"claim_id\": \"C1\", \"rewrite\": \"Remove 'Environment-friendly', as virgin polyethylene is conventional plastic.\"}, {\"claim_id\": \"C2\", \"rewrite\": \"Remove 'Oxo-biodegradable', as standard polyethylene fragments do not meet current biodegradable standards.\"}, {\"claim_id\": \"C3\", \"rewrite\": \"Remove 'eco-friendly disposal' or specify disposal methods and link to proof.\"}]}",
+   "tokens_in": 486,
+   "tokens_out": 83,
+   "listing_id": "L06"
+  },
+  {
+   "key": "f054b989f7a4387e053f8fc6107ec16c2bccb43703a73e34bbc5bdf4a1bd760f",
+   "model": "gemini-3.5-flash-lite",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"note\": \"The material composition lists polyethylene and additives without providing substantiation or standards for eco-friendly disposal.\"}]}",
+   "tokens_in": 698,
+   "tokens_out": 71,
+   "listing_id": "L06"
+  },
+  {
+   "key": "fadff3d18fd4fbbe5332acbdd2db310e5d27e995a4678429e3e9d7d605ad390e",
+   "model": "gemini-3.8-flash",
+   "template": "judge_evidence",
+   "response_json": "{\"judgements\": [{\"candidate\": 1, \"covers_claim\": \"no\", \"kind\": \"none\", \"certifier\": null, \"cert_scope\": null, \"note\": \"Restates the vague claim without providing qualifiers or substantiating evidence.\"}]}",
+   "tokens_in": 654,
+   "tokens_out": 57,
+   "listing_id": "L06"
+  }
+ ]
+}

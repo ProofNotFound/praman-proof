@@ -1,0 +1,244 @@
+{
+  "listing": {
+    "id": "L19",
+    "source": "shopify_json",
+    "url": "https://bombayshavingcompany.com/products/beard-styling-pen",
+    "store": "bombayshavingcompany.com",
+    "title": "Beard Styling Pen",
+    "body_text": "Style your beard confidently at home with our safe, sustainable Beard Styling Pen. Made from 30% biodegradable wheat straw, it's gentle on both skin and the environment.",
+    "tags": [
+      "18hr_49",
+      "18hr_aug26",
+      "18hr_feb",
+      "18hr_mar",
+      "18hr_oct26",
+      "18hr_sep26",
+      "no-discount"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/1_2_ec0d522e-d2ac-4541-bda0-e1b358355b43.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/1.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.03532
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/2_2_4131be8d-b153-41e4-b4b9-ee71980006a2.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/2.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.05878
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/3_2_22afd4d0-586f-4161-a82c-d554a70b5c66.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/3.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.07677
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/4_2_e693034a-2d5e-45ca-8c93-505ce2e8a761.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/4.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.09479
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/5_2_0a2de7d1-1fa2-458c-a421-7ba729cc4c7c.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/5.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.08392
+      },
+      {
+        "index": 6,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/6_2_9b158590-d5fe-40e4-b91c-77078b7301bd.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/6.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.0601
+      },
+      {
+        "index": 7,
+        "url": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/7_2_d39fee4f-29aa-435b-bd39-17974cb6ad95.webp?v=1768471800",
+        "local_path": "data/cache/images/L19/7.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "text_score": 0.09039
+      }
+    ],
+    "fetched_at": "2026-10-17T21:12:42.143928Z",
+    "product_type": "Beard",
+    "vendor": "Bombay Shaving Company",
+    "links": []
+  },
+  "raw": {
+    "id": 8739300507802,
+    "title": "Beard Styling Pen",
+    "body_html": "<p>Style your beard confidently at home with our safe, sustainable Beard Styling Pen. Made from 30% biodegradable wheat straw, it's gentle on both skin and the environment.</p>",
+    "vendor": "Bombay Shaving Company",
+    "product_type": "Beard",
+    "created_at": "2026-01-15T15:36:48+05:30",
+    "handle": "beard-styling-pen",
+    "updated_at": "2026-10-18T02:42:42+05:30",
+    "published_at": "2026-01-15T15:36:49+05:30",
+    "template_suffix": "new-template",
+    "published_scope": "global",
+    "tags": "18hr_49, 18hr_aug26, 18hr_feb, 18hr_mar, 18hr_oct26, 18hr_sep26, no-discount",
+    "variants": [
+      {
+        "id": 47012702552218,
+        "product_id": 8739300507802,
+        "title": "Default Title",
+        "price": "49.00",
+        "sku": "BEARD_STYLING_PEN_1PCS",
+        "position": 1,
+        "compare_at_price": "199.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2026-01-15T15:36:48+05:30",
+        "updated_at": "2026-10-18T02:42:42+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0.0,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 11227640070298,
+        "product_id": 8739300507802,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 47217776033946,
+        "product_id": 8739300507802,
+        "position": 1,
+        "created_at": "2026-01-15T15:39:47+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/1_2_ec0d522e-d2ac-4541-bda0-e1b358355b43.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217763025050,
+        "product_id": 8739300507802,
+        "position": 2,
+        "created_at": "2026-01-15T15:32:18+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/2_2_4131be8d-b153-41e4-b4b9-ee71980006a2.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217763483802,
+        "product_id": 8739300507802,
+        "position": 3,
+        "created_at": "2026-01-15T15:32:23+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/3_2_22afd4d0-586f-4161-a82c-d554a70b5c66.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217763778714,
+        "product_id": 8739300507802,
+        "position": 4,
+        "created_at": "2026-01-15T15:32:30+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/4_2_e693034a-2d5e-45ca-8c93-505ce2e8a761.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217764466842,
+        "product_id": 8739300507802,
+        "position": 5,
+        "created_at": "2026-01-15T15:32:37+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/5_2_0a2de7d1-1fa2-458c-a421-7ba729cc4c7c.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217766039706,
+        "product_id": 8739300507802,
+        "position": 6,
+        "created_at": "2026-01-15T15:32:55+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/6_2_9b158590-d5fe-40e4-b91c-77078b7301bd.webp?v=1768471800",
+        "variant_ids": []
+      },
+      {
+        "id": 47217766826138,
+        "product_id": 8739300507802,
+        "position": 7,
+        "created_at": "2026-01-15T15:33:03+05:30",
+        "updated_at": "2026-01-15T15:40:00+05:30",
+        "alt": null,
+        "width": 1000,
+        "height": 1000,
+        "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/7_2_d39fee4f-29aa-435b-bd39-17974cb6ad95.webp?v=1768471800",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 47217776033946,
+      "product_id": 8739300507802,
+      "position": 1,
+      "created_at": "2026-01-15T15:39:47+05:30",
+      "updated_at": "2026-01-15T15:40:00+05:30",
+      "alt": null,
+      "width": 1000,
+      "height": 1000,
+      "src": "https://cdn.shopify.com/s/files/1/0459/6563/9834/files/1_2_ec0d522e-d2ac-4541-bda0-e1b358355b43.webp?v=1768471800",
+      "variant_ids": []
+    }
+  }
+}

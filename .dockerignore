@@ -1,0 +1,17 @@
+.git
+.venv
+.ruff_cache
+.pytest_cache
+graphify-out
+frontend/node_modules
+frontend/dist
+demo-video
+audio
+*.pptx
+*.pdf
+.env
+.env.*
+!.env.example
+data/praman.db
+data/praman.db-shm
+data/praman.db-wal

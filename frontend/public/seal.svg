@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Praman seal">
+  <title>Praman seal</title>
+  <g fill="none" stroke="#1F5C3F">
+    <circle cx="100" cy="100" r="90" stroke-width="5.3" fill="#F3EFE6"/>
+    <circle cx="100" cy="100" r="56.9" stroke-width="3.3"/>
+  </g>
+  <!-- Ring text: one element per character at a fixed angle, so spacing does not depend on font metrics -->
+  <g fill="#1F5C3F" font-family="'IBM Plex Sans', sans-serif" font-weight="700" font-size="18" text-anchor="middle">
+    <text x="100" y="34.4" transform="rotate(254.07 100 100)">P</text>
+    <text x="100" y="34.4" transform="rotate(272.20 100 100)">R</text>
+    <text x="100" y="34.4" transform="rotate(290.34 100 100)">A</text>
+    <text x="100" y="34.4" transform="rotate(308.48 100 100)">M</text>
+    <text x="100" y="34.4" transform="rotate(326.61 100 100)">A</text>
+    <text x="100" y="34.4" transform="rotate(344.75 100 100)">N</text>
+    <text x="100" y="34.4" transform="rotate(8.78 100 100)">·</text>
+    <text x="100" y="34.4" transform="rotate(32.81 100 100)">P</text>
+    <text x="100" y="34.4" transform="rotate(50.94 100 100)">R</text>
+    <text x="100" y="34.4" transform="rotate(69.08 100 100)">O</text>
+    <text x="100" y="34.4" transform="rotate(87.22 100 100)">O</text>
+    <text x="100" y="34.4" transform="rotate(105.35 100 100)">F</text>
+    <text x="100" y="34.4" transform="rotate(133.46 100 100)">C</text>
+    <text x="100" y="34.4" transform="rotate(151.60 100 100)">H</text>
+    <text x="100" y="34.4" transform="rotate(169.74 100 100)">E</text>
+    <text x="100" y="34.4" transform="rotate(187.87 100 100)">C</text>
+    <text x="100" y="34.4" transform="rotate(206.01 100 100)">K</text>
+    <text x="100" y="34.4" transform="rotate(230.04 100 100)">·</text>
+  </g>
+  <text x="100" y="100" dy="0.36em" fill="#1F5C3F" font-family="'Noto Serif Devanagari', serif" font-weight="700" font-size="58" text-anchor="middle">प्र</text>
+</svg>

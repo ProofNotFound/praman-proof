@@ -1,0 +1,24 @@
+{
+ "6": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    285,
+    315,
+    345,
+    445
+   ],
+   "why": "brand's learning arm named on the laptop screen"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    118,
+    148,
+    258,
+    610
+   ],
+   "why": "browser address bar, tabs and bookmarks (brand domain and name) and a notification with people's names"
+  }
+ ]
+}

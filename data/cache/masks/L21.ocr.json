@@ -1,0 +1,154 @@
+{
+ "1": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    663,
+    207,
+    676,
+    275
+   ],
+   "why": "brand"
+  }
+ ],
+ "2": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    938,
+    323,
+    964,
+    678
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    935,
+    319,
+    967,
+    682
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    936,
+    320,
+    966,
+    681
+   ],
+   "why": "contact"
+  }
+ ],
+ "3": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    937,
+    323,
+    964,
+    679
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    936,
+    319,
+    967,
+    682
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    938,
+    320,
+    964,
+    681
+   ],
+   "why": "contact"
+  }
+ ],
+ "4": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    938,
+    323,
+    964,
+    678
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    937,
+    320,
+    966,
+    681
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    939,
+    321,
+    964,
+    681
+   ],
+   "why": "contact"
+  }
+ ],
+ "6": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    512,
+    107,
+    632,
+    532
+   ],
+   "why": "contact"
+  }
+ ],
+ "7": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    652,
+    403,
+    664,
+    449
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    653,
+    405,
+    663,
+    447
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    652,
+    404,
+    663,
+    447
+   ],
+   "why": "brand"
+  }
+ ]
+}

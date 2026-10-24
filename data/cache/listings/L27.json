@@ -1,0 +1,177 @@
+{
+  "listing": {
+    "id": "L27",
+    "source": "shopify_json",
+    "url": "https://phool.co/products/phool-flower-dyed-scarf-pure-silk",
+    "store": "phool.co",
+    "title": "Phool Flower Dyed Scarf - 100% Pure Silk",
+    "body_text": "100% Pure Organic Silk, Handmade in India\n\nFlowers offered in devotion at temples find a second life with Phool. Once their purpose at the altar is complete, the blossoms are gathered and given to our artisans, who draw out their natural colour by hand.\n\nThe marigold petals that once rested before the divine now become the soft, sunlit gold of this scarf. The process is slow and unfolds entirely without machines. Flowers, bark, peels, and natural minerals are blended and layered to build gentle, complex shades, using techniques passed down through generations. Every hue is shaped by nature, then carried to life by the patience of the artisan's hand.\n\nNo two pieces are ever alike. Each scarf is composed petal by petal, shade by shade, and carries within it the flower, the earth, and the hands that gave it new life.\n\nFinished with hand-tied tassels and a delicate edge, it arrives in a keepsake box with a hand-illustrated marigold border and gold foil detailing, ready to be gifted.\n\nDetails\n\n• 100% pure organic silk\n\n• Naturally dyed with marigold flowers\n\n• Handmade in India\n\n• Gift-ready keepsake box\n\nCare instructions\n\n• Gentle hand wash in cold water with mild detergent\n\n• Natural colours can bleed, so wash separately\n\n• Do not bleach\n\n• Do not soak, scrub, or wring\n\n• Line dry on the reverse side\n\n• Warm iron on the reverse side\n\n• Do not dry clean\n\n• Keep away from direct sunlight\n\nBecause every piece is naturally dyed by hand, slight variations in shade and pattern are part of its character.",
+    "tags": [],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Pro-CaptureOne0489copy3.webp?v=1791376531",
+        "local_path": "data/cache/images/L27/1.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.10321,
+        "qr": []
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Pro-CaptureOne0446copy2.webp?v=1791376531",
+        "local_path": "data/cache/images/L27/2.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.09529,
+        "qr": []
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/006A3072copy4.webp?v=1791376531",
+        "local_path": "data/cache/images/L27/3.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.01237,
+        "qr": []
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/scarfmetro.webp?v=1791376531",
+        "local_path": "data/cache/images/L27/4.jpg",
+        "alt": "",
+        "width": 4096,
+        "height": 4096,
+        "text_score": 0.06306,
+        "qr": []
+      }
+    ],
+    "fetched_at": "2026-10-20T14:27:51.322399Z",
+    "product_type": "",
+    "vendor": "PHOOL",
+    "links": []
+  },
+  "raw": {
+    "id": 9061604720830,
+    "title": "Phool Flower Dyed Scarf - 100% Pure Silk",
+    "body_html": "<h4 dir=\"ltr\">100% Pure Organic Silk, Handmade in India</h4>\n<p dir=\"ltr\">Flowers offered in devotion at temples find a second life with Phool. Once their purpose at the altar is complete, the blossoms are gathered and given to our artisans, who draw out their natural colour by hand.</p>\n<p dir=\"ltr\">The marigold petals that once rested before the divine now become the soft, sunlit gold of this scarf. The process is slow and unfolds entirely without machines. Flowers, bark, peels, and natural minerals are blended and layered to build gentle, complex shades, using techniques passed down through generations. Every hue is shaped by nature, then carried to life by the patience of the artisan's hand.</p>\n<p dir=\"ltr\">No two pieces are ever alike. Each scarf is composed petal by petal, shade by shade, and carries within it the flower, the earth, and the hands that gave it new life.</p>\n<p dir=\"ltr\">Finished with hand-tied tassels and a delicate edge, it arrives in a keepsake box with a hand-illustrated marigold border and gold foil detailing, ready to be gifted.</p>\n<p dir=\"ltr\"><strong>Details</strong></p>\n<ul dir=\"ltr\">\n<li>100% pure organic silk</li>\n<li>Naturally dyed with marigold flowers</li>\n<li>Handmade in India</li>\n<li>Gift-ready keepsake box</li>\n</ul>\n<p dir=\"ltr\"><strong>Care instructions</strong></p>\n<ul dir=\"ltr\">\n<li>Gentle hand wash in cold water with mild detergent</li>\n<li>Natural colours can bleed, so wash separately</li>\n<li>Do not bleach</li>\n<li>Do not soak, scrub, or wring</li>\n<li>Line dry on the reverse side</li>\n<li>Warm iron on the reverse side</li>\n<li>Do not dry clean</li>\n<li>Keep away from direct sunlight</li>\n</ul>\n<p dir=\"ltr\"><strong><em>Because every piece is naturally dyed by hand, slight variations in shade and pattern are part of its character.</em></strong></p>",
+    "vendor": "PHOOL",
+    "product_type": "",
+    "created_at": "2026-10-06T19:37:39+05:30",
+    "handle": "phool-flower-dyed-scarf-pure-silk",
+    "updated_at": "2026-10-20T19:57:51+05:30",
+    "published_at": "2026-10-07T18:06:07+05:30",
+    "template_suffix": "",
+    "published_scope": "web",
+    "tags": "",
+    "variants": [
+      {
+        "id": 49235804127422,
+        "product_id": 9061604720830,
+        "title": "Default Title",
+        "price": "2645.00",
+        "sku": "PH-FLW-DS-26",
+        "position": 1,
+        "compare_at_price": "3600.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2026-10-06T19:37:39+05:30",
+        "updated_at": "2026-10-20T19:57:51+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 0,
+        "image_id": null,
+        "weight": 0.0,
+        "weight_unit": "kg",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 11483490943166,
+        "product_id": 9061604720830,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 43999417204926,
+        "product_id": 9061604720830,
+        "position": 1,
+        "created_at": "2026-10-07T18:05:29+05:30",
+        "updated_at": "2026-10-07T18:05:31+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Pro-CaptureOne0489copy3.webp?v=1791376531",
+        "variant_ids": []
+      },
+      {
+        "id": 43999417172158,
+        "product_id": 9061604720830,
+        "position": 2,
+        "created_at": "2026-10-07T18:05:29+05:30",
+        "updated_at": "2026-10-07T18:05:31+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Pro-CaptureOne0446copy2.webp?v=1791376531",
+        "variant_ids": []
+      },
+      {
+        "id": 43999417139390,
+        "product_id": 9061604720830,
+        "position": 3,
+        "created_at": "2026-10-07T18:05:29+05:30",
+        "updated_at": "2026-10-07T18:05:31+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/006A3072copy4.webp?v=1791376531",
+        "variant_ids": []
+      },
+      {
+        "id": 43999417237694,
+        "product_id": 9061604720830,
+        "position": 4,
+        "created_at": "2026-10-07T18:05:29+05:30",
+        "updated_at": "2026-10-07T18:05:31+05:30",
+        "alt": null,
+        "width": 4096,
+        "height": 4096,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/scarfmetro.webp?v=1791376531",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 43999417204926,
+      "product_id": 9061604720830,
+      "position": 1,
+      "created_at": "2026-10-07T18:05:29+05:30",
+      "updated_at": "2026-10-07T18:05:31+05:30",
+      "alt": null,
+      "width": 2048,
+      "height": 2048,
+      "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Pro-CaptureOne0489copy3.webp?v=1791376531",
+      "variant_ids": []
+    }
+  }
+}

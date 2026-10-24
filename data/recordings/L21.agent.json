@@ -1,0 +1,204 @@
+{
+ "format": "praman-recording/1",
+ "synthetic": false,
+ "listing_id": "L21",
+ "mode": "agent",
+ "title": "Building Blocks of Sustainability [Self-Paced Online Course]",
+ "recorded_at": "2026-10-18T12:49:23.700132+00:00",
+ "llm_mode": "offline",
+ "run_id": "L21-a-6da29a",
+ "events": [
+  {
+   "seq": 1,
+   "t_ms": 0,
+   "type": "run_started",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "run_id": "L21-a-6da29a",
+    "listing_id": "L21",
+    "mode": "agent",
+    "llm_mode": "offline",
+    "started_at": "2026-10-18T12:49:23.700132+00:00"
+   }
+  },
+  {
+   "seq": 2,
+   "t_ms": 1,
+   "type": "listing",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "id": "L21",
+    "title": "Building Blocks of Sustainability [Self-Paced Online Course]",
+    "store": "brand-c.example",
+    "body_text": "• Description\n\n• Features\n\n• Modules\n\n•\n\nWith climate change and global garbage crisis being at its peak, it is important for us all to become aware and understand the concepts underlying the problems and the solutions that are out there. This course takes students through a journey of understanding all about sustainability and the importance of the interconnectedness between people, planet and profit in order to build a sustainable future moving forward\n\nStudents will be able to learn from a variety of experts in a variety of fields, from renewable energy, to gender and income equality to waste management. Experts share their experiences, their vision on the future and what the landscape is moving forward - and this will help us all innovate and grow ourselves accordingly!\n\nStudents will have the ability to actually do practical activities that pertain to real-life situations that we may experience in our occupations, our jobs, our consumption habits while learning about concepts that we need to be aware of!\n\nLeave with a Certificate of Completion and access to a large number of resources and research to continue learning\n\nWho is this course for?\n\nThis course is for those who are striving to understand the true meaning of sustainability and understand the overarching concept of sustainability. It is for those who are looking to make changes within their organizations, become entrepreneurs, learn more about sustainability concepts like waste management, renewable energy, and sustainability communications and more\n\nSounds exciting? Join us in our vision to transition to a sustainable future for us, our future generations and our environment! Do it for the environment, but most importantly, do it for yourself!\n\n•\n\nLearn all aspects of sustainability and increase your knowledge and awareness:\n\nSelf-paced online course - Allows you to incorporate the course into your busy schedules with no pressure\n\nYou will have access to the course and its content after completion\n\nCertificates will be awarded upon full course completion\n\n•\n\nUnderstanding the Balance: What is Sustainability?\n\nGet Charged Up with Renewable Energy\n\nStay alert: What is Greenwashing?\n\nBreaking Barriers: Gender and Income Inequality\n\nWaste to Resource: The Intricacies of Waste Management\n\nWalk the Talk: Sustainability Communications",
+    "photos": [
+     {
+      "index": 1,
+      "url": "demo/photos/L21/1.jpg",
+      "width": 1216,
+      "height": 1216
+     },
+     {
+      "index": 2,
+      "url": "demo/photos/L21/2.jpg",
+      "width": 1800,
+      "height": 1800
+     },
+     {
+      "index": 3,
+      "url": "demo/photos/L21/3.jpg",
+      "width": 1800,
+      "height": 1800
+     },
+     {
+      "index": 4,
+      "url": "demo/photos/L21/4.jpg",
+      "width": 1800,
+      "height": 1800
+     },
+     {
+      "index": 5,
+      "url": "demo/photos/L21/5.jpg",
+      "width": 4000,
+      "height": 4000
+     },
+     {
+      "index": 6,
+      "url": "demo/photos/L21/6.jpg",
+      "width": 4000,
+      "height": 4000
+     },
+     {
+      "index": 7,
+      "url": "demo/photos/L21/7.jpg",
+      "width": 3024,
+      "height": 3024
+     }
+    ],
+    "tags": []
+   }
+  },
+  {
+   "seq": 3,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "run_id": "L21-a-6da29a",
+    "claim_id": null,
+    "n": 1,
+    "phase": "act",
+    "tool": "extract_claims",
+    "summary": "Listed 0 claims and 1 item that looks like a claim but isn't.",
+    "ms": 0,
+    "tokens_in": 1243,
+    "tokens_out": 89,
+    "payload_preview": "{\"claims\": [\"Building Blocks of Sustainability\"], \"dropped\": []}"
+   }
+  },
+  {
+   "seq": 4,
+   "t_ms": 2,
+   "type": "step",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "run_id": "L21-a-6da29a",
+    "claim_id": null,
+    "n": 2,
+    "phase": "act",
+    "tool": "match_rule",
+    "summary": "C1 → R11",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"C1\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 5,
+   "t_ms": 3,
+   "type": "claims",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "claims": [
+     {
+      "id": "C1",
+      "quote": "Building Blocks of Sustainability",
+      "normalised": "building blocks of sustainability",
+      "type": "vague",
+      "scope": "product",
+      "location": "title",
+      "is_claim": false,
+      "not_claim_reason": "The environmental word is the subject of the product rather than a property of it.",
+      "rule_ids": [
+       "R11"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "seq": 6,
+   "t_ms": 3,
+   "type": "step",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "run_id": "L21-a-6da29a",
+    "claim_id": "C1",
+    "n": 3,
+    "phase": "decide",
+    "tool": null,
+    "summary": "Not a claim: The environmental word is the subject of the product rather than a property of it.",
+    "ms": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "payload_preview": "{\"row\": 1, \"evidence_ids\": [], \"rule_ids\": [\"R11\"]}"
+   }
+  },
+  {
+   "seq": 7,
+   "t_ms": 3,
+   "type": "verdict",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "claim_id": "C1",
+    "label": "Not a claim",
+    "evidence_ids": [],
+    "rule_ids": [
+     "R11"
+    ],
+    "reason": "The environmental word is the subject of the product rather than a property of it.",
+    "missing": null,
+    "rewrite": null,
+    "sources_searched": [],
+    "rules": [
+     {
+      "id": "R11",
+      "name": "Puffery and mission statements are not product claims",
+      "summary": "Obvious exaggeration that isn't misleading, generic colours or pictures that aren't misleading, and a company mission statement not tied to a specific product are outside the guidelines.",
+      "clause": "Clause 2(1)(f), exclusions (i)–(iii)",
+      "source": "CCPA guidelines on environmental claims, 2024"
+     }
+    ]
+   }
+  },
+  {
+   "seq": 8,
+   "t_ms": 4,
+   "type": "run_finished",
+   "run_id": "L21-a-6da29a",
+   "data": {
+    "llm_calls": 1,
+    "tokens_in": 1243,
+    "tokens_out": 89,
+    "est_cost_inr": 0.0524,
+    "elapsed_ms": 4,
+    "counts": {
+     "Not a claim": 1
+    },
+    "cached_calls": 1,
+    "tool_calls": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+[
+ {"id": 1, "title": "Compostable Garbage Bags", "handle": "compostable-garbage-bags", "vendor": "Leafline",
+  "product_type": "Garbage bags", "tags": ["garbage bags"],
+  "body_html": "<p>100% compostable bags that are also biodegradable.</p><p>An eco-friendly choice for your kitchen.</p>"},
+ {"id": 2, "title": "Compostable Cutlery Set", "handle": "compostable-cutlery-set", "vendor": "Leafline",
+  "product_type": "Cutlery", "tags": [],
+  "body_html": "<p>Compostable cutlery, tested to IS/ISO 17088.</p><p>Printed on the pack: CPCB-UPC-II/TEST MAKER/Gujarat/123</p>"},
+ {"id": 3, "title": "Eco-friendly Bamboo Toothbrush", "handle": "bamboo-toothbrush", "vendor": "Leafline",
+  "product_type": "Oral care", "tags": "bamboo, sustainable",
+  "body_html": "<p>A sustainable brush in plastic-free packaging.</p>"},
+ {"id": 4, "title": "Cotton T-shirt", "handle": "cotton-tshirt", "vendor": "Leafline",
+  "product_type": "Apparel", "tags": [],
+  "body_html": "<p>Soft cotton tee. Only ₹299. Will be shipped in two days.</p>"},
+ {"id": 5, "title": "Rose Soap", "handle": "rose-soap", "vendor": "Leafline",
+  "product_type": "Soap", "tags": [],
+  "body_html": "<p>Pure and natural rose soap.</p>"}
+]

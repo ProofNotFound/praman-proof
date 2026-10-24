@@ -1,0 +1,108 @@
+/* DESIGN §2 tokens. Components use these variables (or the Tailwind names from @theme below);
+   never a hard-coded colour. Fonts are self-hosted through @fontsource (no CDN). */
+@import "@fontsource-variable/fraunces/full.css";
+@import "@fontsource/ibm-plex-sans/latin-400.css";
+@import "@fontsource/ibm-plex-sans/latin-500.css";
+@import "@fontsource/ibm-plex-sans/latin-600.css";
+@import "@fontsource/ibm-plex-sans/latin-700.css"; /* seal ring text */
+@import "@fontsource/ibm-plex-sans/latin-ext-400.css";
+@import "@fontsource/ibm-plex-mono/latin-400.css";
+@import "@fontsource/ibm-plex-mono/latin-500.css";
+@import "@fontsource/ibm-plex-mono/latin-600.css";
+@import "@fontsource/ibm-plex-mono/latin-ext-500.css";
+@import "@fontsource/noto-serif-devanagari/devanagari-500.css";
+@import "@fontsource/noto-serif-devanagari/devanagari-600.css";
+@import "@fontsource/noto-serif-devanagari/devanagari-700.css"; /* seal centre mark */
+
+:root {
+  /* 2.1 colour */
+  --paper: #f3efe6;
+  --paper-sunk: #eae4d7;
+  --card: #fbf9f4;
+  --ink: #1c1b17;
+  --ink-2: #4a473f;
+  --ink-3: #7c776b;
+  --rule: #d6cfbf;
+  --rule-strong: #b9b09c;
+  --accent: #1f5c3f;
+  --accent-wash: #1f5c3f14;
+
+  /* verdict inks and their ~10% washes */
+  --v-backed: #1f7a4d;
+  --v-partly: #a86a12;
+  --v-not: #5f5b51;
+  --v-contra: #b3261e;
+  --v-review: #2457a6;
+  --v-none: #a39e92;
+  --v-backed-wash: #1f7a4d1a;
+  --v-partly-wash: #a86a121a;
+  --v-not-wash: #5f5b511a;
+  --v-contra-wash: #b3261e1a;
+  --v-review-wash: #2457a61a;
+  --v-none-wash: #a39e921a;
+
+  /* print-like photo backdrop and the dossier shadow */
+  --shadow-page: 0 1px 0 var(--rule), 0 12px 24px -16px #1c1b1726;
+  --scrim: #1c1b1799;
+  /* printed reports: plain white paper */
+  --print-paper: #ffffff;
+
+  /* 2.2 type */
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-deva: "Noto Serif Devanagari", serif;
+
+  /* scale, in rem so present mode can scale type by 1.12 (16px = 1rem) */
+  --fs-caption: 0.8125rem; /* 13 */
+  --fs-trace: 0.9375rem; /* 15 */
+  --fs-body: 1rem; /* 16 */
+  --fs-meta: 1.125rem; /* 18 */
+  --fs-quote: 1.25rem; /* 20 */
+  --fs-title: 1.625rem; /* 26 */
+  --fs-section: 2.125rem; /* 34 */
+  --fs-hero: 4rem; /* 64 */
+
+  /* 2.3 shape */
+  --radius: 4px;
+  --radius-chip: 2px;
+
+  /* 2.4 layout */
+  --gutter: 24px;
+  --top-h: 72px; /* top bar: room for the 54px seal */
+  --bar-h: 56px; /* director bar */
+  --col-ex: 300px;
+  --col-tr: 320px;
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --col-ex: 360px;
+    --col-tr: 380px;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-sunk: var(--paper-sunk);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-wash: var(--accent-wash);
+  --color-v-backed: var(--v-backed);
+  --color-v-partly: var(--v-partly);
+  --color-v-not: var(--v-not);
+  --color-v-contra: var(--v-contra);
+  --color-v-review: var(--v-review);
+  --color-v-none: var(--v-none);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-deva: var(--font-deva);
+  --radius-sm: var(--radius-chip);
+  --radius-md: var(--radius);
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "listing_id": "L14",
+  "store": "brand-e.example",
+  "store_sha256": "c72c31f20a0e199fead75f06c37e50406cbbdba9890ee64275834d0c1e205226",
+  "handle_sha256": "d037f7707d848fe01611954878a00f39d6062b7445b32ca0995da2ad2f86f283"
+ },
+ {
+  "listing_id": "L06",
+  "store": "brand-b.example",
+  "store_sha256": "bc9230b246bda00e6645775745b445348c9bcef6d5ae4c92e712655fded434b1",
+  "handle_sha256": "a508b424b3455ceea5e1c4ea90fc8052646fa2dbaf1b13bc4643d5582140cfad"
+ },
+ {
+  "listing_id": "L08",
+  "store": "brand-c.example",
+  "store_sha256": "96bef31f878088ab9f13c44a61a8a0b899639c2f03e51ba765a90b5012528d5a",
+  "handle_sha256": "162362b80b7e45250dddc1de2ec43ee66b2f61efd7c807b0b27319894efecc94"
+ },
+ {
+  "listing_id": "L21",
+  "store": "brand-c.example",
+  "store_sha256": "96bef31f878088ab9f13c44a61a8a0b899639c2f03e51ba765a90b5012528d5a",
+  "handle_sha256": "ccd2e2ff0549709bf93805916782a8be784d8803f481707ded19280134c4a5d4"
+ }
+]

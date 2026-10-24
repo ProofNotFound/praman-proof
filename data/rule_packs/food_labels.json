@@ -1,0 +1,100 @@
+{
+  "pack": {
+    "name": "food_labels",
+    "title": "Food label claims",
+    "domain": "Packaged food and beverages",
+    "status": "loaded",
+    "status_note": "Rules load and match through the same engine. Connecting the agent needs a claim prompt for food labels and a labelled set to check it against."
+  },
+  "version": "0.1",
+  "as_of": "2026-10-23",
+  "note": "Second rule pack, to show the engine is not tied to one rulebook. Summaries are plain-English paraphrases, not legal text. Clause numbers marked TODO are to be filled from the official FSSAI regulations before any real use.",
+  "sources": {
+    "FSSAI_CLAIMS2018": {
+      "title": "Food Safety and Standards (Advertising and Claims) Regulations, 2018",
+      "short": "FSSAI advertising and claims regulations, 2018",
+      "official_url": "TODO"
+    },
+    "FSSAI_ORGANIC2017": {
+      "title": "Food Safety and Standards (Organic Foods) Regulations, 2017",
+      "short": "FSSAI organic foods regulations, 2017",
+      "official_url": "TODO"
+    }
+  },
+  "rules": [
+    {
+      "id": "F01",
+      "name": "Organic needs certification and the Jaivik Bharat mark",
+      "source": "FSSAI_ORGANIC2017",
+      "clause": "TODO",
+      "summary": "Food sold as organic must be certified under a recognised system (NPOP or PGS-India) and carry the Jaivik Bharat logo on the label.",
+      "triggers": {
+        "terms": ["organic", "organically grown", "certified organic", "jaivik"],
+        "claim_types": ["vague", "specific"]
+      },
+      "required_evidence": [
+        {
+          "kind": "certification",
+          "desc": "NPOP or PGS-India certificate, or the Jaivik Bharat logo on the pack",
+          "alternatives": ["label_text"]
+        }
+      ],
+      "contradiction_signals": ["conventionally grown", "non-organic"]
+    },
+    {
+      "id": "F02",
+      "name": "Words like natural, fresh and pure have conditions",
+      "source": "FSSAI_CLAIMS2018",
+      "clause": "TODO",
+      "summary": "Natural, fresh, pure, original, traditional, authentic, genuine and real may be used only when the food meets the conditions set for each word; otherwise the label must qualify or drop the word.",
+      "triggers": {
+        "terms": ["natural", "100% natural", "all natural", "fresh", "farm fresh", "pure", "original", "traditional", "authentic", "genuine", "real"],
+        "claim_types": ["vague", "specific"]
+      },
+      "required_evidence": [
+        {
+          "kind": "label_text",
+          "desc": "Ingredient list and processing note that meet the word's condition",
+          "alternatives": ["qualifier"]
+        }
+      ],
+      "contradiction_signals": ["preservative", "artificial flavour", "artificial colour", "added colour", "reconstituted"]
+    },
+    {
+      "id": "F03",
+      "name": "Nutrition claims need the nutrient amounts to back them",
+      "source": "FSSAI_CLAIMS2018",
+      "clause": "TODO",
+      "summary": "Claims such as high protein, low fat, sugar free or source of fibre must meet the set thresholds, shown in the nutrition information on the label.",
+      "triggers": {
+        "terms": ["high protein", "rich in protein", "low fat", "fat free", "sugar free", "no added sugar", "low sugar", "source of fibre", "high fibre", "low sodium"],
+        "claim_types": ["specific", "comparative"]
+      },
+      "required_evidence": [
+        {
+          "kind": "label_text",
+          "desc": "Nutrition information table with amounts per 100 g or 100 ml",
+          "alternatives": ["scientific_evidence"]
+        }
+      ],
+      "contradiction_signals": ["added sugar", "sugar syrup", "invert sugar", "jaggery"]
+    },
+    {
+      "id": "F04",
+      "name": "Health claims need scientific substantiation",
+      "source": "FSSAI_CLAIMS2018",
+      "clause": "TODO",
+      "summary": "Claims that a food helps a body function or reduces a disease risk must be backed by generally accepted scientific evidence; disease-risk claims need prior approval.",
+      "triggers": {
+        "terms": ["boosts immunity", "immunity booster", "improves digestion", "heart healthy", "good for heart", "reduces cholesterol", "controls diabetes", "weight loss", "detox"],
+        "claim_types": ["vague", "specific"]
+      },
+      "required_evidence": [
+        {
+          "kind": "scientific_evidence",
+          "desc": "Published studies or an approval reference for the claim"
+        }
+      ]
+    }
+  ]
+}

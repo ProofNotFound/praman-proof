@@ -1,0 +1,76 @@
+{
+ "5": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    653,
+    647,
+    699,
+    675
+   ],
+   "why": "contact"
+  }
+ ],
+ "8": [
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    100,
+    468,
+    314,
+    572
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    380,
+    579,
+    514,
+    644
+   ],
+   "why": "contact"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    94,
+    496,
+    300,
+    593
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    102,
+    470,
+    312,
+    569
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    102,
+    470,
+    311,
+    567
+   ],
+   "why": "brand"
+  },
+  {
+   "text": "Brand mark",
+   "box_2d": [
+    379,
+    578,
+    513,
+    643
+   ],
+   "why": "contact"
+  }
+ ]
+}

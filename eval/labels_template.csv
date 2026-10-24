@@ -1,0 +1,6 @@
+listing_id,split,claim_ref,claim_quote,claim_type,scope,location,rule_ids,evidence_source,evidence_detail,covers_claim,expected_verdict,labeller,notes
+L14,dev,L14-C1,100% compostable garbage bags,specific,product,description,R02;R07;R08,photo+registry,"Box photo 7: CPCB-UPC-II/GREEN DOT BIOPAK/Gujarat/443 and CPCB-UPC-II/SUNSHIELD BIOTECH LLP/Gujarat/131; both makers on CPCB list (S.No. 32, S.No. 2)",yes,Backed,Savya,
+L14,dev,L14-C2,"100% ecofriendly, 0% plastic",specific,product,photo:7,R02;R07,photo,"Compostable plastic is plastic under the PWM rules",contradicts,Contradicted,Savya,
+L14,dev,L14-C3,compostable only under industrial composting (required label),specific,product,n/a,R08,text+photo,"Required label not visible in text or photos",no,Needs review,Savya,Label may be printed on each bag
+L06,dev,L06-C1,Oxo-biodegradable bags for eco-friendly disposal,specific,product,description,R02;R09,photo,"Box photo 3: Carrier Resin- PE Virgin Grade; Additive 5%; page: biodegrade in fragments",contradicts,Contradicted,Savya,
+L21,dev,L21-C1,Building Blocks of Sustainability,vague,brand,title,R11,none,"Course subject, not a product claim",n/a,Not a claim,Savya,

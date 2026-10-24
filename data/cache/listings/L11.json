@@ -1,0 +1,196 @@
+{
+  "listing": {
+    "id": "L11",
+    "source": "shopify_json",
+    "url": "https://phool.co/products/phool-natural-incense-sticks-refill-pack-oudh",
+    "store": "phool.co",
+    "title": "Phool Natural Incense Sticks Refill pack - Oudh",
+    "body_text": "Oudh is the rich aromatic sap that releases from the tropical Agarwood tree to heal itself. Born from a tree that originated in the Assam region of India, Oudh is now the most prized fragrance of the Middle East region and Southeast Asia. It is believed that the messenger of God himself held the traditional fumigation ceremony with Oudh. The resin has played a significant role in spiritual and religious ceremonies across cultures ever since. In the Middle East, men and women also burn Oudh wood chips to fragrance their clothes so that the lasting scent will permeate the whole garment.\n\nToday, Oudh is also widely used in aromatherapy. Enriched with woody and balsamic notes with a hint of sweetness, Oudh is celebrated for its properties to bring calmness in the nervous system and cultivate focus and alertness. It is also known to be highly effective for meditation, enlightenment, and bringing deep tranquility.\n\nPhool Oudh Incense Sticks have been crafted by combining pure balsamic secretions of the Agarwood trees with temple flowers and natural essential oils. Unlike the synthetic incense commonly available in the market, Phool aromatic Incense is 100% natural and charcoal free. At Phool, we take pride in making 100% eco-friendly, pure, and natural incense sticks.",
+    "tags": [
+      "refill pack"
+    ],
+    "photos": [
+      {
+        "index": 1,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/006A1386_Oudh_Singlecopy.webp?v=1683706064",
+        "local_path": "data/cache/images/L11/1.jpg",
+        "alt": "",
+        "width": 1920,
+        "height": 1920,
+        "text_score": 0.12392
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9035.png?v=1683706064",
+        "local_path": "data/cache/images/L11/2.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.10459
+      },
+      {
+        "index": 3,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9038_2MB.png?v=1683706064",
+        "local_path": "data/cache/images/L11/3.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.11503
+      },
+      {
+        "index": 4,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9037.png?v=1683706064",
+        "local_path": "data/cache/images/L11/4.jpg",
+        "alt": "",
+        "width": 2048,
+        "height": 2048,
+        "text_score": 0.09983
+      },
+      {
+        "index": 5,
+        "url": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Oudh_Refill_Pack-100.jpg?v=1721219666",
+        "local_path": "data/cache/images/L11/5.jpg",
+        "alt": "",
+        "width": 2049,
+        "height": 2049,
+        "text_score": 0.16085
+      }
+    ],
+    "fetched_at": "2026-10-17T21:11:44.305529Z",
+    "product_type": "Incense Sticks Refill Pack",
+    "vendor": "PHOOL",
+    "links": []
+  },
+  "raw": {
+    "id": 7172611834046,
+    "title": "Phool Natural Incense Sticks Refill pack - Oudh",
+    "body_html": "<p data-mce-fragment=\"1\">Oudh is the rich aromatic sap that releases from the tropical Agarwood tree to heal itself. Born from a tree that originated in the Assam region of India, Oudh is now the most prized fragrance of the Middle East region and Southeast Asia. It is believed that the messenger of God himself held the traditional fumigation ceremony with Oudh. The resin has played a significant role in spiritual and religious ceremonies across cultures ever since. In the Middle East, men and women also burn Oudh wood chips to fragrance their clothes so that the lasting scent will permeate the whole garment.</p>\n<p data-mce-fragment=\"1\">Today, Oudh is also widely used in aromatherapy. Enriched with woody and balsamic notes with a hint of sweetness, Oudh is celebrated for its properties to bring calmness in the nervous system and cultivate focus and alertness. It is also known to be highly effective for meditation, enlightenment, and bringing deep tranquility.  </p>\n<p data-mce-fragment=\"1\">Phool Oudh Incense Sticks have been crafted by combining pure balsamic secretions of the Agarwood trees with temple flowers and natural essential oils. Unlike the synthetic incense commonly available in the market, Phool aromatic Incense is 100% natural and charcoal free. At Phool, we take pride in making 100% eco-friendly, pure, and natural incense sticks.</p>",
+    "vendor": "PHOOL",
+    "product_type": "Incense Sticks Refill Pack",
+    "created_at": "2022-03-02T18:39:51+05:30",
+    "handle": "phool-natural-incense-sticks-refill-pack-oudh",
+    "updated_at": "2026-10-18T02:41:44+05:30",
+    "published_at": "2022-03-02T19:14:32+05:30",
+    "template_suffix": "",
+    "published_scope": "web",
+    "tags": "refill pack",
+    "variants": [
+      {
+        "id": 41247220236478,
+        "product_id": 7172611834046,
+        "title": "Default Title",
+        "price": "385.00",
+        "sku": "PH_REF_OU",
+        "position": 1,
+        "compare_at_price": "385.00",
+        "fulfillment_service": "manual",
+        "inventory_management": "shopify",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "created_at": "2022-03-02T18:39:52+05:30",
+        "updated_at": "2026-10-18T02:41:44+05:30",
+        "taxable": true,
+        "barcode": null,
+        "grams": 150,
+        "image_id": null,
+        "weight": 150.0,
+        "weight_unit": "g",
+        "requires_shipping": true,
+        "quantity_rule": {
+          "min": 1,
+          "max": null,
+          "increment": 1
+        },
+        "price_currency": "INR",
+        "compare_at_price_currency": "INR",
+        "quantity_price_breaks": []
+      }
+    ],
+    "options": [
+      {
+        "id": 9213119561918,
+        "product_id": 7172611834046,
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 33495007527102,
+        "product_id": 7172611834046,
+        "position": 1,
+        "created_at": "2023-05-10T13:37:41+05:30",
+        "updated_at": "2023-05-10T13:37:44+05:30",
+        "alt": null,
+        "width": 1920,
+        "height": 1920,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/006A1386_Oudh_Singlecopy.webp?v=1683706064",
+        "variant_ids": []
+      },
+      {
+        "id": 30823441825982,
+        "product_id": 7172611834046,
+        "position": 2,
+        "created_at": "2022-03-02T19:13:44+05:30",
+        "updated_at": "2023-05-10T13:37:44+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9035.png?v=1683706064",
+        "variant_ids": []
+      },
+      {
+        "id": 31998825955518,
+        "product_id": 7172611834046,
+        "position": 3,
+        "created_at": "2022-09-14T12:59:41+05:30",
+        "updated_at": "2023-05-10T13:37:44+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9038_2MB.png?v=1683706064",
+        "variant_ids": []
+      },
+      {
+        "id": 30823442546878,
+        "product_id": 7172611834046,
+        "position": 4,
+        "created_at": "2022-03-02T19:14:01+05:30",
+        "updated_at": "2023-05-10T13:37:44+05:30",
+        "alt": null,
+        "width": 2048,
+        "height": 2048,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/products/006A9037.png?v=1683706064",
+        "variant_ids": []
+      },
+      {
+        "id": 35828728496318,
+        "product_id": 7172611834046,
+        "position": 5,
+        "created_at": "2024-07-17T18:04:24+05:30",
+        "updated_at": "2024-07-17T18:04:26+05:30",
+        "alt": null,
+        "width": 2049,
+        "height": 2049,
+        "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/Oudh_Refill_Pack-100.jpg?v=1721219666",
+        "variant_ids": []
+      }
+    ],
+    "image": {
+      "id": 33495007527102,
+      "product_id": 7172611834046,
+      "position": 1,
+      "created_at": "2023-05-10T13:37:41+05:30",
+      "updated_at": "2023-05-10T13:37:44+05:30",
+      "alt": null,
+      "width": 1920,
+      "height": 1920,
+      "src": "https://cdn.shopify.com/s/files/1/0017/0639/3644/files/006A1386_Oudh_Singlecopy.webp?v=1683706064",
+      "variant_ids": []
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "listing_id": "L14",
+  "mode": "agent",
+  "title": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2",
+  "file": "L14.agent.json",
+  "claim_count": 5,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L14",
+  "mode": "baseline",
+  "title": "Compostable Garbage Bags - Medium 15 bags/roll | Pack of 2",
+  "file": "L14.baseline.json",
+  "claim_count": 2,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L06",
+  "mode": "agent",
+  "title": "Oxo-Biodegradable Disposable Bags - 50 Bags (Small) *",
+  "file": "L06.agent.json",
+  "claim_count": 3,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L06",
+  "mode": "baseline",
+  "title": "Oxo-Biodegradable Disposable Bags - 50 Bags (Small) *",
+  "file": "L06.baseline.json",
+  "claim_count": 3,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L08",
+  "mode": "agent",
+  "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+  "file": "L08.agent.json",
+  "claim_count": 9,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L08",
+  "mode": "baseline",
+  "title": "Compostable Bamboo Toothbrush - Biodegradable & Zero Waste",
+  "file": "L08.baseline.json",
+  "claim_count": 8,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L21",
+  "mode": "agent",
+  "title": "Building Blocks of Sustainability [Self-Paced Online Course]",
+  "file": "L21.agent.json",
+  "claim_count": 0,
+  "synthetic": false
+ },
+ {
+  "listing_id": "L21",
+  "mode": "baseline",
+  "title": "Building Blocks of Sustainability [Self-Paced Online Course]",
+  "file": "L21.baseline.json",
+  "claim_count": 0,
+  "synthetic": false
+ }
+]
