@@ -6,7 +6,7 @@ Praman (Hindi for "proof") is an AI agent that reads an Indian product page, fin
 
 It checks against the CCPA *Guidelines on environmental claims* (Oct 2024) and the *Plastic Waste Management (Amendment) Rules, 2024*. Built for AgentOps'26 (Track 04, agents for sustainable development).
 
-**Try it:** https://praman-proof.vercel.app plays the four recorded cases (press 1–4) with no server, on any laptop or phone. Those recordings were exported anonymised; live checks show the real store and brand names. Open a case, then **Report**, switch to **Reviewer** and sign it off. The live version (new pages, real photos) runs from the presenters' laptop during the demo.
+**Try it:** https://praman-wju0.onrender.com/ plays the four recorded cases (press 1–4) with no server, on any laptop or phone. Those recordings were exported anonymised; live checks show the real store and brand names. Open a case, then **Report**, switch to **Reviewer** and sign it off. The live version (new pages, real photos) runs from the presenters' laptop during the demo.
 
 > Decision support, not legal advice. Praman checks whether proof is **visible and adequate** on the listing, not whether a claim is true in the physical world.
 
