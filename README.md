@@ -331,4 +331,4 @@ cd frontend && npm run demo                        # the app on bundled recordin
 
 ## Built by
 
-**Savya Raj** for AgentOps'26 (24 Oct 2026).
+**Savya Raj & Taksh Sonigra** for AgentOps'26 (24 Oct 2026).
