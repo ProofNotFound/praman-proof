@@ -172,40 +172,57 @@ Responsible AI is structural: evidence-or-nothing verdicts, code deciding the cl
 
 ## How it works
 
+```mermaid
+graph TD
+    U["Reviewer"] -->|"product URL, demo case or store address"| FE["React web app<br/>Vite + TypeScript"]
+    FE -->|"POST /api/scans"| SCAN["Store scan<br/>plain code, zero model calls<br/>ranks pages to check first"]
+    FE -->|"POST /api/runs"| API["FastAPI · praman/api.py"]
+    API -.-> DB[("SQLite<br/>runs · steps · events · verdicts")]
+
+    subgraph S1["Stage 1 · prepare"]
+        FETCH["fetch_listing<br/>Shopify JSON → JSON-LD → OpenGraph + text<br/>robots.txt · ≤ 1 request/s · read-only"]
+        INJ["Injection guard<br/>removes text aimed at AI checkers"]
+        EXT["extract_claims"]
+        RULES["Match rules<br/>data/rules.json"]
+        FETCH --> INJ --> EXT --> RULES
+    end
+    API --> FETCH
+
+    subgraph S2["Stage 2 · agent loop, per claim"]
+        PLAN{"plan_next<br/>choice validated against the fixed tool list"}
+        TOOLS["search_text · read_photos · decode_qr<br/>cpcb_lookup · fetch_linked_page<br/>rule_lookup · check_material"]
+        VER{"decide_verdict<br/>praman/verdict.py"}
+        PLAN -->|"one tool call"| TOOLS
+        TOOLS -->|"evidence with IDs"| VER
+        VER -->|"no proof yet · ≤ 2 follow-ups"| PLAN
+    end
+    RULES --> PLAN
+    TOOLS -.-> CPCB[("CPCB certified list<br/>26 Oct 2023")]
+
+    subgraph S3["Stage 3 · finish"]
+        CONS["Consistency check"]
+        RW["write_rewrite<br/>suggested wording"]
+        CONS --> RW
+    end
+    VER -->|"settled or budget used"| CONS
+
+    subgraph OUT["Review"]
+        LEDGER["Evidence ledger · trace<br/>compare vs text-only"]
+        SIGN["Named reviewer signs off"]
+        REPORT["Markdown / HTML report<br/>SHA-256 fingerprint"]
+        LEDGER --> SIGN --> REPORT
+    end
+    RW -->|"SSE event stream"| LEDGER
+
+    classDef code fill:#D9822B,stroke:#333,stroke-width:2px,color:#fff
+    classDef model fill:#2F5DA8,stroke:#333,stroke-width:2px,color:#fff
+    classDef human fill:#2E8B57,stroke:#333,stroke-width:2px,color:#fff
+    class SCAN,INJ,RULES,VER code
+    class EXT,PLAN,CONS,RW model
+    class SIGN human
 ```
-            ┌───────────────────────────────────────────────────────┐
- INPUT      │ product URL │ pasted text + photos │ cached listing ID│
-            └──────────────────────────┬────────────────────────────┘
-                                       ▼
-            ┌─────────────────────────────────────────────────────┐
- STAGE 1    │ fetch_listing → Listing (title, body, tags, photos) │
- (prepare)  │ extract_claims (LLM) → Claim[] (+ not-a-claim)      │
-            │ match_rule (code) → rule IDs + proof required       │
-            └──────────────────────────┬──────────────────────────┘
-                                       ▼  per claim
-            ┌─────────────────────────────────────────────────────┐
- STAGE 2    │ PLAN → ACT → OBSERVE → DECIDE   (≤ 2 follow-ups)    │
- (agent)    │   ▲                       │                         │
-            │   └──── no proof yet ─────┘                         │
-            │ tools: search_text · read_photos · decode_qr ·      │
-            │        cpcb_lookup · fetch_linked_page ·            │
-            │        check_consistency · rule_lookup              │
-            └──────────────────────────┬──────────────────────────┘
-                                       ▼
-            ┌─────────────────────────────────────────────────────┐
- OUTPUT     │ decide_verdict (code) → Verdict per claim           │
-            │ write_rewrite (LLM) → suggested wording             │
-            │ Report → human approval → Markdown/HTML export      │
-            └──────────────────────────┬──────────────────────────┘
-                                       ▼  every step emits an event
-            ┌─────────────────────────────────────────────────────┐
- WEB        │ FastAPI (praman/api.py): /api + SSE event stream    │
-            │ React app (frontend/): scan · ledger · threads ·    │
-            │ stamps · trace · compare · dossier report           │
-            │ fallback: bundled recordings (frontend/public/demo) │
-            └─────────────────────────────────────────────────────┘
-   all steps ──► SQLite (runs, steps, events, claims, evidence, verdicts, llm_cache)
-```
+
+<sub>🟧 decided by code &nbsp;·&nbsp; 🟦 model call through `praman/llm.py` (temperature 0, JSON-schema output, record/replay cache; Gemini or Groq) &nbsp;·&nbsp; 🟩 a person. `read_photos` and `check_material` also call the model. Every step is written to SQLite and streamed to the web app as an event.</sub>
 
 - **The model reads and reasons; code decides clear-cut rules.** Rule matching, CPCB lookups, certificate scope, required labels, contradiction signals and the verdict table are plain Python (`praman/verdict.py`).
 - **A small loop of our own, no agent framework.** A fixed tool list; every planner choice is validated, and anything invalid falls back to the default order text → photos → QR → registry → link.
